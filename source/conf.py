@@ -67,5 +67,7 @@ html_css_files = [
 
 html_logo = 'images/LOGO.png'
 
+master_doc = 'index'
+
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
