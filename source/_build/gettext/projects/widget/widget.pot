@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Telenia Software
+# This file is distributed under the same license as the TDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-29 11:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../projects/widget/widget.rst:2
+#: 8320c865a89848afb24400b0800cb4d6
+msgid "Widget"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:5
+#: 10e35576c4fa461a853018a365ce56d1
+msgid "Introduzione"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:7
+#: 79163a8da2e14475a896bbd45cf78352
+msgid "La libreria widget di Telenia permette di mettere in comunicazione i tuoi clienti con i servizi configurati e gli operatori loggati sul tuo Server Tvox usando uno dei canali licenziati."
+msgstr ""
+
+#: ../../projects/widget/widget.rst:10
+#: 5851fe71ed134bf8957a188916836950
+msgid "I canali ad ora disponibili sono:"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:12
+#: c96ae04e4aaf4552a2e68c15b167e171
+msgid "Telefonico"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:13
+#: f3ed399bafed4e7b995125448a914eca
+msgid "Video"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:14
+#: 8a362f1c52be491485d3854030e7cb6e
+msgid "Chat"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:15
+#: 4f626f29b86b447da098e8085c99e8ca
+msgid "Mail"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:16
+#: 825efb94ef9b4c45ba8033b2738bbc29
+msgid "Callback"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:18
+#: 3d511cb180694fed8393c1fb50901810
+msgid "La libreria widget fornisce due funzioni:"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:20
+#: 8b912089e0364dd78bea13860ec9c92a
+msgid "Una interfaccia per la connessione al Server."
+msgstr ""
+
+#: ../../projects/widget/widget.rst:21
+#: f25d21b4e90444a6b81d390a5f1f582a
+msgid "Una libreria grafica per poter disegnare la widget."
+msgstr ""
+
+#: ../../projects/widget/widget.rst:23
+#: 1c7265ede5e8470ca9c643929c65461c
+msgid "La libreria è prodotta nel linguaggio javascript e richiede la conoscenza di `rxjs <https://rxjs-dev.firebaseapp.com/>`_."
+msgstr ""
+
+#: ../../projects/widget/widget.rst:25
+#: 989b2c9b55204ebf9819154ea0206e4b
+msgid "**Network**"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:27
+#: 05d4c1f1196e43a3bef1e13d3c35527d
+msgid "La connessione al server avviene tramite websocket, inizializzata via http tramite la porta 443."
+msgstr ""
+
+#: ../../projects/widget/widget.rst:29
+#: c85c109e4311445f9f535944fdea94ba
+msgid "**Webrtc**"
+msgstr ""
+
+#: ../../projects/widget/widget.rst:31
+#: 0d6d78f9b8ea4c2495edfab25f8d955a
+msgid "Per la comunicazione audio e video è utilizzato il protocollo WebRTC. Gli Ice Server del protocollo WebRTC comunicano sulla porta 3478 mentre i flussi audio e video, criptati tramite il protocollo DTLS, sono instaurati nelle porte tra la 10000 e 20000."
+msgstr ""
+
+#: ../../projects/widget/widget.rst:36
+#: 0d595f226d804246900885222bcb8929
+msgid "Flusso utilizzo"
+msgstr ""

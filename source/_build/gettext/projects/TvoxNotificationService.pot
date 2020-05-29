@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Telenia Software
+# This file is distributed under the same license as the TDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-29 11:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../projects/TvoxNotificationService.rst:3
+#: d0dc0da159e34477ac22c708675cc371
+msgid "TVOX Notification Service"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:5
+#: f3d0eb3de8b8438eb83c490c2a892a1a
+msgid "Questa pagina contiene la documentazione dell'integrazione del Tvox Notification Service"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:8
+#: 577284197c6343609e3f5b8241d744f6
+msgid "Caso"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:8
+#: 0ba59467a18446b6a4f4b1cdf241289c
+msgid "Descrizione"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:10
+#: 6b2455f089cb43adb022e443f397bbfa
+msgid "Base"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:10
+#: 189252e2a41047dfb5270e3916312c02
+msgid "Descrizione base delle notifiche"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:11
+#: 79c8b723e3454e48a9f500d3ee450cec
+msgid "Avanzato"
+msgstr ""
+
+#: ../../projects/TvoxNotificationService.rst:11
+#: 12c7cea475a8473699ee6f6f5b60dfe7
+msgid "Utilizzo e descrizione avanzata"
+msgstr ""

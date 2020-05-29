@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Telenia Software
+# This file is distributed under the same license as the TDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-29 11:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../projects/screenPopUp.rst:3
+#: 859707410fce44ddb8e759fcdfe9e4d9
+msgid "Pop-up"
+msgstr ""
+
+#: ../../projects/screenPopUp.rst:6
+#: 6a95f2064f154713aa2d6262665b6d24
+msgid "Introduzione"
+msgstr ""
+
+#: ../../projects/screenPopUp.rst:8
+#: f097f9d92cd24611847445488dff5a41
+msgid "Sed at nibh at arcu cursus facilisis. Morbi tempor nisl felis, eu auctor sapien cursus non. Sed posuere, orci sed pellentesque tempor, dui urna lacinia magna, nec fringilla neque leo nec purus. In nec lectus posuere, dapibus odio quis, porta eros. Integer dictum purus vel est posuere, ac volutpat augue pulvinar. Mauris lacus elit, lacinia a dictum a, venenatis in enim. Nullam maximus nec lectus quis finibus. Nullam in pulvinar nisi."
+msgstr ""
+
+#: ../../projects/screenPopUp.rst:11
+#: 140d4589dd6f411fac1d3317bf8c65db
+msgid "Screen pop-up"
+msgstr ""
+
+#: ../../projects/screenPopUp.rst:14
+#: 72290284091f475c9958293b965287b4
+msgid "Screen pop-up via i-frame TVOX web client"
+msgstr ""
