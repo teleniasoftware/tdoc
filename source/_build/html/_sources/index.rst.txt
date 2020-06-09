@@ -16,6 +16,7 @@ Questo sito racchiude due livelli di documentazione.
    :caption: Progetti
 
    /projects/widget/widget
+   /projects/ScriptIVR
 
 .. toctree::
    :maxdepth: 2
