@@ -8,6 +8,7 @@ Benvenuto in TDoc
 
 Questo sito racchiude due livelli di documentazione.
 
+Introduzione all'uso della widget
 
 .. toctree::
    :maxdepth: 2
