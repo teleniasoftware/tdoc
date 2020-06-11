@@ -8,8 +8,6 @@ Benvenuto in TDoc
 
 Questo sito racchiude due livelli di documentazione.
 
-- Un primo livello descrittivo
-- Un secondo livello tecnico
 
 .. toctree::
    :maxdepth: 2
