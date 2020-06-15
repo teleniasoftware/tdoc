@@ -10,6 +10,9 @@ Questo sito racchiude due livelli di documentazione.
 
 Introduzione all'uso della widget
 
+- doc 1 
+- doc 2
+
 .. toctree::
    :maxdepth: 2
    :caption: Progetti
