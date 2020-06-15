@@ -11,4 +11,4 @@ Documentazione tecnica
 ======================
 `IVR Library <https://www.teleniasoftware.com/corsi_sviluppo/tivr/index.html#introduction>`_
 
-Libreria IVR Nuova da pubblicare ora Provando il fork
+Libreria IVR Nuova da pubblicare ora Provando il fork con VS
