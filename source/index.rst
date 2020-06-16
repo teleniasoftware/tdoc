@@ -6,19 +6,29 @@
 Benvenuto in TDoc
 =================
 
-Questo sito racchiude due livelli di documentazione.
-
-Introduzione all'uso della widget
-
-- doc 1 
-- doc 2
+Introduzione sarà presto disponibile
 
 .. toctree::
    :maxdepth: 2
-   :caption: Progetti
+   :caption: Integrazioni
 
-   /projects/widget/widget
+   /projects/Click2Dial
+   /projects/Click2SMS
+   /projects/CTIInterface
+   /projects/ExternalRecordStorage
+   /projects/Facebook
+   /projects/LiveHelp
+   /projects/LookUpRubrica
+   /projects/OmnichannelGateway
+   /projects/screenPopUp
    /projects/ScriptIVR
+   /projects/Telegram
+   /projects/TvoxNotificationService
+   /projects/TvoxWebApi
+   /projects/UrmetAte
+   /projects/Widget
+   /projects/Win32ClientInterface
+   /projects/Zendesk
 
 .. toctree::
    :maxdepth: 2
