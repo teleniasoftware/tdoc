@@ -23,6 +23,7 @@ Introduzione sarà presto disponibile
    /projects/screenPopUp
    /projects/ScriptIVR
    /projects/Telegram
+   /projects/TvoxClickToCall
    /projects/TvoxNotificationService
    /projects/TvoxWebApi
    /projects/UrmetAte
