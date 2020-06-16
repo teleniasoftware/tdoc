@@ -32,5 +32,7 @@ Per la comunicazione audio e video è utilizzato il protocollo WebRTC.
 Gli Ice Server del protocollo WebRTC comunicano sulla porta 3478 mentre i flussi audio e video, 
 criptati tramite il protocollo DTLS, sono instaurati nelle porte tra la 10000 e 20000.
 
-Documentazione Tecnica
-----------------------
+Documentazione tecnica
+=======================
+
+`Widget <http://documentation.teleniasoftware.com/widget/index.html>`_
