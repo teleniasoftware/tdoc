@@ -1,3 +1,4 @@
+======
 Widget
 ======
 
@@ -33,6 +34,6 @@ Gli Ice Server del protocollo WebRTC comunicano sulla porta 3478 mentre i flussi
 criptati tramite il protocollo DTLS, sono instaurati nelle porte tra la 10000 e 20000.
 
 Documentazione tecnica
-=======================
+----------------------
 
-`Widget <http://documentation.teleniasoftware.com/widget/index.html>`_
+Al seguente link potrete trovare la `documentazione tecnica <http://documentation.teleniasoftware.com/widget/index.html>`_
