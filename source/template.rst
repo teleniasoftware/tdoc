@@ -25,12 +25,18 @@ Lista numerata:
 #. Elemento
 #. Elemento
 
+.. important:: Questo è un testo importante
+
+.. tip:: Questo è un testo suggerimento
+
+.. note:: Questo è un testo nota
+
 Lista a campi:
 
 :Authors:
     Lorenzo Bellani, R&D software developer
-:Conttto:
-    lbellani.teleniasoftware.com
+:Contatto:
+    lbellani@teleniasoftware.com
 :Versione: 1.0 18/06/2020
 
 Tabelle:
@@ -71,7 +77,8 @@ Le immagini vanno messe in una cartella, nel nostro caso la cartella /images
 
 .. image:: images/LOGOTVOX.png
 
-IFrame
+IFrame:
+
 possiamo creare un iframe che punta a qualsiasi sito, e anche che racchiude un video da youtube.
 Per poter mostrare il video da youtube bisogna essere proprietari del video e permettere l'esecuzione del video tramite iframe
 
