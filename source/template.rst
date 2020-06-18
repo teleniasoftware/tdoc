@@ -14,12 +14,14 @@ Descrizione normale del capitolo, se voglio creare un nuovo paragrafo basta salt
 Ecco questo è un nuovo paragrafo.
 
 Lista puntata:
+--------------
 
 - Elemento
 - Elemento
 - Elemento
 
 Lista numerata:
+---------------
 
 #. Elemento
 #. Elemento
@@ -32,6 +34,7 @@ Lista numerata:
 .. note:: Questo è un testo nota
 
 Lista a campi:
+--------------
 
 :Authors:
     Lorenzo Bellani, R&D software developer
@@ -40,6 +43,7 @@ Lista a campi:
 :Versione: 1.0 18/06/2020
 
 Tabelle:
+--------
 
 =====  =====  ======
    Inputs     Output
@@ -65,19 +69,23 @@ True   True   True
 +------------+------------+-----------+
 
 Linea di separazione
+--------------------
 
--------------------
+Testo prima della linea di separazione
 
+--------------------------
 
-Sezione dopo la linea di separazione
+Testo dopo la linea di separazione
 
 Immagini:
+---------
 
-Le immagini vanno messe in una cartella, nel nostro caso la cartella /images
+Le immagini vanno messe in una cartella, nel nostro caso la cartella /images e posso metterla della dimensione e nella posizione che preferisco
 
 .. image:: images/LOGOTVOX.png
 
-IFrame:
+IFrame
+-------
 
 possiamo creare un iframe che punta a qualsiasi sito, e anche che racchiude un video da youtube.
 Per poter mostrare il video da youtube bisogna essere proprietari del video e permettere l'esecuzione del video tramite iframe
