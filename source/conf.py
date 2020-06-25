@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-html_favicon = "images/favicon.ico"
+html_favicon = "images/favicon.png"
 project = 'TDoc'
 copyright = '2020, Telenia Software'
 author = 'Telenia Software'
