@@ -3,7 +3,7 @@ Benvenuto in TDoc
 
 .. toctree::
    :maxdepth: 2
-   :caption: Integra TVox Contact Center al tuo CRM
+   :caption: Integra TVox Contact Center al CRM
 
    /projects/AnagraficaClienti
    /projects/PopupSchedaContatto
