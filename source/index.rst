@@ -1,41 +1,51 @@
 Benvenuto in TDoc
 =================
 
-Introduzione sarà presto disponibile .
+.. toctree::
+   :maxdepth: 2
+   :caption: Integra TVox Contact Center al tuo CRM
+
+   /projects/AnagraficaClienti
+   /projects/PopupSchedaContatto
+   /projects/PopupSchedaTicket
+   /projects/CRMGestioneTelefonica
+   /projects/Telemarketing
+   /projects/CustomerJourney
+   /projects/ConversioneClientiDaWeb
 
 .. toctree::
    :maxdepth: 2
-   :caption: Integrazioni
+   :caption: TVox OmniChannel Contact Center
 
-   /projects/Click2Dial
-   /projects/Click2SMS
-   /projects/CTIInterface
-   /projects/ExternalRecordStorage
-   /projects/Facebook
-   /projects/LiveHelp
-   /projects/LookUpRubrica
-   /projects/OmnichannelGateway
-   /projects/screenPopUp
-   /projects/ScriptIVR
-   /projects/Telegram
-   /projects/TvoxClickToCall
-   /projects/TvoxNotificationService
-   /projects/TvoxWebApi
-   /projects/UrmetAte
-   /projects/Widget
-   /projects/Win32ClientInterface
-   /projects/Zendesk
-   /projects/Jira
+   /projects/OpzioniContattoClienti
+   /projects/AutomatizzaRichiesteFrequenti
+   /projects/PersonalizzaMonitoraggioServizi
+..    /projects/ExternalRecordStorage
+..    /projects/Facebook
+..    /projects/LiveHelp
+..    /projects/LookUpRubrica
+..    /projects/OmnichannelGateway
+..    /projects/screenPopUp
+..    /projects/ScriptIVR
+..    /projects/Telegram
+..    /projects/TvoxClickToCall
+..    /projects/TvoxNotificationService
+..    /projects/TvoxWebApi
+..    /projects/UrmetAte
+..    /projects/Widget
+..    /projects/Win32ClientInterface
+..    /projects/Zendesk
+..    /projects/Jira
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Integrazioni ,,,
+.. .. toctree::
+..    :maxdepth: 2
+..    :caption: Integrazioni ,,,
    
-   /projects/Jira
+..    /projects/Jira ```` 
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Altro
+.. .. toctree::
+..    :maxdepth: 2
+..    :caption: Altro
 
    /about/telenia
