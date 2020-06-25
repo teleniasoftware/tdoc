@@ -1,5 +1,0 @@
-==========
-Click to Dial
-==========
-
-La documentazione sarà presto disponibile.
