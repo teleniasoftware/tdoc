@@ -51,8 +51,10 @@ richieste del cliente.
 Con i metodi messi a disposizione dalla libreria widget per il canale di chat è possibile monitorare lo stato
 dei servizi e quindi configurare il proprio bot affinchè avvii una sessione di chat verso un agente Tvox solo se disponibile.
 
-Nella documentazione tecnica della widget è presente una demo che mostra come instaurare una sessione di chat.
+Nella documentazione tecnica della widget è presente una `demo <http://documentation.teleniasoftware.com/widget/index.html#chat-amp-bot-integration>`_ che mostra come instaurare una sessione di chat.
 La demo implementa anche un semplicissimo bot che trasferisce la sessione di chat ad un agente disponibile.
+
+
 
 Documentazione tecnica
 ======================
