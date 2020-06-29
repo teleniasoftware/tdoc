@@ -1,39 +1,22 @@
-=======================================================================
-Migliora il supporto e la conversione dei clienti digitali sul sito web
-=======================================================================
+===========================================================================
+Migliora il supporto e la conversione dei clienti digitali sul tuo sito web
+===========================================================================
 
-Abilita il tuo sito web alla gestione dei contatti multicanale (chat, voce, video) e consenti ai tuoi clienti di interagire con il customer care in tempo reale.
+Per offrire ai tuoi client un miglior supporto rapido, è possibile attivare 
+sul tuo sito web una widget che permette di comunicare con gli agenti del
+tuo contact center tramite i canali:
 
-Collega TVox WIDGET nel tuo website
-===================================
-
-La libreria widget di Telenia permette di mettere in comunicazione i tuoi clienti con i servizi configurati 
-e gli operatori loggati sul tuo Server Tvox usando uno dei canali licenziati.
-
-I canali ad ora disponibili sono:
-
-- Telefonico
 - Video
 - Chat
 - Mail
 - Callback
 
-La libreria widget fornisce due funzioni:
+.. figure:: /images/widget.gif
+    :align: center
+    :scale: 50%
 
-- Una interfaccia per la connessione al Server.
-- Una libreria grafica per poter disegnare la widget.
-
-La libreria è prodotta nel linguaggio javascript e richiede la conoscenza di `rxjs <https://rxjs-dev.firebaseapp.com/>`_.
-
-**Network**
-
-La connessione al server avviene tramite websocket, inizializzata via http tramite la porta 443.
-
-**Webrtc**
-
-Per la comunicazione audio e video è utilizzato il protocollo WebRTC.
-Gli Ice Server del protocollo WebRTC comunicano sulla porta 3478 mentre i flussi audio e video, 
-criptati tramite il protocollo DTLS, sono instaurati nelle porte tra la 10000 e 20000.
+Per inserire la widget sul tuo sito è necessario contattare il nostro service desk che procederà
+a configurare tutti i canali e i servizi necessari, e a fornirti uno script javascript da inserire sul tuo sito.
 
 Integra il tuo chatBOT in TVox Chat
 ===================================
@@ -48,16 +31,23 @@ sulle richieste più frequenti, è possibile collegare la nostra libreria widget
 far intervenire un operatore nel momento in cui il bot non fosse più in grado di soddisfare le 
 richieste del cliente.
 
-Con i metodi messi a disposizione dalla libreria widget per il canale di chat è possibile monitorare lo stato
+Con i metodi messi a disposizione dalla :ref:`libreriaWidget` per il canale di chat è possibile monitorare lo stato
 dei servizi e quindi configurare il proprio bot affinchè avvii una sessione di chat verso un agente Tvox solo se disponibile.
 
 Nella documentazione tecnica della widget è presente una |demo_link| che mostra come instaurare una sessione di chat.
 La demo implementa anche un semplicissimo bot che trasferisce la sessione di chat ad un agente disponibile.
 
-Documentazione tecnica
-======================
+.. _libreriaWidget:
 
-Al seguente link potrete trovare la |documentation_link|.
+Libreria WIDGET
+===============
+
+La libreria widget di Telenia è una libreria javascript che espone tutti i metodi per realizzare la propria applicazione widget.
+
+Al seguente link trovate la |documentation_link| delle funzionalità della widget.
+
+
+
 
 .. |documentation_link| raw:: html
 
