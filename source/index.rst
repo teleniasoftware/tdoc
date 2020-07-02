@@ -13,29 +13,14 @@ Benvenuto in TDoc
    /projects/CustomerJourney
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: TVox OmniChannel Contact Center
 
+   /projects/IVRPersonalizzati/RealizzaIVRPersonalizzati
    /projects/OpzioniContattoClienti
    /projects/AutomatizzaRichiesteFrequenti
    /projects/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClientiDaWeb
-..    /projects/ExternalRecordStorage
-..    /projects/Facebook
-..    /projects/LiveHelp
-..    /projects/LookUpRubrica
-..    /projects/OmnichannelGateway
-..    /projects/screenPopUp
-..    /projects/ScriptIVR
-..    /projects/Telegram
-..    /projects/TvoxClickToCall
-..    /projects/TvoxNotificationService
-..    /projects/TvoxWebApi
-..    /projects/UrmetAte
-..    /projects/Widget
-..    /projects/Win32ClientInterface
-..    /projects/Zendesk
-..    /projects/Jira
 
 .. .. toctree::
 ..    :maxdepth: 2
