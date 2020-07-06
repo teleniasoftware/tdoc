@@ -2,7 +2,7 @@
 IVR con integrazioni a sistemi esterni
 =======================================
 
-Se avete dovete realizzare un IVR che si integra con sistemi esterni come Webservice o Database, si può farlo tramite uno script
+Se dovete realizzare un IVR che si integra con sistemi esterni come Webservice o Database, si può farlo tramite uno script
 php.
 
 .. toctree::
