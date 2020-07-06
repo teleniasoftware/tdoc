@@ -11,13 +11,14 @@ php.
    IVRConIntegrazioni/Prerequisiti
    IVRConIntegrazioni/PresentazioneSchema
    IVRConIntegrazioni/RealizzaIVR
-   IVRConIntegrazioni/Step1
-   IVRConIntegrazioni/Step2
-   IVRConIntegrazioni/Step3
-   IVRConIntegrazioni/Step4
-   IVRConIntegrazioni/Step5
-   IVRConIntegrazioni/Step6
-   IVRConIntegrazioni/CaricareScripteThroubleshooting
+   IVRConIntegrazioni/Step1CaricareScriptSuTVOx
+   IVRConIntegrazioni/Step2ConfigurareTVoxETest
+   IVRConIntegrazioni/Step3RecuperaDigits
+   IVRConIntegrazioni/Step4RipetiDigits
+   IVRConIntegrazioni/Step5ConfermaDigits
+   IVRConIntegrazioni/Step6ValidaCodiceCliente
+   IVRConIntegrazioni/Step7CodiceValidoMandaAServizio
+   IVRConIntegrazioni/Throubleshooting
    IVRConIntegrazioni/GenerareAllarmi
    IVRConIntegrazioni/AccedereCLI
    IVRConIntegrazioni/DocumentazioneTecnica

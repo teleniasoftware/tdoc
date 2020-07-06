@@ -2,9 +2,11 @@
 Come si realizza un IVR Personalizzato
 ======================================
 
-Potete scaricare un :download:`esempio <esercizio_videocorso.zip>` di IVR con realtivi files audio
+Potete scaricare un :download:`esempio <esercizio_videocorso.zip>` di IVR con realtivi files audio.
 
-Per creare un IVR potete seguire i seguenti steps:
+Apriamo il nostro IDE e cominciamo a scrivere il codice che andrà a costruire il nostro IVR.
+
+**Primo passo:** Definizione delle variabili e play del messaggio audi
 
 .. raw:: html
 

@@ -1,6 +1,9 @@
 =================================================
-Caricare uno script ed effettuare Troubleshooting
+Troubleshooting
 =================================================
+
+Dopo aver completato lo script, carichiamolo sul TVox, facciamo un test per vedere se tutto va come ci aspettiamo.
+Nel caso in cui avessimo commesso degli errori che generano eccezioni, vediamo come risolverli.
 
 .. raw:: html
 

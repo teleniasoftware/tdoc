@@ -1,6 +1,9 @@
 ======================================
-Step 5
+Validiamo il codice cliente inserito
 ======================================
+
+Dopo la conferma da parte del cliente dei digits inseriti, andiamo a fare la validazione di quanto digitato nel database di appoggio.
+Se il dato è presente il digit inserito è valido.
 
 .. raw:: html
 
