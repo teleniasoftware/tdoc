@@ -7,7 +7,7 @@ Prerequisiti
 * Avere un pc con installato un ide per lo sviluppo PHP (Netbeans, PhpStorm, etc..).
 * Avere un TVox su cui testare quanto sviluppato
 
-**Cosa posso realizzare**
+**Cosa posso realizzare:**
 
 * Creare un IVR di navigazione
 * Riprodurre Messaggi Audio
