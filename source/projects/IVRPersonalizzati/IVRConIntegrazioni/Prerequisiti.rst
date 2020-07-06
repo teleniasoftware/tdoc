@@ -3,7 +3,7 @@ Prerequisiti
 =============
 
 * Conoscenza del php
-* Saper acedere a sistemi esterni come Database e Webservices
+* Saper accedere a sistemi esterni come Database e Webservices
 * Avere un pc con installato un ide per lo sviluppo PHP (Netbeans, PhpStorm, etc..).
 * Avere un TVox su cui testare quanto sviluppato
 
