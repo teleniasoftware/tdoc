@@ -8,4 +8,5 @@ Se il cliente digita 1 continuiamo con la validazione, altrimenti riproponiamo l
 .. raw:: html
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/LnX-M0yJREU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 |
