@@ -2,15 +2,30 @@
 Migliora il supporto e la conversione dei clienti digitali sul tuo sito web
 ===========================================================================
 
-Per offrire ai tuoi client un miglior supporto rapido, è possibile attivare 
+Per offrire ai tuoi clienti un miglior supporto rapido, è possibile attivare 
 sul tuo sito web una widget che permette di comunicare con gli agenti del
-tuo contact center tramite i canali:
+tuo contact center tramite chiamata, mail o chat.
 
-- Audio
-- Video
-- Chat
-- Mail
-- Callback
+.. figure:: /images/widget_engcahin.png
+
+La widget è connessa al TVox e accoda e distribuisce le interazioni che provengono da questi canali
+all'agente più competente seguendo le regole azinedali, configurate a liello di skillset e priorità,
+esattamente come avviene per il tradizionale canale telefonico.
+
+Chiamata
+========
+
+Se un cliente desidera parlare con un operatore, possono essere messe a disposizione 3 modalità:
+
+- Chiamata 
+- Videochiamata
+- Call Back
+
+
+
+La chiamata e la Videochiamata avviano una sessione audio e video tramite protocollo webrtc.
+La widget automaticamne
+
 
 Attiva la Widget
 ================
