@@ -8,7 +8,7 @@ Prerequisiti
 * Avere un TVox su cui testare quanto sviluppato
 
 Cosa posso realizzare
-======================
+----------------------
 
 * Creare un IVR di navigazione
 * Riprodurre Messaggi Audio
