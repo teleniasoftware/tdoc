@@ -1,6 +1,6 @@
-========================================
-Ripetiamo i Digits inseriti dal cliente
-========================================
+===============================================
+Ripetiamo i digits (DTMF) inseriti dal cliente
+===============================================
 
 Dopo aver chiesto al cliente di inserire i digits da tastiera, andiamo a ripetere quanto è stato inserito.
 Questo servirà poi per chiedere al cliente la conferma di quanto digitato o riproporre l'inserimento dei digits

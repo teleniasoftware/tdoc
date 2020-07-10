@@ -1,6 +1,6 @@
-=========================================
-Confermare i digits Inseriti dal cliente
-=========================================
+================================================
+Confermare i digits (DTMF) inseriti dal cliente
+================================================
 
 Dopo aver fatto ascoltare al cliente i digits da lui inseriti, proponiamo ora una scelta: Digita 1 per confermare, 2 per inserire nuovamente.
 Se il cliente digita 1 continuiamo con la validazione, altrimenti riproponiamo l'inserimento

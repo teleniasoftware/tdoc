@@ -1,5 +1,5 @@
 ======================================
-Come si realizza un IVR Personalizzato
+Come si realizza un IVR personalizzato
 ======================================
 
 Potete scaricare un :download:`esempio <esercizio_videocorso.zip>` di IVR con realtivi files audio.
