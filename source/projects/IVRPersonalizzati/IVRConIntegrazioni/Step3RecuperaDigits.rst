@@ -1,5 +1,5 @@
 ========================================
-Recupaerare Digits inseriti dal cliente
+Recuperare Digits inseriti dal cliente
 ========================================
 
 Dopo aver verificato che quanto abbiamo fatto finora è funzionante, continuiamo con il nostro script.
