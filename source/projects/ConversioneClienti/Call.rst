@@ -59,10 +59,9 @@ ad un operatore.
 Call Back
 =========
 
-Tramite la call back il cliente può richiedere di essere richiamto. Perchè la richiesta possa essere eseguita vengono
+Tramite la call back il cliente può richiedere di essere richiamato. Perchè la richiesta possa essere eseguita vengono
 richieste tramite form (anche questa configurabile) le informazioni del cliente, tra cui il numero di telefono ed un 
 eventuale messaggio che spiega il motivo della richiesta di chiamata.
 
-.. figure:: /images/widget/Callback.png
-  :scale: 70
+.. figure:: /images/widget/Callback.PNG
   :align: center
