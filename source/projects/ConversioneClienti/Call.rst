@@ -64,4 +64,5 @@ richieste tramite form (anche questa configurabile) le informazioni del cliente,
 eventuale messaggio che spiega il motivo della richiesta di chiamata.
 
 .. figure:: /images/widget/Callback.PNG
+  :scale: 70
   :align: center
