@@ -13,7 +13,7 @@ Cosa è possibile configurare
     Questo permette di aver chiari i passaggi necessari per la configurazione stessa.
     Uno schema adeguato deve rappresentare tutti i nodi che compongono l'alberatura IVR che si vuole realizzare ed i collegamenti logici tra i nodi stessi.
 
-    .. image:: images/IVR_esempio_schema.png
+    .. image:: ../../images/IVR_esempio_schema.png
 
 * Creare un IVR di navigazione
 * Riprodurre Messaggi Audio
