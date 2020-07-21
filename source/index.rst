@@ -19,7 +19,7 @@ Benvenuto in TDoc
    /projects/IVRPersonalizzati/RealizzaIVRPersonalizzati
    /projects/OpzioniContattoClienti
    /projects/AutomatizzaRichiesteFrequenti
-   /projects/PersonalizzaMonitoraggioServizi
+   /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb
 
 .. .. toctree::
