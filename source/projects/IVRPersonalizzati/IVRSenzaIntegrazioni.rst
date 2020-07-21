@@ -66,7 +66,7 @@ Cosa è possibile configurare
         -   **Lookup  personalizzato**: il contenuto della variabile qui collezionata può essere utilizzato per effettuare una lookup sul TVox Client del contatto sulla base di un campo custom presente nella rubrica. Se non viene selezionato alcun valore si intende che il lookup del contatto avviene in modalità standard ovvero su base clid. Altrimenti il match tra valore della variabile e contenuto del campo custom ottiene il contatto desiderato. Ad esempio è possibile identificare un contatto che chiama il servizio IVR sulla base del suo codice utente se quest'ultimo è stato salvato in rubrica in uno dei campi custom disponibili.
         -   **Modalità di ricerca per lookup**: qualora sia stata configurata una lookup personalizzata è necessario definire la modalità in cui viene ricercato il match tra variabile corrente e campo custom della rubrica. Tale valore non assume rilevanza se il parametro precedente non è stato configurato.
 
-.. image:: /images/IVR_colleziona_digit2.png
+    .. image:: /images/IVR_colleziona_digit2.png
 
 * Riprodurre i digits recuperati
 * Impostare variabili di chiamata
