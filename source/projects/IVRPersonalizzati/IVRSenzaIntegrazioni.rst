@@ -37,8 +37,8 @@ Cosa è possibile configurare
 
     .. image:: /images/IVR_azioni_opzioni.png
 
-    Da considerare che, per la ocnfigurazione di opzioni, è necessario aver già creato tutti i nodi previsti dallo schema generale dell'IVR, dal momento che tramite le opzioni si configura la connessione tra i rami
-    
+    Da considerare che, per la configurazione delle opzioni, è necessario aver già creato tutti i nodi previsti dallo schema generale dell'IVR, dal momento che tramite le opzioni si configura la connessione tra i rami.
+
 
 * Riprodurre Messaggi Audio
     Per la riproduzione di messaggi audio, 
