@@ -20,7 +20,7 @@ Benvenuto in TDoc
    /projects/OpzioniContattoClienti
    /projects/AutomatizzaRichiesteFrequenti
    /projects/PersonalizzaMonitoraggioServizi
-   /projects/ConversioneClientiDaWeb
+   /projects/ConversioneClienti/ConversioneClientiDaWeb
 
 .. .. toctree::
 ..    :maxdepth: 2

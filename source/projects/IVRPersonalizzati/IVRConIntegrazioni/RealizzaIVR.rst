@@ -1,11 +1,15 @@
 ======================================
-Come si realizza un IVR Personalizzato
+Come si realizza un IVR personalizzato
 ======================================
 
-Potete scaricare un :download:`esempio <esercizio_videocorso.zip>` di IVR con realtivi files audio
+Potete scaricare un :download:`esempio <esercizio_videocorso.zip>` di IVR con realtivi files audio.
 
-Per creare un IVR potete seguire i seguenti steps:
+Apriamo il nostro IDE e cominciamo a scrivere il codice che andrà a costruire il nostro IVR.
+
+Per prima cosa definiamo le variabili necessarie alla realizzazione dello script (ad esempio i parametri di accesso al database)
+e poi proseguiamo con il play del messaggio di benvenuto.
 
 .. raw:: html
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OPa7TBcIqOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+|
