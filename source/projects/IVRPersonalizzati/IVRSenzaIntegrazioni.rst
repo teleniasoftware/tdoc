@@ -8,6 +8,7 @@ farlo tramite il TVox OCC nella sezione **Canali->Telefono->IVR**
 Cosa posso configurare
 -------------------------
 
+* Prerequisiti
 * Creare un IVR di navigazione
 * Riprodurre Messaggi Audio
 * Collezionare digits da tastiera
