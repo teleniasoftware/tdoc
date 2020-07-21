@@ -3,7 +3,7 @@ IVR senza integrazioni a sistemi esterni
 ========================================
 
 Se dovete realizzare un IVR che non necessita di integrazioni a sistemi esterni, potete 
-farlo tramite il TVox OCC nella sezione **Canali->Telefono->IVR**
+farlo tramite il TVox OCC nella sezione **Canali → Telefono → IVR**
 
 Cosa è possibile configurare
 -----------------------------
@@ -24,7 +24,8 @@ Cosa è possibile configurare
     La struttura del servizio IVR è organizzata in modo da definire una serie di “nodi” all’interno dei quali viene definita, per passi, la sequenza delle “azioni” da seguire nel nodo. Ogni servizio IVR prevede la definizione del nodo di ingresso/partenza da cui dipendono tutti i nodi che successivamente si intende implementare.
 
     Nell'immagine di esempio, le caselle con bordo rosso costituiscono i nodi, le caselle con bordo azzurro costituiscono delle azioni.
-    
+
+
 
 * Riprodurre Messaggi Audio
     Per la riproduzione di messaggi audio, 
