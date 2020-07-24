@@ -79,9 +79,10 @@ Cosa è possibile configurare
 
     
 
-
-
 * Impostare variabili di chiamata
+    
+
+
 * Chiamare un numero interno
 * Chiamare un numero esterno
 * Trasferire la chiamata ad un servizio specifico
