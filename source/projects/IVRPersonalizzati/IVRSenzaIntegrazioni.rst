@@ -76,14 +76,90 @@ Cosa è possibile configurare
     Va impostato il nome della variabile precedentemente definita, il cui contenuto numerico viene riprodotto dal sistema.
 
     .. image:: /images/IVR_riproduci_digit2.png
-
-    
+        
 
 * Impostare variabili di chiamata
-    
+    Con questa azione è possibile definire una variabile per le chiamate che vengono processate dal nodo, ed utilizzarla per memorizzare dei valori:
 
+    .. image:: /images/IVR_imposta_variabile1.png
+
+    Oltre ad impostare il nome, è possibile impostare il valore da assegnare alla variabile e decidere se renderla disponibile nei report tramite un apposito flag:
+
+    .. image:: /images/IVR_imposta_variabile2.png
+
+    La variabile viene memorizzata su database nelle tabelle storiche ast_calls_yyyymm in corrispondenza del campo *popupinfo* ed il formato con cui viene riportato il valore è *TIVR_[nome variabile]=[valore]*.
 
 * Chiamare un numero interno
+    Con questa azione è possibile trasferire la chiamata ad un numero interno.
+
+    .. image:: /images/IVR_chiama_interno1.png
+
+    Nel box va impostato il numero verso il quale passare a chiamata:
+
+    .. image:: /images/IVR_chiama_interno2.png
+
+
+
 * Chiamare un numero esterno
+    Analogamente all'azione precedente, questa consente il trasferimento verso un numero esterno a TVox:
+
+    .. image:: /images/IVR_chiama_esterno1.png
+
+
+    I parametri previsti consentono di impostare:
+
+    -   **Numero da chiamare**: il numero esterno cui la chiamata deve essere trasferita
+    -   **Tempo di ring**: il tempo massimo di ring in secondi
+    -   **Tentativi**: il numero massimo di tentativi in attesa  della risposta da parte del numero chiamato. Superato tale numero senza risposta, la chiamata passa al nodo successivo dell'ivr.
+    -   **Abilitazione**: va scelta l'abilitazione da utilizzare per il trasferimento. Il numero da chiamare, impostato nel primo campo, deve contenerere eventuali access code previsti dall'abilitazione.
+    -   **Registrazione della chiamata**: Tramite questo flag è possibile registrare la chiamata trasferita esternamente
+
+    .. image:: /images/IVR_chiama_esterno2.png
+
 * Trasferire la chiamata ad un servizio specifico
+    Si tratta di una delle azioni maggiormente utilizzate nei nodi IVR. Il trasferimento della chiamata a servizio può essere effettuato in due modalità
+
+    -   Carica un servizio:
+
+        Con questa azione è possibile trasferire il controllo della chiamata ad un altro servizio TVox, di qualunque tipologia
+
+        .. image:: /images/IVR_carica_servizio1.png
+
+        Nel campo *Servizio* va indicato il servizio verso il quale trasferire la chiamata. Il parametro *Attiva registrazione*, se selezionato, indica che la chiamata trasferita al servizio verrà registrata
+
+        .. image:: /images/IVR_carica_servizio2.png
+
+    
+    -   Carica un servizio esteso:
+
+        Questa azione è analoga alla precedente, ma ne estende le funzionalità con l'aggiunta di  ulteriori paramentri:
+
+        .. image:: /images/IVR_carica_servizio_esteso1.png
+
+        -   Etichetta aggiuntiva: è una descrizione aggiuntiva per identificare il servizio. Questo valore viene presentato nel TVox Client dell'agente cui la chiamata viene proposta, ed è indicato anche nei report
+        -   Priorità del servizio: identifica la priorità che il servizio assume per la chiamata corrente. La priorità del servizio entra in gioco nel momento in cui condivide lo skillset con altri servizi
+        -   Numero massimo di chiamate gestite dal servizio: è il limite massimo di chiamate che il servizio può gestire provenienti dal nodo corrente
+        -   Limite chiamate in attesa nel servizio: è il limite massimo di chiamate provenienti dal nodo corrente che il servizio può mantenere in coda
+        -   Limite proporzionale agli agenti loggati: sempre per le chiamate che transitano nel nodo corrente, è il limite delle chiamate in coda proporzionale al numero di agenti loggati negli skillset configurati per il servizio
+        -   Registrazione della chiamata  su servizio: analoga al caso precedente
+        -   Skillset [n]: é possibile indicare gli skillset che dovranno essere interassati dalle chiamate provenienti dal nodo corrente in ordine di priorità. Lo skillset impostato su *Skillset 1* sarà il primo interessato
+
+        .. image:: /images/IVR_carica_servizio_esteso2.png
+
+
+
+
 * Mandare la chiamata in casella vocale
+    E' possibile inoltrare la chiamata alla casella vocale del servizio IVR tramite questa azione:
+
+    .. image:: /images/IVR_casella_vocale1.png
+
+    Il messaggio vocale che viene lascaito dal chiamante è registrato e la registrazione viene inviata come allegato all'indirizzo email specificato in fase di configurazione dell'azione nel campo *email*:
+
+    .. image:: /images/IVR_casella_vocale2.png
+
+    E' possibile in alternativa utilizzare la casella vocale del servizio ivr stesso ponendo la spunta sulla voce *Utilizza la casella vocale del servizio ivr*. In questo caso, la configurazione deve essere completata nella sezione *Generale*:
+
+    .. image:: /images/IVR_casella_vocale3.png
+
+
