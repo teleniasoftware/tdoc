@@ -1,7 +1,7 @@
 Benvenuto in TDoc
 =================
 
-TDoc è il portale di documentazione di Telenia Software, qui roverete tutto ciò che serve
+TDoc è il portale di documentazione di Telenia Software, qui troverete tutto ciò che serve
 per integrare i sistemi di terze parti
 
 .. toctree::  
