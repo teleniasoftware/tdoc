@@ -1,9 +1,13 @@
 Benvenuto in TDoc
 =================
 
-.. toctree::
-   :maxdepth: 2
+TDoc è il portale di documentazione di Telenia Software, qui troverete tutto ciò che serve
+per integrare i sistemi di terze parti
+
+.. toctree::  
+   :hidden: 
    :caption: Integra TVox CC con il tuo CRM
+   :maxdepth: 2
 
    /projects/AnagraficaClienti
    /projects/PopupSchedaContatto
@@ -12,9 +16,10 @@ Benvenuto in TDoc
    /projects/Telemarketing
    /projects/CustomerJourney
 
-.. toctree::
-   :maxdepth: 3
+.. toctree::  
+   :hidden:  
    :caption: TVox OmniChannel Contact Center
+   :maxdepth: 3
 
    /projects/IVRPersonalizzati/RealizzaIVRPersonalizzati
    /projects/OpzioniContattoClienti
