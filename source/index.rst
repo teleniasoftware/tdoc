@@ -2,6 +2,8 @@ Benvenuto in TDoc il portale che ti illustra come integrare  il TVox con le appl
 ===============================================================================================================================================================================
 
 .. image:: /images/TDoc_home.png
+   :scale: 60%
+   :align: center
 
 .. raw:: html
 
@@ -22,7 +24,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
 
 .. |releases| image:: /images/release.png
-   :scale: 90%
+   :scale: 90%   
 
 .. toctree::  
    :hidden: 
