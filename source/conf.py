@@ -66,6 +66,8 @@ html_css_files = [
     'css/theme_overrides.css',
 ]
 
+html_scaled_image_link = False
+
 html_logo = 'images/LOGO.png'
 
 master_doc = 'index'
