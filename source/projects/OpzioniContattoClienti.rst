@@ -9,6 +9,8 @@ Attiva il canale  Facebook
 ===========================
 L'integrazione del canale Facebook richiede la creazione di una applicazione Facebook tramite il portale Facebook Developers seguendo i seguenti passaggi:
 
+.. warning:: L'integrazione con Facebook necessita che la macchina TVox sia esposta ad internet con 
+
 1. Crea una nuova applicazione:
 
 .. figure:: /images/social/facebook/1.png
@@ -35,7 +37,8 @@ L'integrazione del canale Facebook richiede la creazione di una applicazione Fac
 
 .. figure:: /images/social/facebook/5.png
 
-8. Dal portale sviluppatore di Facebook, apri la sezione Dashboard e aggiungi il prodotto Facebook Login
+8. Dal portale sviluppatore di Facebook, apri la sezione 
+Dashboard e aggiungi il prodotto Facebook Login
 
 .. figure:: /images/social/facebook/6.png
 
