@@ -44,7 +44,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :maxdepth: 3
 
    /projects/IVRPersonalizzati/RealizzaIVRPersonalizzati
-   /projects/OpzioniContattoClienti
+   /projects/OpzioniContattoClienti/OpzioniContattoClienti
    /projects/AutomatizzaRichiesteFrequenti
    /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb

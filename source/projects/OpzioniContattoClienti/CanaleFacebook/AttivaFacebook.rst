@@ -1,23 +1,15 @@
-==================================================
-Offri più opzioni di contatto ai clienti/prospect  
-==================================================
+=========================
+Attiva il canale Facebook
+=========================
 
-Attiva il canale WhatsAPP
-==========================
-
-Attiva il canale  Facebook
-===========================
 L'integrazione del canale Facebook richiede la creazione di una applicazione Facebook tramite il portale Facebook Developers seguendo i seguenti passaggi:
 
-.. warning:: L'integrazione con Facebook necessita che la macchina TVox sia esposta ad internet con 
+.. warning:: L'integrazione con Facebook necessita che la macchina TVox sia esposta ad internet con certificato SSL valido.
 
-1. Crea una nuova applicazione:
+.. toctree::
+   :maxdepth: 2
 
-.. figure:: /images/social/facebook/1.png
-
-.. figure:: /images/social/facebook/2.png
-
-.. figure:: /images/social/facebook/3.png
+   CreazioneNuovaApplicazione
 
 2. Una volta creata l'applicazione, tramite il menu a sinistra, naviga verso Impostazioni -> Di base. Da quì è possibile ottenere la chiave segreta da inserire nell'OCC (punto 1) e configurare il dominio utilizzato dal TVox per comunicare con Facebook (punto 2)
 
@@ -29,7 +21,7 @@ L'integrazione del canale Facebook richiede la creazione di una applicazione Fac
 
 4. Salva le configurazioni
 
-5. Dall'OCC naviga nella sezione Social -> Facebook
+5. Da OCC naviga nella sezione Social -> Facebook
 
 6. Inserisci l'ID app e la chiave segreta (vedi punto 2)
 
@@ -47,15 +39,3 @@ Dashboard e aggiungi il prodotto Facebook Login
 .. figure:: /images/social/facebook/7.png
 
 10. Una volta salvate le modifiche sarà possibile salvare anche la configurazione su OCC
-
-Attiva il canale Telegram
-==========================
-
-Attiva il canale Twitter
-=========================
-
-Attiva il canale IOT
-=====================
-
-Collega la tua soluzione Social
-================================
