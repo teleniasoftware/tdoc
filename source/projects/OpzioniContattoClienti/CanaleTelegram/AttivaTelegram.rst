@@ -9,6 +9,7 @@ L'utente finale invierà quindi le richieste al bot, che verranno poi convertite
 .. warning:: L'integrazione con Telegram necessita che la macchina TVox sia esposta ad internet con certificato SSL valido.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    CreazioneBot
+   ConfigurazioneOCC

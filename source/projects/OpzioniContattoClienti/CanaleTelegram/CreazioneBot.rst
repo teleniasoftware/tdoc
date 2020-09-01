@@ -2,7 +2,7 @@
 Creazione Bot
 =============
 
-Per creare un nuovo bot è necessario accedere via app mobile o `sito web <https://www.web.telegram.org>`_ a Telegram.
+Per creare un nuovo bot è necessario accedere via app mobile o `sito web <https://web.telegram.org>`_ a Telegram.
 
 A questo punto basterà cercare l'utente BotFather e avviarlo.
 Una volta avviato, seguendo i passaggi della seconda immagine:
