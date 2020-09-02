@@ -4,6 +4,8 @@ Pop - up scheda contatto
 
 All’arrivo di un’interazione apri automaticamente la scheda contatto del tuo crm in modo da fornire all’operatore di contact center tutte le informazioni utili alla gestione della richiesta, ottimizzando la produttività del Customer Care.
 
+---------
+
 La sezione popup manager serve per configurare la funzione si screen popup invocata a fronte di chiamate di servizio.
 
 La funzionalità di screen popup per gli agenti di Contact Center può essere invocata:
@@ -14,6 +16,8 @@ La funzionalità di screen popup per gli agenti di Contact Center può essere in
 - on demand
 
 Mentre per gli utenti di risposta può essere invocata solo on demand.
+
+----------
 
 E' possibile avere due tipi di generazione url:
 
@@ -28,13 +32,15 @@ La generazione di URL lato server consente di implemetare screen popup al client
 
 L'invocazione del popup può avvenire per tutti i canali per i quali si è abilitati:
  
-- canale telefonico
-- canale video
-- Web Chat
-- Whatsapp
-- Canai custom
+ - *canale telefonico*
+ - *canale video*
+ - *Web Chat*
+ - *Whatsapp*
+ - *Canai custom*
 
 Nel tag "servizi associati" è possibile andare ad abilitare o meno l'invocazione del  popup per i vari servizi e canali
+
+-------
 
 Per poter utilizzare lo screen popup su client è necessario scrivere una funzione, utilizzando il linguaggio Javascript, che ritorni un oggetto JSON di questo tipo:
 
