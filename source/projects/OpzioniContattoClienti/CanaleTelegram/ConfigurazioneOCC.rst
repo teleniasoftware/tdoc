@@ -5,7 +5,7 @@ Configurazione su OCC
 
 .. note:: Per associare un bot di Telegram all'interno dell'OCC è necessario aver precedentemente creato un bot e avere a disposizione l'API key fornita in fase di creazione.
 
-Accedere alla sezione **Canali** -> **Social** -> **Telegram**
+Accedere alla sezione **Social** > **Telegram**
 
 Da questa sezione andranno quindi inseriti:
 

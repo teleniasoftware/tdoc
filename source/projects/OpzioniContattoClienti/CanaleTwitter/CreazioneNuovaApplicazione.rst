@@ -25,3 +25,7 @@ A questo punto andranno popolati i campi nella seguente maniera:
     Informazioni tecniche relative all'integrazione dell'applicazione, ad esempio:
 
         | This app will be used to manage Twitter communications between our customers and our organization’s customer service agents through TVox WebClient
+
+Ulteriori campi opzionali possono comunque essere popolati (ad esempio l'url per la privacy policy).
+
+
