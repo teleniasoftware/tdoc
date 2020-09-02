@@ -11,3 +11,5 @@ L'integrazione con Twitter consente la gestione dei Tweet e dei messaggi diretti
    :maxdepth: 2
 
    CreazioneNuovaApplicazione
+   GenerazioneChiavi
+   ConfigurazionePermessiApplicazione

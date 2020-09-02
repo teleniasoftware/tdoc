@@ -7,21 +7,21 @@ Creazione nuova applicazione
 Dopo aver effettuato l'accesso con un account sviluppatore, accedere alla pagina di creazione di una `nuova applicazione <https://developer.twitter.com/en/apps/create>`_
 A questo punto andranno popolati i campi nella seguente maniera:
 
-**App name**
+:App name:
     Nome univoco dell'applicazione mostrato in fase di accesso da OCC
 
-**App description**
+:App description:
     Descrizione dell'utilizzo che verrà fatto dell'applicazione, ad esempio:
 
-        TVox - Twitter ticketing integration
+        | TVox - Twitter ticketing integration
 
-**Website URL**
+:Website URL:
     Indirizzo pubblico della macchina TVox
 
-**Callback URLs**
+:Callback URLs:
     Indirizzo di callback ottenuto da OCC nella sezione **Social** > **Twitter**
 
-**Tell us how this app will be used**
+:Tell us how this app will be used:
     Informazioni tecniche relative all'integrazione dell'applicazione, ad esempio:
 
-        This app will be used to manage Twitter communications between our customers and our organization’s customer service agents through TVox WebClient
+        | This app will be used to manage Twitter communications between our customers and our organization’s customer service agents through TVox WebClient
