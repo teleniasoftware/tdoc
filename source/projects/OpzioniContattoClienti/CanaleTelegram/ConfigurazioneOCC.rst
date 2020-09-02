@@ -11,6 +11,6 @@ Da questa sezione andranno quindi inseriti:
 
 - L'API key fornita da Telegram;
 - Un messaggio di benvenuto inviato dal bot al momento del suo avvio
-- Il servizio su cui verranno creati i ticket provenienti dai messaggi ricevuti dal bot ( verranno mostrati solamente i servizi con canale support abilitato ) 
+- Il servizio su cui verranno creati i ticket provenienti dai messaggi ricevuti dal bot ( verranno proposti solamente i servizi con canale support abilitato ) 
 
 .. image:: /images/social/telegram/1.png
