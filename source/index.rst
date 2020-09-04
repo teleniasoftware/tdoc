@@ -31,7 +31,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: Integra TVox CC con il tuo CRM
    :maxdepth: 2
 
-   /projects/AnagraficaClienti
+   /projects/AnagraficaClienti/AnagraficaClienti
    /projects/PopupSchedaContatto
    /projects/PopupSchedaTicket
    /projects/CRMGestioneTelefonica
