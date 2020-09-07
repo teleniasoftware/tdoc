@@ -19,6 +19,7 @@ all'agente più competente seguendo le regole aziendali, configurate a livello d
 esattamente come avviene per il tradizionale canale telefonico.
 
 .. toctree::
+  :hidden: 
   :maxdepth: 2
 
   /projects/ConversioneClienti/Call
