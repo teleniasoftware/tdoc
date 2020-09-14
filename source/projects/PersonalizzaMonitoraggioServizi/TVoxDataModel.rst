@@ -8,6 +8,9 @@ L'accesso ai dati è reso disponibile attraverso una Web API sfruttando un lingu
 
 Il TVox Data Model ti permette di costruire report e dashboard raccogliendo i dati di chiamate, video chiamate e chat per i tuoi servizi inbound.
 
+Abilita e configura il TVox Data Model direttamente dall'apposita pagina sull'OCC nelle configurazioni avanzate.
+
+.. image:: ../../images/datamodel/ConfigurazioneOCC.png
 
 Documentazione tecnica
 =======================
