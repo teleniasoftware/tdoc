@@ -4,4 +4,4 @@ ORACLE
 
 ORACLE
 
-.. image:: /images/anagraficaClienti/Orcle.png
+.. image:: /images/anagraficaClienti/Oracle.png
