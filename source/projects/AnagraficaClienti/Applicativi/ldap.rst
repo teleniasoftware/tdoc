@@ -31,6 +31,8 @@ configurare i seguenti campi:
 
 - **Keiro**: L'importazione dei contatti da un'origine LDAP richiede che fornisca una mappatura precisa tra gli attributi specificati sul server LDAP e i valori per T4you Address Book. NB: Va notato che è essenziale garantire la disponibilità degli attributi che identificano cognome e uid per ciascun contatto. Quando aggiungi un campo di telefono, posta o web, puoi selezionarne il valore e / o il tipo, se manca il tipo, "WORK" è impostato come predefinito. Un tipo è correlato a un valore, ad esempio tel_type_1 è correlato a tel_value_1. Possono essere mappati dieci campi personalizzati
 
+- **Risorsa della sorgente**: Lista di porzioni di rubrica esposte da LDAP da selezionare per dichiarare quali contatti importare
+
 - **Associazione campi rubrica t4you con campi rubrica LDAP**: Permette di rimappare i campi di un contatto LDAP sui campi del contatto della rubrica TVox
 
     - *Campo della rubrica T4you*: Campo della rubrica T4you a cui associare un campo LDAP
