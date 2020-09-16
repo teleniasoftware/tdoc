@@ -21,6 +21,6 @@ configurare compiere i seguenti passi:
 
 .. image:: /images/anagraficaClienti/Gmail_4.png
 
-5. Selezionare, una volta loggati con l'utente Google sull'OCC la sorgente dati che si vuole utilizzare per recuperare i contatti
+5. Selezionare sulla piattaforma OCC, una volta loggati con l'utente Google, la sorgente dati che si vuole utilizzare per recuperare i contatti
 
 .. image:: /images/anagraficaClienti/Gmail_5.png
