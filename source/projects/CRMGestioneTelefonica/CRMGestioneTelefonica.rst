@@ -7,6 +7,11 @@ Integra nel tuo CRM le funzionalità telefoniche, dal semplice click to dial all
 Click to Dial
 ==============
 
+.. toctree::
+   :maxdepth: 2
+
+   EstensioneClickToCall
+
 Click to Dial & Record
 =======================
 
