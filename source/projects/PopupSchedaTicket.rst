@@ -17,7 +17,7 @@ A creazione ticket avvenuta, il sistema di ticketing può rispondere a TVox invi
 
 All'atto dell'apertura, inoltre, se il sistema di ticketing lo prevede, è possibile fare in modo che lo script php gestisca la popolazione sul ticket di campi personalizzti con, ad esempio, informazioni raccolte dall'ivr. Vediamo un caso pratico di esempio:
 
-#. Su CTI aarriva una chiamata dal signor Mario Rossi che viene gestita dallo script php tramite IVR opportuno
+#. Su CTI arriva una chiamata dal signor Mario Rossi che viene gestita dallo script php tramite IVR opportuno
 #. Lo script prevede che Mario Rossi effettui delle scelte all'interno di un percorso predefinito, scelte ad esempio atte ad identificare il servizio di contact center adatto a gestire la richiesta del customer (assistenza, informazioni commerciali, amministrazione..)
 #. A seconda della scelta operata da customer (ad esempio Assistenza), lo script salva "Assistenza" all'interno di una variabile
 #. Lo script triggera al sistema di ticketing la richiesta per la creazione del ticket, passando come parametri il clid (numero dal quale il customer sta chiamando) e "assistenza" come identificativo della tipologia del ticket da creare (nell'ipotesi che sul sistema di ticketing esista un campo che caratterizzi la tipologia del ticekt)
