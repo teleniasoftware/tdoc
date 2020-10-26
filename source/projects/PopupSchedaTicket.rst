@@ -15,16 +15,16 @@ contact center: tale script, prima di inoltrare la chiamata al servizio corretto
 
 A creazione ticket avvenuta, il sistema di ticketing può rispondere a TVox inviando l'id del ticket creato: tale id è salvato da TVox in una variabile per poterlo rendere disponibile, se necessario, in una fase successiva della chiamata.
 
-All'atto dell'apertura, inoltre, se il sistema di ticketing lo prevede, è possibile fare in modo che lo script php gestisca la popolazione sul ticket di campi personalizzti con, ad esempio, informazioni raccolte dall'ivr. Vediamo un caso pratico di esempio:
+All'atto dell'apertura, inoltre, se il sistema di ticketing lo prevede, è possibile fare in modo che lo script php gestisca la popolazione sul ticket di campi personalizzati con, ad esempio, informazioni raccolte dall'ivr. Vediamo un caso pratico di esempio:
 
 #. Su CTI arriva una chiamata dal signor Mario Rossi che viene gestita dallo script php tramite IVR opportuno
 #. Lo script prevede che Mario Rossi effettui delle scelte all'interno di un percorso predefinito, scelte ad esempio atte ad identificare il servizio di contact center adatto a gestire la richiesta del customer (assistenza, informazioni commerciali, amministrazione..)
 #. A seconda della scelta operata da customer (ad esempio Assistenza), lo script salva "Assistenza" all'interno di una variabile
 #. Lo script triggera al sistema di ticketing la richiesta per la creazione del ticket, passando come parametri il clid (numero dal quale il customer sta chiamando) e "assistenza" come identificativo della tipologia del ticket da creare (nell'ipotesi che sul sistema di ticketing esista un campo che caratterizzi la tipologia del ticekt)
-#. Sul sistema di ticketing viene creato il ticketcon id = 1025874 relativo alla chiamata in corso, associato al customer "Mario Rossi", identificato dal sistema di ticketing tramite numero di telefono, e con campo "Tipo Ticket" = "Assistenza"
+#. Sul sistema di ticketing viene creato il ticket con id = 1025874 relativo alla chiamata in corso, associato al customer "Mario Rossi", identificato dal sistema di ticketing tramite numero di telefono, e con campo "Tipo Ticket" = "Assistenza"
 #. Il sistema di ticketing risponde a TVox comunicando l'id del ticket associato alla chiamata, TVox salva tale id in una variabile denominata **CALLDATA**
 #. Lo script inoltra la chiamata al servizio di Contact Center "Assistenza", e consegna la chiamata all'agente Luca Verdi.
-#. Appena Luca Verdi risponde, sul suo pc viene aperta in screen popup la pagina web del sistema di ticketing relativa al ticket con id = 1025874, Luca Verdi può quindi parlare ocn Mario Rossi e al contempo lavorare il ticket
+#. Appena Luca Verdi risponde, sul suo pc viene aperta in screen popup la pagina web del sistema di ticketing relativa al ticket con id = 1025874, Luca Verdi può quindi parlare con Mario Rossi e al contempo lavorare il ticket
 
 Questo tipo di integrazione, oltre a quanto descritto, può prevedere un'ulteriore casistica: il trasferimento della chiamata ad altra coda, cui risponde un altro agente, con conseguente trasferimento del ticket.
 
