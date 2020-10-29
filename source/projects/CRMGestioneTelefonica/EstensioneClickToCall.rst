@@ -5,7 +5,7 @@ Estensione Click to Call
 È disponibile un'estensione per il browser Google Chrome che sfrutta le api di click to dial.
 Questa estensione permette di effettuare chiamate dal TVox web client semplicemente cliccando su un numero di telefono di una qualsiasi pagina web visitata.
 
-.. warning:: Per il corretto funzionamento dell'estensione TVox Click to Call è necessario disporre di un TVox con version 10.24.0 o successiva
+.. warning:: Per il corretto funzionamento dell'estensione TVox Click to Call è necessario disporre di un TVox con versione 10.24.0 o successiva
 
 ----
 
