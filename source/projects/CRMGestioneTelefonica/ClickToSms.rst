@@ -2,7 +2,14 @@
 Click to SMS
 ============
 
-L’integrazione della funzionalità “Click to SMS può essere svolta mediante la chiamata di un metodo via jsonrpc che permette di effettuare l'invio di un SMS ad un determinato numero
+L’integrazione della funzionalità "Click to SMS" può essere svolta mediante la chiamata del metodo **sendSms** via jsonrpc, che permette di effettuare l'invio di un SMS ad un determinato numero.
+
+.. warning:: La chiamata del metodo sendSms necessita che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
+
+La chiamata del metodo sendSms va effettuata verso l'indirizzo **http://<tvox_url>/tvox/webapi** 
+( dove <tvox_url> corrisponde al dominio o all'indirizzo IP in cui risiede il TVox )
+
+----
 
 Parametri richiesti
 ###################
@@ -15,6 +22,7 @@ message
 ***********
 *String*    Contenuto del messaggio **Campo obbligatorio**
 
+----
 
 Richiesta di esempio
 ####################

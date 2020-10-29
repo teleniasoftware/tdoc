@@ -7,6 +7,8 @@ Questa estensione permette di effettuare chiamate dal TVox web client sempliceme
 
 .. warning:: Per il corretto funzionamento dell'estensione TVox Click to Call è necessario disporre di un TVox con version 10.24.0 o successiva
 
+----
+
 Installazione 
 =============
 
@@ -14,6 +16,7 @@ L'estensione può essere installata dal `Chrome Web Store <https://chrome.google
 
 .. image:: /images/crmGestioneTelefonica/estensioneClickToCall/1.png
 
+----
 
 Configurazione 
 ==============
@@ -56,3 +59,16 @@ Da questa sezione è possibile configurare una lista di siti per i quali l'esten
 
     **Consenti solo selezionati**
         Se questa opzione è attiva, l'estensione sarà attiva solamente nei siti web aggiunti
+
+----
+
+Utilizzo dell'estensione
+========================
+
+Navigando su un sito web ( non presente nella lista delle esclusioni ) verranno automaticamente sottolineati e resi cliccabili i numeri di telefono che rispettano le condizioni configurate nelle impostazioni dell'estensione.
+Cliccando su uno di questi numeri verrà effettuata una telefonata tramite il TVox Web Client.
+
+È anche possibile selezionare un numero di telefono manualmente ( se questo non viene riconosciuto automaticamente dall'estensione ) e chiamarlo dalla voce proposta dal menu contestuale, raggiungibile con un click sul tasto destro del mouse.
+
+.. image:: /images/crmGestioneTelefonica/estensioneClickToCall/5.png
+.. image:: /images/crmGestioneTelefonica/estensioneClickToCall/6.png
