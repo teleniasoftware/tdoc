@@ -4,7 +4,7 @@ Configura i servizi di notifica
 
 I servizi di notifica possono essere configurati da un'apposita sezione dell'OCC: **Notification Service**.
 
-NOTIFICATION SERVICE - RICERCA
+.. image:: ../../images/notificationService/ConfigurazioneOCC_Servizi.png
 
 Come mostrato in figura, da questa interfaccia è possibile cercare (1) e gestire (2) i servizi configurati e crearne di nuovi (3).
 
@@ -17,7 +17,7 @@ In questa sezione puoi configurare gli eventi di chiamata che verranno notificat
 
 Vediamo nel dettaglio quali sono i parametri di configurazione del Web Service in riferimento alla seguente immagine:
 
-NOTIFICATION SERVICE - CREAZIONE - WS
+.. image:: ../../images/notificationService/ConfigurazioneOCC_CreaServizio_WS.png
 
 #. **Nome**, descrive brevemente il gruppo di eventi notificati al Web Service corrente
 #. **Abilitato**, abilita/disabilita le notifiche al Web Service corrente
@@ -33,7 +33,7 @@ NOTIFICATION SERVICE - CREAZIONE - WS
 
 Ora approfondiamo la configurazione degli eventi:
 
-NOTIFICATION SERVICE - CREAZIONE - EVENTI
+.. image:: ../../images/notificationService/ConfigurazioneOCC_CreaServizio_Eventi.png
 
 #. **Abilitato**, abilita/disabilita le notifiche del singolo evento al Web Service corrente
 #. **Tipo**, tipologia della chiamata da notificare
@@ -54,12 +54,12 @@ Conoscendo la vostra versione potete accedere alla |documentation_link|
 Log
 ======================
 
-NOTIFICATION SERVICE - LOG
+.. .. image:: ../../images/notificationService/ConfigurazioneOCC_Log.png
 
-Nella sezione *Log* è possibile visionare e scaricare il log giornaliero delle notifiche prodotte dal Notification Service. |br|
+Nella sezione *Log* è possibile visionare e scaricare il log mensile delle notifiche prodotte dal Notification Service. |br|
 Questo può tornare molto utile sia in fase di sviluppo del Web Service, sia per un'analisi approfondita nel caso in cui vi fosse qualche malfunzionamento.
 
-.. note:: Il log viene mantenuto per 30 giorni.
+.. note:: Il log viene mantenuto per 12 mesi.
 
 .. |br| raw:: html
 
