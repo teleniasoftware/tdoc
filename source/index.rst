@@ -34,6 +34,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/AnagraficaClienti/AnagraficaClienti
    /projects/PopupSchedaContatto
    /projects/PopupSchedaTicket
+   /projects/CRMMemorizzaInterazioni/CRMMemorizzaInterazioni
    /projects/CRMGestioneTelefonica/CRMGestioneTelefonica
    /projects/Telemarketing
    /projects/CustomerJourney
