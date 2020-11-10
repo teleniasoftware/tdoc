@@ -1,6 +1,8 @@
-=======================================
-Popola il Customer Journey del tuo CRM
-=======================================
+===============================================
+Esempio: Popola il Customer Journey del tuo CRM
+===============================================
+
+.. note:: In questa sezione utilizzeremo un esempio pratico di integrazione tra il CRM e il TVox per capirne meglio le opportunità e le modalità.
 
 Ipotizziamo di avere un CRM per la gestione del Customer Care di un e-commerce in cui ogni scheda contatto, oltre la sua anagrafica, mostra all'operatore un *Customer Journey*.
 
@@ -9,10 +11,9 @@ Questo riporta già le diverse interazioni che il contatto ha avuto con la vostr
 Nelle prossime sezioni vedremo come configurare i servizi di notifica del TVox per fare in modo che il nostro Web Service aggiunga al Customer Journey del CRM le seguenti informazioni:
 
 - Chiamata di servizio inbound
-    - Data e ora in cui è stata ricevuta la chiamata
+    - Data e ora in cui la chiamata è stata consegnata all'operatore
+    - Operatore a cui è stata consegnata la chiamata
     - Servizio su cui è stata ricevuta la chiamata
-    - Data e ora in cui è stata consegnata all'operatore la chiamata ricevuta
-    - Operatore a cui è stata consegnata la chiamata ricevuta
     - Data e ora in cui l'operatore ha risposto alla chiamata ricevuta
     - Data e ora in cui la chiamata ricevuta e risposta è terminata
 - Chiamata outbound
