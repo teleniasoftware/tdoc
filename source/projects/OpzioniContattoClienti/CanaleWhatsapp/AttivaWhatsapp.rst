@@ -10,12 +10,12 @@ permettendo ai Customer e agli Agenti di comunicare via chat in tempo reale.
 L'integrazione del canale WhatsApp con il TVox necessita di configurazioni su due piattaforme diverse:
  
 - **OCC** ( Configuratore del TVox )
-- **Twilio** ( Il fornitore delle API e dei numeri di whatsapp, necessari per rendere possibile l'integrazione )
+- **Twilio** ( Il fornitore delle API e dei numeri di WhatsApp, necessari per rendere possibile l'integrazione )
 
 I moduli di licenza necessari al TVox per permettere tali configurazioni sono i seguenti:
 
 - **Multicanalità: WhatsApp (Twilio)**
-- **Multicanalità: Agenti WhatsApp (Twilio)**
+- **Multicanalità: Agenti WhatsApp (Twilio)** 
 - **MCS**
 
 .. toctree::
