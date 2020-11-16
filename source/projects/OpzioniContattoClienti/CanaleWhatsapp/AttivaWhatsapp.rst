@@ -5,7 +5,7 @@ Attiva il canale WhatsAPP
 Abilitando questo canale si avrà la possibilità di ricevere messaggi dalla piattaforma WhatsApp, 
 permettendo ai Customer e agli Agenti di comunicare via chat in tempo reale.
 
-.. warning:: L'integrazione con WhatsApp necessita che la macchina TVox sia esposta ad internet con certificato SSL valido.
+.. warning:: L'integrazione con WhatsApp necessita che la macchina TVox sia collegata ad un server MCS con certificato SSL valido.
 
 L'integrazione del canale WhatsApp con il TVox necessita di configurazioni su due piattaforme diverse:
  
