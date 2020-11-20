@@ -27,6 +27,7 @@ Tratteremo poi un caso particolare delle chiamate di servizio inbound, ovvero la
 - Chiamata trasferita ad altro operatore
     - Data e ora in cui la chiamata è stata trasferita
     - Operatore a cui è stata trasferita la chiamata
+    - Data e ora in cui la chiamata trasferita è terminata
 
 .. toctree::
    :maxdepth: 2

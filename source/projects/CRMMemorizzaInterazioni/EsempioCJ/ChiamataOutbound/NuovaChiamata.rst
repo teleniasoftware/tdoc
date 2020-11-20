@@ -1,3 +1,5 @@
+.. _ChiamataOutbound_Nuova:
+
 ==============
 Nuova chiamata
 ==============
@@ -6,13 +8,13 @@ Nuova chiamata
     Chiamata outbound - Nuova
 :Tipo:
     ``GET``
-:URI: http://democrm.teleniasoftware.com/outbound/new
+:URI: http://democrm.teleniasoftware.com/outbound/new.php
 :Eventi:
 
 +-------------------+------------------+-------------------------+
 | Tipo              | Evento           | Variabili               |
 +===================+==================+=========================+
-| Chiamata outbound | Nuova chiamata   | dateYMDms ---> dateTime |
+| Chiamata outbound | Nuova chiamata   | dateISO ---> dateTime   |
 +                   +                  +-------------------------+
 |                   |                  | id ---> callId          |
 +                   +                  +-------------------------+
@@ -24,4 +26,4 @@ Nuova chiamata
 Esempio richiesta
 =================
 
-``http:http://democrm.teleniasoftware.com/outbound/new?dateTime=2020-01-01T00%3A00%3A00.000Z&callId=1583932001.48%40d0834a2c15&calledNumber=0452224600&agent=op1``
+``http:http://democrm.teleniasoftware.com/outbound/new?dateTime=2020-11-20T10%3A29%3A31.207Z&callId=1605868170.789%40d92061befe&calledNumber=0987654321&agent=op1``

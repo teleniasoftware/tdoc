@@ -1,0 +1,47 @@
+{
+    "0987654321": {
+        "name": "Mario",
+        "surname": "Rossi",
+        "calls": {
+            "1605867847.783@d92061befe": {
+                "direction": "IN",
+                "ringDateTime": "2020-11-20T10:24:08.674Z",
+                "agent": "op1",
+                "service": "customercare",
+                "answerDateTime": "2020-11-20T10:24:24.479Z",
+                "hangupDateTime": "2020-11-20T10:24:46.959Z"
+            },
+            "1605868170.789@d92061befe": {
+                "direction": "OUT",
+                "newDateTime": "2020-11-20T10:29:31.207Z",
+                "agent": "op1",
+                "answerDateTime": "2020-11-20T10:29:47.324Z",
+                "hangupDateTime": "2020-11-20T10:30:06.985Z"
+            },
+            "1605869145.791@d92061befe": {
+                "direction": "IN",
+                "ringDateTime": "2020-11-20T10:45:46.426Z",
+                "agent": "op1",
+                "service": "customercare",
+                "answerDateTime": "2020-11-20T10:45:52.260Z",
+                "hangupDateTime": "2020-11-20T10:45:57.013Z",
+                "transferToDateTime": "2020-11-20T10:45:57.249Z",
+                "transferToAnswerDateTime": "2020-11-20T10:46:31.601Z",
+                "transferToAgent": "op2",
+                "transferToHangupDateTime": "2020-11-20T10:47:49.475Z"
+            },
+            "1605876848.814@d92061befe": {
+                "direction": "IN",
+                "ringDateTime": "2020-11-20T12:17:22.830Z",
+                "agent": "op1",
+                "service": "customercare",
+                "answerDateTime": "2020-11-20T12:17:26.723Z",
+                "transferToDateTime": "2020-11-20T12:17:54.671Z",
+                "transferToAnswerDateTime": "2020-11-20T12:17:54.671Z",
+                "transferToAgent": "op2",
+                "hangupDateTime": "2020-11-20T12:17:54.671Z",
+                "transferToHangupDateTime": "2020-11-20T12:18:27.498Z"
+            }
+        }
+    }
+}

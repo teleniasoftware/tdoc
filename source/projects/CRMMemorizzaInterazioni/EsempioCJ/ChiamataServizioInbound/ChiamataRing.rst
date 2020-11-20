@@ -1,3 +1,5 @@
+.. _ChiamataServizioInbound_Ring:
+
 ================
 Chiamata in ring
 ================
@@ -12,7 +14,7 @@ Chiamata in ring
 +-------------------+------------------+-------------------------+
 | Tipo              | Evento           | Variabili               |
 +===================+==================+=========================+
-| Chiamata servizio | Chiamata in ring | dateYMDms ---> dateTime |
+| Chiamata servizio | Chiamata in ring | dateISO ---> dateTime   |
 +                   +                  +-------------------------+
 |                   |                  | idlastcall ---> callId  |
 +                   +                  +-------------------------+
@@ -26,4 +28,4 @@ Chiamata in ring
 Esempio richiesta
 =================
 
-``http://democrm.teleniasoftware.com/service/new?dateTime=2020-01-01T00%3A00%3A00.000Z&callId=1583932001.48%40d0834a2c15&agent=op1&service=customercare&callerNumber=0452224600``
+``http://democrm.teleniasoftware.com/service/new?dateTime=2020-11-20T10%3A24%3A08.674Z&callId=1605867847.783%40d92061befe&agent=op1&service=customercare&callerNumber=0987654321``

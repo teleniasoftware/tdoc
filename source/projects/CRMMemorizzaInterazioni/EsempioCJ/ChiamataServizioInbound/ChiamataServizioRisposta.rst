@@ -1,3 +1,5 @@
+.. _ChiamataServizioInbound_Risposta:
+
 ==============================
 Chiamata di servizio, risposta
 ==============================
@@ -12,12 +14,14 @@ Chiamata di servizio, risposta
 +-------------------+--------------------------------+-------------------------+
 | Tipo              | Evento                         | Variabili               |
 +===================+================================+=========================+
-| Chiamata servizio | Chiamata di servizio, risposta | dateYMDms ---> dateTime |
+| Chiamata servizio | Chiamata di servizio, risposta | dateISO ---> dateTime   |
 +                   +                                +-------------------------+
 |                   |                                | idlastcall ---> callId  |
++                   +                                +-------------------------+
+|                   |                                | cli ---> callerNumber   |
 +-------------------+--------------------------------+-------------------------+
 
 Esempio richiesta
 =================
 
-``http://democrm.teleniasoftware.com/service/answer?dateTime=2020-01-01T00%3A00%3A00.000Z&callId=1583932001.48%40d0834a2c15``
+``http://democrm.teleniasoftware.com/service/answer?dateTime=2020-11-20T10%3A24%3A46.959Z&callId=1605867847.783%40d92061befe&callerNumber=0987654321``

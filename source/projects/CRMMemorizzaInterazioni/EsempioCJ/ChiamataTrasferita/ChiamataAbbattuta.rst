@@ -1,27 +1,27 @@
-.. _ChiamataOutbound_Abbattuta:
+.. _ChiamataTrasferita_Abbattuta:
 
 ==================
 Chiamata abbattuta
 ==================
 
 :Nome:
-    Chiamata outbound - Abbattuta
+    Chiamata trasferita - Abbattuta
 :Tipo:
     ``GET``
-:URI: http://democrm.teleniasoftware.com/outbound/hangup.php
+:URI: http://democrm.teleniasoftware.com/transfer/hangup.php
 :Eventi:
 
 +-------------------+--------------------+-------------------------+
 | Tipo              | Evento             | Variabili               |
 +===================+====================+=========================+
-| Chiamata outbound | Chiamata abbattuta | dateISO ---> dateTime   |
+| Chiamata inbound  | Chiamata abbattuta | dateISO ---> dateTime   |
 +                   +                    +-------------------------+
 |                   |                    | id ---> callId          |
 +                   +                    +-------------------------+
-|                   |                    | dnis ---> calledNumber  |
+|                   |                    | clid ---> callerNumber  |
 +-------------------+--------------------+-------------------------+
 
 Esempio richiesta
 =================
 
-``http:http://democrm.teleniasoftware.com/outbound/hangup?dateTime=2020-11-20T10%3A30%3A06.985Z&callId=1583932001.48%40d0834a2c15&calledNumber=0987654321``
+``http:http://democrm.teleniasoftware.com/transfer/hangup?dateTime=2020-11-20T10%3A47%3A49.475Z&callId=11605869145.791%40d92061befe&callerNumber=0987654321``

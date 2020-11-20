@@ -1,27 +1,27 @@
-.. _ChiamataOutbound_Risposta:
+.. _ChiamataTrasferita_Risposta:
 
 =================
 Chiamata risposta
 =================
 
 :Nome:
-    Chiamata outbound - Risposta
+    Chiamata trasferita - Risposta
 :Tipo:
     ``GET``
-:URI: http://democrm.teleniasoftware.com/outbound/answer.php
+:URI: http://democrm.teleniasoftware.com/transfer/answer.php
 :Eventi:
 
 +-------------------+-------------------+-------------------------+
 | Tipo              | Evento            | Variabili               |
 +===================+===================+=========================+
-| Chiamata outbound | Chiamata risposta | dateISO ---> dateTime   |
+| Chiamata inbound  | Chiamata risposta | dateISO ---> dateTime   |
 +                   +                   +-------------------------+
 |                   |                   | id ---> callId          |
 +                   +                   +-------------------------+
-|                   |                   | dnis ---> calledNumber  |
+|                   |                   | clid ---> callerNumber  |
 +-------------------+-------------------+-------------------------+
 
 Esempio richiesta
 =================
 
-``http:http://democrm.teleniasoftware.com/outbound/answer?dateTime=2020-11-20T10%3A29%3A47.324Z&callId=1583932001.48%40d0834a2c15&calledNumber=0987654321``
+``http:http://democrm.teleniasoftware.com/transfer/answer?dateTime=2020-11-20T10%3A46%3A31.601Z&callId=1605869145.791%40d92061befe&callerNumber=0987654321``
