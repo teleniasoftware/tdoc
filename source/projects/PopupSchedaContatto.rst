@@ -1,3 +1,5 @@
+.. _PopupSchedaContatto:
+
 =========================
 Pop - up scheda contatto
 =========================

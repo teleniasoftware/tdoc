@@ -1,3 +1,5 @@
+.. _PopupSchedaTicket:
+
 =======================
 Pop - up scheda ticket
 =======================
