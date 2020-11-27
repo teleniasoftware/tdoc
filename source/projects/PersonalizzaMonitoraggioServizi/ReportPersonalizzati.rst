@@ -22,7 +22,7 @@ Maggiori dettagli sulle modalità d'integrazione con gli strumenti di reportisti
 
 **Google Sheets** è un software cloud in cui è possibile creare e modificare fogli di calcolo direttamente nel browser Web. Più persone possono lavorarci contemporaneamente, puoi vedere le modifiche delle persone mentre le apportano e ogni modifica viene salvata automaticamente. |br|
 Google Sheets non consente nativamente di elaborare dati in formato JSON recuperati da una fonte Web (come nel caso dell'API TVox Data Model), ma è possibile integrare funzioni personalizzate (attraverso codice Javascript) in grado di farlo. |br|
-Maggiori dettagli sulle modalità d'integrazione potete trovarli nella `documentazione tecnica <ConfigurazioneGoogleSheets.rst>`__.
+Maggiori dettagli sulle modalità d'integrazione potete trovarli nella `documentazione tecnica <ConfigurazioneGoogleSheets.html>`__.
 
 
 .. |documentation_integration_microsoft_link| raw:: html

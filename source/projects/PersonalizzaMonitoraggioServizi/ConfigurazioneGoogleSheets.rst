@@ -18,11 +18,11 @@ Aprire il documento di esempio tramite `questo link <https://docs.google.com/spr
 
 Una volta effettuato l'accesso con il proprio account Google, selezionare dal menu contestuale File -> Crea una copia
 
-.. image:: /images/dataModel/googleSheets/5.png
+.. image:: ../../images/dataModel/googleSheets/5.png
 
 Salvare quindi il nuovo documento su Drive dopo aver inserito il nome che si desidera.
 
-.. image:: /images/dataModel/googleSheets/6.png
+.. image:: ../../images/dataModel/googleSheets/6.png
 
 Una volta aperto il documento è possibile iniziare a compilare i valori delle varie colonne:
 
@@ -48,7 +48,7 @@ Nome del metodo lanciato per l'esecuzione del report. Il file di esempio contien
 Per aggiungere più valori fare un click con il tasto destro del mouse sulla cella contenente la select e selezionare "Convalida dei dati".
 Dal popup che verrà aperto aggiungere le varie voci separate da un virgola. 
 
-.. image:: /images/dataModel/googleSheets/7.png
+.. image:: ../../images/dataModel/googleSheets/7.png
 
 QUERY GRAPHQL
 --------------
@@ -82,13 +82,13 @@ Per schedulare l'avvio automatico del report è necessario creare un trigger dal
 
 Una volta reindirizzati a questa pagina, localizzare l'icona 
 
-.. image:: /images/dataModel/googleSheets/2.png
+.. image:: ../../images/dataModel/googleSheets/2.png
 
 Questa porterà alla pagina di configurazione dei trigger. 
 
 Cliccare quindi il pulsante "Aggiungi attivatore" e configurare come segue:
 
-.. image:: /images/dataModel/googleSheets/4.png
+.. image:: ../../images/dataModel/googleSheets/4.png
 
 Questa configurazione ci permetterà di eseguire il report mensile in maniera automatica a mezzanotte di ogni primo giorno del mese
 
