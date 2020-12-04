@@ -41,7 +41,7 @@ La struttura dati che viene interessata nel connettore per entrambe le tecnologi
         UNKNOW;
     }
 
-Per dettagli tecnici sull'implementazione consultare la dumentazione |documentation_link|
+Per dettagli tecnici sull'implementazione consultare la |documentation_link|
 
 .. |documentation_link| raw:: html
 
