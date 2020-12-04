@@ -40,3 +40,9 @@ La struttura dati che viene interessata nel connettore per entrambe le tecnologi
         CLOSED,    
         UNKNOW;
     }
+
+Per dettagli tecnici sull'implementazione consultare la dumentazione |documentation_link|
+
+.. |documentation_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/multichannel_connector/index.html#introduction"target="_blank"> Documentazione tecnica</a>
