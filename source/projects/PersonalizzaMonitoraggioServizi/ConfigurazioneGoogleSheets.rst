@@ -43,7 +43,7 @@ Parametri opzionali relativi allo script di import dei valori. `Maggiori informa
 
 REPORT TYPE
 ------------
-Nome del metodo lanciato per l'esecuzione del report. Il file di esempio contiene il valore inboundCalls.
+Nome del metodo lanciato per l'esecuzione del report. Il file di esempio contiene il valore inboundCallsCount.
 
 Per aggiungere più valori fare un click con il tasto destro del mouse sulla cella contenente la select e selezionare "Convalida dei dati".
 Dal popup che verrà aperto aggiungere le varie voci separate da un virgola. 
@@ -68,8 +68,7 @@ Contenuto della query GraphQL che si andrà a lanciare, esempio:
 
 AGENTS
 ------
-Lista degli agenti su cui verrà eseguita la query. Verranno presi in considerazione tutti i valori popolati di tale colonna.
-
+Lista degli agenti su cui verrà eseguita la query. Il valore di ogni riga di questa colonna corrisponde all'username di un agente. Nel file di report ad ogni agente corrisponderà un foglio di Google Sheets.
 EMAIL ADDRESS TO NOTIFY
 -----------------------
 Indirizzo email che verrà notificato al completamento del report
