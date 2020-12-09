@@ -13,3 +13,4 @@ Nel momento in cui si ha necessità di creare report e dashboard personalizzati,
    TVoxDataModel
    DashboardPersonalizzate
    ReportPersonalizzati
+   ConfigurazioneGoogleSheets
