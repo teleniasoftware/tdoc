@@ -1,5 +1,8 @@
-Benvenuto in TDoc il portale che ti illustra come integrare  il TVox con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.
-===============================================================================================================================================================================
+=================
+Benvenuto in TDoc
+=================
+
+**TDoc è il portale che ti illustra come integrare  il TVox con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
 
 .. image:: /images/TDoc_home.png
    :scale: 60%
@@ -16,10 +19,10 @@ Il portale si divide in due macro sezioni, la prima dedicata all’integrazione 
 :blue:`INTEGRA TVOX CON IL TUO  CRM` illustra diversi livelli di integrazione che, a seconda  delle esigenze, hanno tutti l’obiettivo di valorizzare il CRM rendendolo più efficace nella gestione dei rapporti con i clienti.
 
 
-:blue:`TVOX OMNICHANNEL CONTACT CENTER` invece illustra come personalizzare il TVox per una gestione efficace dei contatti con particolare attenzione al monitoraggio della Customer Experience
+:blue:`TVOX OMNICHANNEL CONTACT CENTER` illustra come personalizzare il TVox per una gestione efficace dei contatti con particolare attenzione al monitoraggio della Customer Experience
 
 
-La documentazione presentata nella home page di questo portale  si riferisce all’ultima Release TVox disponibile, per ottenere informazioni su una specifica release navigate il menu |releases|
+La documentazione presentata nella home page di questo portale  si riferisce all’ultima Release TVox disponibile, per ottenere informazioni su una specifica release navigate il menu |releases| che si trova in fondo al menu.
 
 
 
@@ -50,15 +53,5 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb
 
-.. .. toctree::
-..    :maxdepth: 2
-..    :caption: Integrazioni ,,,
-   
-..    /projects/Jira ```` 
-
-
-.. .. toctree::
-..    :maxdepth: 2
-..    :caption: Altro
 
    /about/telenia
