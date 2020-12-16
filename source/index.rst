@@ -29,6 +29,16 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 .. |releases| image:: /images/release.png
    :scale: 90%   
 
+
+.. toctree::  
+   :hidden: 
+   :caption: MCS - TVOX Mediant Communication System
+   :maxdepth: 2   
+
+   /projects/TVOXMediantCommunicationSystem/Prodotto
+   /projects/TVOXMediantCommunicationSystem/Architettura
+   /projects/TVOXMediantCommunicationSystem/Networking
+
 .. toctree::  
    :hidden: 
    :caption: Integra TVox CC con il tuo CRM
