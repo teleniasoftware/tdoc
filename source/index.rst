@@ -54,7 +54,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb
 
-   .. toctree::  
+.. toctree::  
    :hidden: 
    :caption: Mediant Communication System
    :maxdepth: 2   
