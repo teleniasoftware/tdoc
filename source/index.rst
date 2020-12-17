@@ -37,6 +37,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
    /projects/TVOXMediantCommunicationSystem/Prodotto
    /projects/TVOXMediantCommunicationSystem/Architettura
+   /projects/TVOXMediantCommunicationSystem/Deploy
    /projects/TVOXMediantCommunicationSystem/Networking
    /projects/TVOXMediantCommunicationSystem/GestionecertificatiSSL   
 

@@ -22,7 +22,7 @@ DNS e FQDN
 
 E' necessario avere un FQDN risolto come record A sull'IP pubblico utilizzato dall'MCS. Questo FQDN sarà il dominio di management.
 
-.. note:: Il dominio di management verà utilizzato per la configurazione iniziale dell'MCS e per gestione degli impianti ad esso collegati ed i relativi certificati SSL.
+.. note:: Il dominio di management verà utilizzato per la configurazione iniziale dell'MCS e per la gestione degli impianti ad esso collegati ed i relativi certificati SSL.
 
 Ogni impianto TVox interconnesso all'MCS deve disporre di un proprio FQDN per l'accesso ai servizi.
 Ognuno di questi FQDN dovrà essere risolto pubblicamente come CNAME del dominio di management dell'MCS
