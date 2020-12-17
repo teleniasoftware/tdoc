@@ -4,6 +4,10 @@ Prodotto
 
 TVox **Mediant Communication System (MCS)** è un sistema di comunicazione Web Based accessibile via Internet. Orientato alla comunicazione multicanale, consente di accedere a servizi audio, video, chat, desktop e file sharing ed è basato su Sistema Operativo Linux CentOS 7 64 Bit
 
+.. image:: ../../images/MCS/mcs_product.png
+   :scale: 60%
+   :align: center
+
 Ha funzionalità multi-customer dove la community e gli utenti ad essa associati e per ciascun utente si abilitano le funzionalità sopra elencate. Per TVoxMCS deve essere previsto e fornito un dominio pubblico che possa essere risolto sul server TVox-MCS perché possano essere erogati i servizi.
 TVox-MCS può essere installato su piattaforme server standard  o virtualizzate **purché compatibili con il sistema operativo** indicato sopra. 
 
@@ -29,7 +33,3 @@ L’installazione in data center prevede risorse che sono  dipendenti dalla cons
 Il sistema TVox-MCS dovrà essere connesso alla rete  Internet con  disponibilità di banda (massima) di circa 60 KB/s per ogni connessione attiva dei dispositivi   (APP, UCC Web RTC e Widget) e creata una connessione VPN OpenVPN per ogni TVOX di ciascun cliente finale.
 
 .. warning:: Il servizio MCS non è ridondabile!
-
-.. |mcs_product| image:: ../../images/MCS/mcs_product.png
-                :scale: 60%
-                :align: center
