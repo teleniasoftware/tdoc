@@ -1,6 +1,6 @@
-====
+======
 Deploy
-====
+======
 
 Il sistema MCS è distribuita attraverso un appliance in formato ISO che può essere utilizzato per l'installazione su tradizionali hypervisor on premise (VmWare ESXI , Microsoft Hyper-V, Citrix XenServer).
 
@@ -27,4 +27,3 @@ Si consiglia di cambiare la password di admin immediatamente dopo l'installazion
 
 .. note::
   Il servizio HTTPS accetta sono i protocolli TLSv1.0 e superiori.
-  
