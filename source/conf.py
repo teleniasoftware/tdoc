@@ -75,3 +75,9 @@ master_doc = 'index'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 gettext_uuid = True
+
+rst_epilog = """
+.. |br| raw:: html
+
+   <br />
+"""
