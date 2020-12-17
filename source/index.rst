@@ -28,17 +28,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
 .. |releases| image:: /images/release.png
    :scale: 90%   
-
-
-.. toctree::  
-   :hidden: 
-   :caption: Mediant Communication System
-   :maxdepth: 2   
-
-   /projects/TVOXMediantCommunicationSystem/Prodotto
-   /projects/TVOXMediantCommunicationSystem/Architettura
-   /projects/TVOXMediantCommunicationSystem/Networking
-   /projects/TVOXMediantCommunicationSystem/GestionecertificatiSSL   
+ 
 
 .. toctree::  
    :hidden: 
@@ -63,6 +53,16 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/AutomatizzaRichiesteFrequenti
    /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb
+
+   .. toctree::  
+   :hidden: 
+   :caption: Mediant Communication System
+   :maxdepth: 2   
+
+   /projects/TVOXMediantCommunicationSystem/Prodotto
+   /projects/TVOXMediantCommunicationSystem/Architettura
+   /projects/TVOXMediantCommunicationSystem/Networking
+   /projects/TVOXMediantCommunicationSystem/GestionecertificatiSSL 
 
 
    /about/telenia
