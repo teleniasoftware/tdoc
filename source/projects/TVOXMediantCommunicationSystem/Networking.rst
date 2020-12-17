@@ -4,6 +4,9 @@ Networking
 
 Premessa: l'MCS, essendo un server che va esposto su internet, deve risiedere in una DMZ e *non deve avere alcun tipo di visibilità verso le LAN locali*.
 
+.. important::
+  Per il corretto funzionamento della fonia in WebRTC le richieste http di TVoxWebClient, TVoxTeamApp e TVox **non** devono transitare da un proxy.
+
 ---------------
 MCS
 ---------------
@@ -36,7 +39,7 @@ Porte in uscita da MCS a Internet:
 +============+============+=========================+=================================================================+
 |     TCP    |   443      |          HTTPS          | Richiesto per:                                                  |
 |            |            |                         |                                                                 |
-|            |            |                         | * Controllo aggiornamenti e licenza verso server AWS            |
+|            |            |                         | * Accesso license server Telenia                                |
 |            |            |                         | * Integrazione Let’s Encrypt                                    |
 +------------+------------+-------------------------+-----------------------------------------------------------------+
 |   UDP/TCP  |   53       |           DNS           |                                                                 |
@@ -71,7 +74,7 @@ Porte in uscita da TVox a Internet:
 +------------+---------------+----------------------------------+------------------------------------------------------------------+
 | Protocollo |     Porte     |             Servizio             |                        Note e limitazioni                        |
 +============+===============+==================================+==================================================================+
-|     TCP    |      443      |              HTTPS               | Richiesto per controllo aggiornamenti e licenza verso server AWS |
+|     TCP    |      443      |              HTTPS               | Accesso license server Telenia                                   |
 +------------+---------------+----------------------------------+------------------------------------------------------------------+
 |   UDP/TCP  |       53      |               DNS                |                                                                  |
 +------------+---------------+----------------------------------+------------------------------------------------------------------+
@@ -91,7 +94,7 @@ Postazioni operatori
 
 La comunicazione da TVox verso WebClient o TVoxTeamApp in modalità WebRTC quando quest'ultime si trovano all'interno della LAN aziendale deve essere di tipo LAN-to-LAN (no NAT).
 
-.. note:: In assenza di visibilità LAN-to-LAN tra TVox e WebClient / TVoxTeamApp i flussi audio e video dovranno necesariamente transitare attraverso Internet utilizzando il servizio Stun/Turn dell'MCS.
+.. note:: In assenza di visibilità LAN-to-LAN tra TVox e WebClient / TVoxTeamApp i flussi audio e video dovranno necessariamente transitare attraverso Internet utilizzando il servizio Stun/Turn dell'MCS.
 
 Se è necessario limitare in uscita il traffico delle postazioni degli operatori è necessario consentire almeno le seguenti regole:
 
