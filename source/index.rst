@@ -32,7 +32,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
 .. toctree::  
    :hidden: 
-   :caption: MCS - TVOX Mediant Communication System
+   :caption: Mediant Communication System
    :maxdepth: 2   
 
    /projects/TVOXMediantCommunicationSystem/Prodotto
