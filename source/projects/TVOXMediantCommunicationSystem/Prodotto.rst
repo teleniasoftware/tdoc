@@ -29,3 +29,7 @@ L’installazione in data center prevede risorse che sono  dipendenti dalla cons
 Il sistema TVox-MCS dovrà essere connesso alla rete  Internet con  disponibilità di banda (massima) di circa 60 KB/s per ogni connessione attiva dei dispositivi   (APP, UCC Web RTC e Widget) e creata una connessione VPN OpenVPN per ogni TVOX di ciascun cliente finale.
 
 .. warning:: Il servizio MCS non è ridondabile!
+
+.. |mcs_product| image:: ../../images/MCS/mcs_product.png
+                :scale: 60%
+                :align: center
