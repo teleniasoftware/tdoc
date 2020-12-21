@@ -2,10 +2,11 @@
 Networking
 ===============
 
-Premessa: l'MCS, essendo un server che va esposto su internet, deve risiedere in una DMZ e *non deve avere alcun tipo di visibilità verso le LAN locali*.
 
 .. important::
-  Per il corretto funzionamento della fonia in WebRTC le richieste http di TVoxWebClient, TVoxTeamApp e TVox **non** devono transitare da un proxy.
+  TVox MCS, essendo un server che va esposto su internet, deve risiedere in una DMZ e *non deve avere alcun tipo di visibilità verso le LAN locali*.
+
+  Per il corretto funzionamento della fonia WebRTC le richieste http di TVox Web Client, TVox Team e TVox **non** devono transitare da un proxy.
 
 ---------------
 MCS
@@ -49,7 +50,9 @@ Porte in uscita da MCS a Internet:
 |     UDP    |     123    |        NTP              |                                                                 |
 +------------+------------+-------------------------+-----------------------------------------------------------------+
 
-Va garantito l'accesso a Telenia dai nostri ip pubblici (79.8.39.108/32 e 93.39.91.217/32)
+
+.. note::
+  Per garantire il supporto di Telenia dev'essere consentito l'accesso dagli ip pubblici 79.8.39.108 e 93.39.91.217.
 
 ----
 TVox
@@ -88,42 +91,45 @@ Porte in ingresso da Internet a TVox:
 
 Non è richiesta alcuna esposizione pubblica da Internet per la corretta interconnessione con il servizio offerto da MCS.
 
+.. note::
+  Se TVox deve instaurare trunk sip verso sistemi in cloud va garantita la comunicazione diretta verso tali sistemi.
+
 --------------------
 Postazioni operatori
 --------------------
 
-La comunicazione da TVox verso WebClient o TVoxTeamApp in modalità WebRTC quando quest'ultime si trovano all'interno della LAN aziendale deve essere di tipo LAN-to-LAN (no NAT).
+In modalità in-house, la comunicazione da TVox verso TVox Web Client o TVox Team deve essere di tipo LAN-to-LAN (no NAT).
 
-.. note:: In assenza di visibilità LAN-to-LAN tra TVox e WebClient / TVoxTeamApp i flussi audio e video dovranno necessariamente transitare attraverso Internet utilizzando il servizio Stun/Turn dell'MCS.
+.. note:: In assenza di visibilità LAN-to-LAN tra TVox e TVox Web Client / TVox Team i flussi audio e video dovranno necessariamente transitare attraverso Internet utilizzando il servizio Stun/Turn di TVox MCS.
 
-Se è necessario limitare in uscita il traffico delle postazioni degli operatori è necessario consentire almeno le seguenti regole:
+Per limitare il traffico in uscita delle postazioni degli operatori è necessario consentire almeno le seguenti regole:
 
 
-Da WebClient / TVoxTeamApp a MCS:
+Da TVox Web Client / TVox Team a MCS:
 ---------------------------------
 
 +------------+-------------+----------------------+--------------------+
 | Protocollo |    Porte    |       Servizio       | Note e limitazioni |
 +============+=============+======================+====================+
-|     TCP    |     443     | HTTPS TVox WebClient |                    |
+|     TCP    |     443     | HTTPS TVox Web Client |                    |
 +------------+-------------+----------------------+--------------------+
 |   TCP/UDP  |     3478    |   Stun/Turn server   |                    |
 +------------+-------------+----------------------+--------------------+
 |     UDP    | 10000-20000 |     RTP SRTP DTLS    |                    |
 +------------+-------------+----------------------+--------------------+
 
-Da WebClient / TVoxTeamApp a TVox in LAN:
+Da TVox Web Client / TVox Team a TVox in LAN:
 -----------------------------------------
 
 +------------+-------------+----------------------+--------------------+
 | Protocollo |    Porte    |       Servizio       | Note e limitazioni |
 +============+=============+======================+====================+
-|     TCP    |     443     | HTTPS TVox WebClient |                    |
+|     TCP    |     443     | HTTPS TVox Web Client |                    |
 +------------+-------------+----------------------+--------------------+
 |     UDP    | 10000-20000 |     RTP SRTP DTLS    |                    |
 +------------+-------------+----------------------+--------------------+
 
-Da TVox a WebClient / TVoxTeamApp in LAN:
+Da TVox a TVox Web Client / TVox Team in LAN:
 -----------------------------------------
 
 +------------+-------------+----------------------+--------------------+
@@ -136,4 +142,4 @@ Da TVox a WebClient / TVoxTeamApp in LAN:
 
 .. note:: I dispositivi **IOS** devono poter raggiungere i servizi di notifca PUSH di Apple. |br| Vedere https://support.apple.com/en-us/HT203609
 
-.. note:: I dispositivi **Android** devono poter raggiungere i servizi di notifca PUSH di Apple. |br| Vedere https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
+.. note:: I dispositivi **Android** devono poter raggiungere i servizi di notifca PUSH di Android. |br| Vedere https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall

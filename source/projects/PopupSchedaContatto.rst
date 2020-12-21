@@ -8,7 +8,7 @@ All’arrivo di un’interazione apri automaticamente la scheda contatto del tuo
 
 ---------
 
-La sezione popup manager serve per configurare la funzione si screen popup invocata a fronte di chiamate di servizio.
+La sezione popup manager serve per configurare la funzione di screen popup invocata a fronte di chiamate di servizio.
 
 La funzionalità di screen popup per gli agenti di Contact Center può essere invocata:
 

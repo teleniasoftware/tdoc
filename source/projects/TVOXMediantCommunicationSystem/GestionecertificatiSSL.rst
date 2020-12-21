@@ -24,4 +24,4 @@ In entrambe le modalità i TVox possono essere configurati per scaricare automat
 |mcs_customer_certificate_upload|
 
 
-.. important:: Per l'utilizzo delle App in house è **obbligatorio** che il TVox sia equipaggiato con un certificato firmato da una certification authority pubblica.
+.. important:: Anche per l'utilizzo di TVox Team in modalità in-house è **obbligatorio** che il TVox sia equipaggiato con un certificato firmato da una certification authority pubblica.
