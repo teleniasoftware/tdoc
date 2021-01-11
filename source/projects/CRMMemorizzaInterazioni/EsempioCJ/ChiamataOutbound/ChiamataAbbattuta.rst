@@ -23,6 +23,7 @@ Chiamata abbattuta
 
 Esempio richiesta
 =================
+
 .. code-block::
 
     http://democrm.teleniasoftware.com/outbound/hangup?dateTime=2020-11-20T10%3A30%3A06.985Z&callId=1583932001.48%40d0834a2c15&calledNumber=0987654321
