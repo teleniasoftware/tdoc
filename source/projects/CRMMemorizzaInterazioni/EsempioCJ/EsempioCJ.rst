@@ -2,13 +2,13 @@
 Esempio: Popola il Customer Journey del tuo CRM
 ===============================================
 
-.. note:: In questa sezione utilizzeremo un esempio pratico di integrazione tra il CRM e il TVox per capirne meglio le opportunità e le modalità.
+.. note:: In questa sezione utilizzeremo un esempio pratico di integrazione tra il CRM e TVox OmniChannel Contact Center per capirne meglio le opportunità e le modalità.
 
-Ipotizziamo di avere un CRM per la gestione del Customer Care di un e-commerce in cui ogni scheda contatto, oltre la sua anagrafica, mostra all'operatore un *Customer Journey*.
+Ipotizziamo di avere un CRM per la gestione del Customer Care di un e-commerce in cui ogni scheda contatto, oltre alla sua anagrafica, mostra all'operatore un *Customer Journey*.
 
 Questo riporta già le diverse interazioni che il contatto ha avuto con la vostra azienda in termini di ordini e resi, mancano le interazioni telefoniche.
 
-Nelle prossime sezioni vedremo come configurare i servizi di notifica del TVox per fare in modo che il nostro Web Service aggiunga al Customer Journey del CRM le seguenti informazioni:
+Nelle prossime sezioni vedremo come configurare i servizi di notifica di TVox per fare in modo che il nostro Web Service aggiunga al Customer Journey del CRM le seguenti informazioni:
 
 - Chiamata di servizio inbound
     - Data e ora in cui la chiamata è stata consegnata all'operatore

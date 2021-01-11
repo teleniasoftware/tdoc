@@ -80,4 +80,6 @@ rst_epilog = """
 .. |br| raw:: html
 
    <br />
+
+.. |tvox| replace:: TVox OmniChannel Contact Center
 """
