@@ -29,7 +29,7 @@ Il TVoxClient recupera queste informazioni aggiuntive e le propone associate ad 
 
 Un esempio di utilizzo dello screen popup può essere il seguente:
 
-.. code-block::
+.. code-block:: console
 
     if "%SERVICE%" == "servizio_1" GOTO REQ1
     if "%SERVICE%" == "servizio_2" GOTO REQ2
