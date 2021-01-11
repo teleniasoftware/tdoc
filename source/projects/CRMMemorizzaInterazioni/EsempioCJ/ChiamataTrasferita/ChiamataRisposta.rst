@@ -23,5 +23,6 @@ Chiamata risposta
 
 Esempio richiesta
 =================
+.. code-block::
 
-``http:http://democrm.teleniasoftware.com/transfer/answer?dateTime=2020-11-20T10%3A46%3A31.601Z&callId=1605869145.791%40d92061befe&callerNumber=0987654321``
+    http://democrm.teleniasoftware.com/transfer/answer?dateTime=2020-11-20T10%3A46%3A31.601Z&callId=1605869145.791%40d92061befe&callerNumber=0987654321
