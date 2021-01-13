@@ -13,12 +13,12 @@ Customer Journey
 
 ---------
 
-Il customer journey è una prestazione che dipende dai moduli abilitati sul tvox.
-Il modulo principale è **Customer Journey**, che abilita la cronologia di interazioni multichannel, riportando di base soltanto le chiamate.
-Per abilitare la visualizzazione di altri tipi di interazione nel customer journey sono necessari i seguenti moduli:
+La prestazione è legata ai moduli di licenza abilitati su |tvox|.
+Il modulo principale è **Customer Journey**, che abilita la cronologia di interazioni multichannel, riportando di base soltanto le chiamate telefoniche.
+Per abilitare la visualizzazione di altri tipi di interazione sono necessari i seguenti moduli:
 
 - **Support** ( Per le interazioni di tipo Ticket )
-- **Sondaggi** ( Per abilitare l' NPS )
+- **Sondaggi** ( Per abilitare l\'NPS )
 - **Web Widget** ( Per le interazioni di tipo Chat )
 - **Whatsapp** ( Per le interazioni dal canale whatsapp )
 
