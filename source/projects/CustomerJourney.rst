@@ -36,6 +36,7 @@ Grazie al Customer Journey, su |client| vengono messe a disposizione principalme
 NPS è una valutazione fornita dal cliente attraverso un sondaggio, e rappresenta il suo grado di soddisfazione relativo all'ultima interazione che ha avuto con il servizio. Questa valutazione costituisce un aiuto per gli agenti nel momento in cui il cliente ingaggia nuovamente il sistema.
 
 Come evidenziato nell'immagine seguente, nella sezione di |client| dedicata al customer journey troviamo:
+
 - la valutazione NPS
 - il numero di interazioni generate da o verso questo cliente negli ultimi 30 giorni
 - il numero totale di ticket che sono attualmente attivi sul cliente visualizzato e, tra questi, il numero di quelli in escalation

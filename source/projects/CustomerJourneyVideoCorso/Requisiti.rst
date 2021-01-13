@@ -2,7 +2,7 @@
 Requisiti
 =======================================
 
-In questo video vengono descritti i requisiti di cuiha bisogno il Customer Journey per funzionare correttamente.
+In questo video vengono descritti i requisiti di cui ha bisogno il Customer Journey per funzionare correttamente.
 
 .. raw:: html
 
