@@ -5,7 +5,6 @@ Estensione Click to Call
 È disponibile un'estensione per il browser Google Chrome che sfrutta le api di click to dial.
 Questa estensione permette di effettuare chiamate dal TVox web client semplicemente cliccando su un numero di telefono di una qualsiasi pagina web visitata.
 
-.. warning:: Per il corretto funzionamento dell'estensione TVox Click to Call è necessario disporre di un TVox con versione 10.24.0 o successiva
 
 ----
 
@@ -21,17 +20,17 @@ L'estensione può essere installata dal `Chrome Web Store <https://chrome.google
 Configurazione 
 ==============
 
-Dopo è necessario accedere ad un TVox client. L'estensione utilizzerà automaticamente il dominio dell'ultimo TVox visitato per effettuare le telefonate. Se è già presente una tab del TVox web client sarà necessario ricaricarne la pagina per applicare le impostazioni.
+Installata l'estensione, è necessario accedere a TVox Web Client. L'estensione utilizzerà automaticamente il dominio dell'ultimo TVox visitato per effettuare le telefonate. Se è già presente una tab di TVox Web Client sarà necessario ricaricare la pagina per applicare le impostazioni.
 
 Opzioni estensione
 ###################
 
-Le opzioni dell'estensione sono raggiungibili dalla lista delle estensioni installate:
+Le opzioni dell'estensione sono configurabili dalla lista delle estensioni installate:
 
 .. image:: /images/crmGestioneTelefonica/estensioneClickToCall/2.png
 .. image:: /images/crmGestioneTelefonica/estensioneClickToCall/3.png
 
-La pagina delle opzioni proporrà le seguenti configurazioni:
+E' possibile effettuare le seguenti configurazioni:
 
 .. image:: /images/crmGestioneTelefonica/estensioneClickToCall/4.png
 
@@ -39,15 +38,15 @@ Impostazioni generali
 *********************
 
     **Indirizzo server TVox**
-        Indirizzo del server TVox configurato automaticamente all'apertura di un client
+        Indirizzo del server TVox configurato automaticamente all'apertura di un TVox Web Client
 
     **Usa sempre l'URL dell'ultimo TVox Client visitato**
-        Se disabilitato l'indirizzo del server TVox non verrà sostituito con l'url dell'ultimo client visitato
+        Se disabilitato, l'indirizzo del server TVox non verrà sostituito con l'url dell'ultimo TVox Web Client visitato
 
 Cifre numeri di telefono
 ************************
 
-Configurazione dei numeri di telefono analizzati nelle varie pagine web.
+Indicano la soglia minima e massima per interpretare i numeri presenti nelle pagine web come numeri chiamabili
 
 Lista di siti
 *************
@@ -68,7 +67,7 @@ Utilizzo dell'estensione
 Navigando su un sito web ( non presente nella lista delle esclusioni ) verranno automaticamente sottolineati e resi cliccabili i numeri di telefono che rispettano le condizioni configurate nelle impostazioni dell'estensione.
 Cliccando su uno di questi numeri verrà effettuata una telefonata tramite il TVox Web Client.
 
-È anche possibile selezionare un numero di telefono manualmente ( se questo non viene riconosciuto automaticamente dall'estensione ) e chiamarlo dalla voce proposta dal menu contestuale, raggiungibile con un click sul tasto destro del mouse.
+È possibile selezionare un numero di telefono manualmente, se la sua lunghezza non rienta nel range configurato, e chiamarlo dalla voce proposta dal menu contestuale, attivabile tramite un click sul tasto destro del mouse.
 
 .. image:: /images/crmGestioneTelefonica/estensioneClickToCall/5.png
 .. image:: /images/crmGestioneTelefonica/estensioneClickToCall/6.png

@@ -2,48 +2,37 @@
 Click to Dial
 =============
 
-L'integrazione della funzionalità "Click to Dial" può essere svolta mediante la chiamata del metodo **dialNumber** via jsonrpc che permette di effettuare una chiamata ad un determinato numero di telefono.
+Per effettuare chiamate tramite la funzione "Click to Dial" va utilizzato il metodo **dialNumber** messo a disposizione dalle TVox WebApi.
 
-.. warning:: La chiamata del metodo dialNumber necessita che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
+.. warning:: Per utilizzare la funzionalità è necessario che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
 
-La chiamata del metodo dialNumber va effettuata verso l'indirizzo **http://<tvox_url>/tvox/webapi** 
-( dove <tvox_url> corrisponde al dominio o all'indirizzo IP in cui risiede il TVox )
+La richiesta va effettuata verso l'indirizzo **http://<tvox_url>/tvox/webapi** 
+( dove <tvox_url> corrisponde al dominio o all'indirizzo IP di |tvox| )
 
 ----
+
+.. important:: I parametri specificati di seguito devono essere mantenuti nell'ordine riportato.
 
 Parametri richiesti
 ###################
 
-Tale richiesta richiede, nel seguente ordine, i parametri: 
-
-number
-******
-*String*    Numero da chiamare   **Campo obbligatorio**
-
-accessCode
-***********
-*String*    Codice d'accesso     **Campo obbligatorio**
-
-jobLabel
-***********
-*String*    Nome della chiamata  **Campo obbligatorio**
-
-recordCall
-***********
-*boolean*   Registra chiamata
-
-recFileName
-***********
-*String*    Nome del file di registrazione  
-
-returnCallId
-*************
-*boolean*   Ritorna l'id di chiamata nella risposta
-
-serviceCode
-***********
-*String*    Codice di servizio ( Call Tagging )
-
++--------------+---------+-----------------------------------------+--------------+
+| Parametro    | Tipo    | Descrizione                             | Obbligatorio |
++==============+=========+=========================================+==============+
+| number       | String  | Numero da chiamare                      | Si           |
++--------------+---------+-----------------------------------------+--------------+
+| accessCode   | String  | Codice d'accesso                        | Si           |
++--------------+---------+-----------------------------------------+--------------+
+| jobLabel     | String  | Nome della chiamata                     | Si           |
++--------------+---------+-----------------------------------------+--------------+
+| recordCall   | boolean | Registra chiamata                       | No           |
++--------------+---------+-----------------------------------------+--------------+
+| recFileName  | String  | Nome del file di registrazione          | No           |
++--------------+---------+-----------------------------------------+--------------+
+| returnCallId | boolean | Ritorna l'id di chiamata nella risposta | No           |
++--------------+---------+-----------------------------------------+--------------+
+| serviceCode  | String  | Codice di servizio ( Call Tagging )     | No           |
++--------------+---------+-----------------------------------------+--------------+
 
 ----
 

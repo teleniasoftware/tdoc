@@ -2,14 +2,14 @@
 Click to Dial & Record
 ======================
 
-L'integrazione della funzionalità "Click to Dial & Record" consente di effettuare una chiamata e gestirne la registrazione su un file audio. Questa funzionalità va integrate mediante l'utilizzo di alcuni metodi chiamati via jsonrcp.
+La funzione "Click to Dial & Record", messa a disposizione dalle TVox WebApi, consente di effettuare una chiamata e gestirne la registrazione su file audio.
 
-.. warning:: La chiamata dei metodi jsonrcp necessitano che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
+.. warning:: Per utilizzare la funzionalità è necessario che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
 
-Le chiamate dei metodi vanno effettuate verso l'indirizzo **http://<tvox_url>/tvox/webapi** 
-( dove <tvox_url> corrisponde al dominio o all'indirizzo IP in cui risiede il TVox )
+La richiesta va effettuata verso l'indirizzo **http://<tvox_url>/tvox/webapi** 
+( dove <tvox_url> corrisponde al dominio o all'indirizzo IP di |tvox| )
 
-Dopo aver :doc:`effettuato una chiamata<ClickToDial>` tramite il metodo dialNumber è possibile chiamare i seguenti metodi:
+Dopo aver :doc:`effettuato una chiamata<ClickToDial>` tramite il metodo **dialNumber** è possibile utilizzare i seguenti metodi:
 
 ----
 
@@ -20,9 +20,11 @@ Avvia la registrazione della chiamata attiva
 Parametri richiesti
 -------------------
 
-recFileName
-*******
-*String*    Nome del file di registrazione. Se assente verrà generato automaticamente
++--------------+---------+-----------------------------------------+--------------+
+| Parametro    | Tipo    | Descrizione                             | Obbligatorio |
++==============+=========+=========================================+==============+
+| recFileName  | String  | Nome del file di registrazione          | No           |
++--------------+---------+-----------------------------------------+--------------+
 
 
 Richiesta di esempio
