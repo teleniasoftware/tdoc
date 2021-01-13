@@ -2,7 +2,7 @@
 Webclient
 =======================================
 
-In questo video viene mostrato come si presenta il Customer Journey sul TVox Web Client.
+In questo video viene mostrato come si presenta il Customer Journey su |client|.
 
 .. raw:: html
 

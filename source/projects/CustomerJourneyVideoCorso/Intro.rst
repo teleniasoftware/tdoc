@@ -2,7 +2,7 @@
 Intro
 =======================================
 
-Introduzione al customer journey: cos'è e da cosa è composto.
+Introduzione al Customer Journey: cos'è e da cosa è composto.
 
 .. raw:: html
 

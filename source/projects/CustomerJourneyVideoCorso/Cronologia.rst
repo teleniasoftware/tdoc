@@ -2,7 +2,7 @@
 Cronologia
 =======================================
 
-In questo video viene descritto cos'è e come interpretare la cronologia del Customer Journey.
+In questo video viene descritta cos'è e come si interpreta la cronologia del Customer Journey.
 
 .. raw:: html
 
