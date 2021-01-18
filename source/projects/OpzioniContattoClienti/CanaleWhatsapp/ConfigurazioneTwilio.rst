@@ -1,7 +1,7 @@
 
-.. |TwilioDashboard| image:: /images/WhatsApp/twilio_dashboard.png
-.. |TwilioWhatsAppSenders| image:: /images/WhatsApp/twilio_WhatsApp_senders.png
-.. |TwilioWhatsAppNumbersList| image:: /images/WhatsApp/twilio_WhatsApp_numbers_list.png
+.. |TwilioDashboard| image:: ../../../images/WhatsApp/twilio_dashboard.png
+.. |TwilioWhatsAppSenders| image:: ../../../images/WhatsApp/twilio_WhatsApp_senders.png
+.. |TwilioWhatsAppNumbersList| image:: ../../../images/WhatsApp/twilio_WhatsApp_numbers_list.png
 
 .. _twilio: https://www.twilio.com/
 .. _documentazione: https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
@@ -19,7 +19,7 @@ Una volta creato l'account ed effettuato il login, verrà visualizzata la Dashbo
 
 |TwilioDashboard| 
  
-| La numerazioe telefonica di WhatsApp Business deve essere richiesta seuendo gli step indicati nella documentazione_ Twilio. 
+| La numerazione telefonica di WhatsApp Business deve essere richiesta seguendo gli step indicati nella documentazione_ Twilio. 
 | Una volta ottenuto il numero di WhatsApp, aprire il menù laterale della Dashboard, e selezionare la voce Programmable SMS → Senders → WhatsApp Senders. 
 
 Se è già stata richiesta la numerazione telefonica, essa apparirà in questa lista.
@@ -28,9 +28,9 @@ Se è già stata richiesta la numerazione telefonica, essa apparirà in questa l
 
 | Per effettuare le configurazioni necessarie alla comunicazione tra TVox e Twilio ( e quindi WhatsApp ), basta selezionare il numero da configurare e modificare gli endpoint URL in questo modo:
 
-| **Webhook URL for incoming messages**:  http://mydomain/customerproxy/whatsapp/twilio
+| **Webhook URL for incoming messages**:  http://<tvox_url>/customerproxy/whatsapp/twilio
 | **Webhook method for incoming messages URL**: HTTP Post
-| **Status callback URL**: http://mydomain/customerproxy/whatsapp/twilio_status
+| **Status callback URL**: http://<tvox_url>/customerproxy/whatsapp/twilio_status
 | **Webhook method for status callback URL**: HTTP Post
 
 |TwilioWhatsAppSenders|
