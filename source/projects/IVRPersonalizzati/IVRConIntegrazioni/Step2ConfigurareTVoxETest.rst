@@ -2,7 +2,7 @@
 Configurare il TVox per caricare lo script ed eseguire il primo test
 =====================================================================
 
-Dopo aver caricato lo script IVR, andiamo a configurare il TVox per poter eseguire lo script e fare così il
+Dopo aver caricato lo script IVR, andiamo a configurare |tvox| per poter eseguire lo script, fare il
 primo test funzionale ed ascoltare il risultato di quanto creato finora.
 
 .. raw:: html

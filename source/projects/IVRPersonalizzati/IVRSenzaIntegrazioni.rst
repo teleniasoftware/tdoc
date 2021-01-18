@@ -3,7 +3,7 @@ IVR senza integrazioni a sistemi esterni
 ========================================
 
 Se dovete realizzare un IVR che non necessita di integrazioni a sistemi esterni, potete 
-farlo tramite il TVox OCC nella sezione **Canali → Telefono → IVR**
+farlo tramite TVox OCC nella sezione **Canali → Telefono → IVR**
 
 .. toctree::
    :maxdepth: 2

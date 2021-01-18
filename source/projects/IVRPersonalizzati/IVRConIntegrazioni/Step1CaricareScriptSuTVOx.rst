@@ -2,7 +2,7 @@
 Caricare lo script sul TVox
 ======================================================
 
-Dopo aver scritto le prime righe di codice ed aver realizzato la prima parte dello script, andiamo a caricarlo sul TVox.
+Dopo aver scritto le prime righe di codice ed aver realizzato la prima parte dello script, andiamo a caricarlo su |tvox|.
 Successivamente andremo a configurare il sistema per fare il primo test.
 
 .. raw:: html

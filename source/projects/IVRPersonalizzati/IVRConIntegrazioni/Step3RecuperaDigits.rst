@@ -4,7 +4,7 @@ Recuperare digits (DTMF) inseriti dal cliente
 
 Dopo aver verificato che quanto abbiamo fatto finora è funzionante, continuiamo con il nostro script.
 Ora andiamo a chiedere al cliente di inserire dei digit da tastiera e tramite script andiamo a recuperare quanto 
-digiatato.
+digitato.
 
 .. raw:: html
 

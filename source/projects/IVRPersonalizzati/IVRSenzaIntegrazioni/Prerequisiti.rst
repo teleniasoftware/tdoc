@@ -6,6 +6,6 @@ Prima di procedere alla configurazione di un IVR è necessario aver progettato l
 Questo permette di aver chiari i passaggi necessari per la configurazione stessa.
 Uno schema adeguato deve rappresentare tutti i nodi che compongono l'alberatura IVR che si vuole realizzare ed i collegamenti logici tra i nodi stessi.
 
-Di seguito un'immagine a titolo di esempio:
+Di seguito un'immagine a titolo di esempio, dove le caselle con bordo rosso costituiscono i nodi, le caselle con bordo azzurro costituiscono delle azioni:
 
 .. image:: /images/IVR_esempio_schema.png

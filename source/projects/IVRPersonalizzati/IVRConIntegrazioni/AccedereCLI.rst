@@ -1,6 +1,6 @@
 
 ==================================================
-Accedere alla CLI per l'analisi e debug dell' IVR
+Accedere alla CLI per l'analisi e debug dell'IVR
 ==================================================
 
 Se abbiamo necessità di accedere alla CLI di asterisk o vedere alcune informazioni telefoniche per effettuare i test o alzare 

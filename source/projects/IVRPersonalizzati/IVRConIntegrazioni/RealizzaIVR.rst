@@ -7,7 +7,7 @@ Potete scaricare un :download:`esempio <esercizio_videocorso.zip>` di IVR con re
 Apriamo il nostro IDE e cominciamo a scrivere il codice che andrà a costruire il nostro IVR.
 
 Per prima cosa definiamo le variabili necessarie alla realizzazione dello script (ad esempio i parametri di accesso al database)
-e poi proseguiamo con il play del messaggio di benvenuto.
+per poi proseguire con il play del messaggio di benvenuto.
 
 .. raw:: html
 

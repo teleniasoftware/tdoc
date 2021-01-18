@@ -2,7 +2,7 @@
 Troubleshooting
 =================================================
 
-Dopo aver completato lo script, carichiamolo sul TVox, facciamo un test per vedere se tutto va come ci aspettiamo.
+Dopo aver completato lo script, carichiamolo su |tvox| ed eseguiamo un test per verificare che tutto funzioni come ci aspettiamo.
 Nel caso in cui avessimo commesso degli errori che generano eccezioni, vediamo come risolverli.
 
 .. raw:: html

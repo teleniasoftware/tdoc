@@ -1,8 +1,8 @@
 =========================================================
-Mandiamo la chiamata ad un servizio se il digit è valido
+Trasferiamo la chiamata ad un servizio se il digit è valido
 =========================================================
 
-Se i digits inseriti dal cliente sono validi, quindi il cliente è riconosciuto, mandiamo la chiamata ad un operatore.
+Se i digits inseriti dal cliente sono validi, quindi il cliente è riconosciuto, trasferiamo la chiamata ad un servizio.
 
 .. raw:: html
 

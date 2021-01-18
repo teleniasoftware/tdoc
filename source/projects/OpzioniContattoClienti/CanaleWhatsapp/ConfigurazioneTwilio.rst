@@ -1,7 +1,7 @@
 
-.. |TwilioDashboard| image:: ../../../images/WhatsApp/twilio_dashboard.png
-.. |TwilioWhatsAppSenders| image:: ../../../images/WhatsApp/twilio_WhatsApp_senders.png
-.. |TwilioWhatsAppNumbersList| image:: ../../../images/WhatsApp/twilio_WhatsApp_numbers_list.png
+.. |TwilioDashboard| image:: /images/WhatsApp/twilio_dashboard.png
+.. |TwilioWhatsAppSenders| image:: /images/WhatsApp/twilio_WhatsApp_senders.png
+.. |TwilioWhatsAppNumbersList| image:: /images/WhatsApp/twilio_WhatsApp_numbers_list.png
 
 .. _twilio: https://www.twilio.com/
 .. _documentazione: https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
@@ -11,7 +11,7 @@ Configurazione Account Twilio
 ====================================
 
 
-Twilio è un servizio che fornisce un insieme di API necessarie al TVox per inviare e ricevere messagi da WhatsApp.
+Twilio è un servizio che fornisce un insieme di API necessarie a |tvox| per inviare e ricevere messagi da WhatsApp.
 Per configurare un account twilio, recarsi sul sito ufficiale twilio_ e premere il pulsante "Sign up" in alto a destra per iniziare la registrazione.
 
 

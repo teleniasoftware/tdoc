@@ -2,7 +2,7 @@
 Riprodurre Messaggi Audio
 ==========================
 
-Per poter riprodurre un messaggio audio, quando si configura un nodo va selezionata l'azione **Esegui file audio**.
+Per poter riprodurre un messaggio audio, quando si configura un nodo, va selezionata l'azione **Esegui file audio**.
 
 .. image:: /images/IVR_play_audio1.png
 
