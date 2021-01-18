@@ -1,7 +1,7 @@
 
-.. |TwilioDashboard| image:: ../../../images/WhatsApp/twilio_dashboard.png
-.. |TwilioWhatsAppSenders| image:: ../../../images/WhatsApp/twilio_WhatsApp_senders.png
-.. |TwilioWhatsAppNumbersList| image:: ../../../images/WhatsApp/twilio_WhatsApp_numbers_list.png
+.. |TwilioDashboard| image:: /images/Whatsapp/twilio_dashboard.png
+.. |TwilioWhatsAppSenders| image:: /images/Whatsapp/twilio_WhatsApp_senders.png
+.. |TwilioWhatsAppNumbersList| image:: /images/Whatsapp/twilio_WhatsApp_numbers_list.png
 
 .. _twilio: https://www.twilio.com/
 .. _documentazione: https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
