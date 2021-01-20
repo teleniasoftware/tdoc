@@ -2,11 +2,9 @@
 Creazione nuova applicazione
 ===========================
 
-Prima di attivare il canale su |tvox|, è necessario creare un'app tramite il portale `Facebook Developers <https://developers.facebook.com/apps/>`_.
+.. note:: La creazione di una nuova applicazione di Facebook richiede l’accesso ad un account facebook di tipo sviluppatore. Questo processo può essere fatto tramite il portale `Facebook Developers <https://developers.facebook.com/apps/>`_.
 
-Una volta fatto l'accesso al portale, va convertito il proprio profilo fb in profilo di tipo developer. Per fare ciò, seguire le istruzioni che si trovano sul portale stesso.
-
-A seguire, sarà possibile creare un'app cliccando sul pulsante **Create App**:
+Per creare una nuova app cliccare sul pulsante **Create App**:
 
 .. figure:: /images/social/facebook/1.png
 
