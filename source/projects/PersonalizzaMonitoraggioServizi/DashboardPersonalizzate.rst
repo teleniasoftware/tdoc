@@ -8,7 +8,7 @@ Utilizzando strumenti di rappresentazione grafica dei dati è possibile ottenere
     :align: left
     :figwidth: 120px
 
-**Microsoft Power BI** è un servizio d'analisi aziendale che tra le sue funzionalità permette la creazione di dashboard personalizzate. Sfruttando la funzionalità *Power Query* è possibile integrare sorgenti dati Web, come nel caso dell'API TVox Data Model. |br|
+**Microsoft Power BI** è un servizio di analisi aziendale che tra le sue funzionalità permette la creazione di dashboard personalizzate. Sfruttando la funzionalità *Power Query* è possibile integrare sorgenti dati Web, come nel caso dell'API TVox Data Model. |br|
 Maggiori dettagli sulle modalità d'integrazione con gli strumenti di reportistica Microsoft potete trovarli nella |documentation_integration_microsoft_link|.
 
 --------------------------

@@ -2,7 +2,7 @@
 Realizza report personalizzati
 ==============================
 
-Quando il monitoraggio attraverso una rappresentazione grafica non è abbastanza, si può avere la necessità di generare un report analitico che descriva nel dettaglio i dati raccolti. Per questo tipo di esigenza esistono diversi strumenti che possono integrarsi con le API del TVox Data Model.
+Quando il monitoraggio attraverso una rappresentazione grafica non è sufficiente, ma si ha la necessità di generare un report analitico che descriva nel dettaglio i dati raccolti, esistono diversi strumenti che possono integrarsi con le API di |dm|.
 
 
 .. figure:: /images/datamodel/MicrosoftExcel.jpg
@@ -20,10 +20,12 @@ Maggiori dettagli sulle modalità d'integrazione con gli strumenti di reportisti
     :align: left
     :figwidth: 120px
 
-**Google Sheets** è un software cloud in cui è possibile creare e modificare fogli di calcolo direttamente nel browser Web. Più persone possono lavorarci contemporaneamente, puoi vedere le modifiche delle persone mentre le apportano e ogni modifica viene salvata automaticamente. |br|
-Google Sheets non consente nativamente di elaborare dati in formato JSON recuperati da una fonte Web (come nel caso dell'API TVox Data Model), ma è possibile integrare funzioni personalizzate (attraverso codice Javascript) in grado di farlo. |br|
+**Google Sheets** è un software cloud in cui è possibile creare e modificare fogli di calcolo direttamente nel browser Web. Più persone possono lavorare contemporaneamente, visualizzare le modifiche mentre vengono apportate ed ogni modifica viene salvata automaticamente. |br|
+Google Sheets non consente nativamente di elaborare dati in formato JSON recuperati da una fonte Web (come nel caso dell'API |dm|), ma è possibile integrare funzioni personalizzate (attraverso codice Javascript) in grado di farlo. |br|
 È disponibile una gruida relativa alla configurazione di un report con Google Sheets alla seguente pagina: `Configurazione Google Sheets <ConfigurazioneGoogleSheets.html>`__. |br|
 Maggiori dettagli sulle modalità d'integrazione potete trovarli nella |documentation_integration_google_link|.
+
+
 
 
 .. |documentation_integration_microsoft_link| raw:: html

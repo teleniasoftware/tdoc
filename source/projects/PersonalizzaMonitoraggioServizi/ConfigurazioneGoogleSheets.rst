@@ -5,8 +5,7 @@ Configurazione Google Sheets
 Introduzione
 =============
 
-La reportizzazione mediante le api Data Model può essere eseguita schedulata ed 
-eseguita in maniera automatizzata mediante Google Sheets.
+La reportizzazione mediante l\'Api di |dm| può essere schedulata ed eseguita in maniera automatizzata mediante Google Sheets.
 
 In questa guida si prenderà come riferimento un documento di report mensile suddiviso per agente.
 
@@ -14,7 +13,7 @@ In questa guida si prenderà come riferimento un documento di report mensile sud
 Predisposizione del documento
 =============================
 
-Aprire il documento di esempio tramite `questo link <https://docs.google.com/spreadsheets/d/1d0Cg2D9UxfmMAcw6QE1BEBeeILZ_0Rck9tcSMa__lA0/edit?usp=sharing>`_ 
+Aprire il documento di esempio tramite `questo link <https://docs.google.com/spreadsheets/d/1d0Cg2D9UxfmMAcw6QE1BEBeeILZ_0Rck9tcSMa__lA0/edit?usp=sharing>`__ 
 
 Una volta effettuato l'accesso con il proprio account Google, selezionare dal menu contestuale File -> Crea una copia
 
