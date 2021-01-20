@@ -27,50 +27,33 @@ Una volta aperto il documento è possibile iniziare a compilare i valori delle v
 
 Colonne disponibili
 ********************
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Nome Colonna            | Descrizione                                                                                                                                                                                                              | Esempio                                                                                                                                  |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| API KEY                 | Chiave di accesso alle api di |dm|, |br| accessibile dal configuratore multicanale sotto la sezione Avanzate -> TVox Data Model                                                                                          |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| HOST                    | Dominio del server su cui effetturare le richieste, esempio: https://contact.teleniasoftware.com                                                                                                                         |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| PARAMETERS (Opzionale)  | Parametri opzionali relativi allo script di import dei valori. `Maggiori informazioni <http://documentation.teleniasoftware.com/datamodel/index.html#google-sheets>`_                                                    |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| REPORT TYPE             | Nome del metodo lanciato per l’esecuzione del report. Il file di esempio contiene il valore inboundCallsCount                                                                                                            |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| QUERY GRAPHQL           | Contenuto della query GraphQL che si andrà a lanciare                                                                                                                                                                    | search: { |br| year: $year month: $month user: { |br| userName: {|br| operator: EQUAL, value: $agent |br| } |br| } context:ACTIVE |br| } |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| AGENTS                  | Lista degli agenti su cui verrà eseguita la query. |br| Il valore di ogni riga di questa colonna corrisponde all'username di un agente. |br| Nel file di report ad ogni agente corrisponderà un foglio di Google Sheets. |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| EMAIL ADDRESS TO NOTIFY | Indirizzo email che verrà notificato al completamento del report                                                                                                                                                         |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| YEAR                    |                                                                                                                                                                                                                          |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| MONTH                   |                                                                                                                                                                                                                          |                                                                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
-API KEY
---------
-Chiave di accesso alle api per il Data Model, accessibile dal configuratore multicanale sotto la sezione Avanzate -> TVox Data Model
 
-HOST
-------
-Dominio del server su cui effetturare le richieste, esempio: https://contact.teleniasoftware.com
-
-PARAMETERS (Opzionale)
-------------
-Parametri opzionali relativi allo script di import dei valori. `Maggiori informazioni <http://documentation.teleniasoftware.com/datamodel/index.html#google-sheets>`_ 
-
-REPORT TYPE
-------------
-Nome del metodo lanciato per l'esecuzione del report. Il file di esempio contiene il valore inboundCallsCount.
-
-Per aggiungere più valori fare un click con il tasto destro del mouse sulla cella contenente la select e selezionare "Convalida dei dati".
+Per aggiungere più valori sulla cella della colonna REPORT TYPE, fare click con il tasto destro del mouse sulla cella stessa e selezionare "Convalida dei dati".
 Dal popup che verrà aperto aggiungere le varie voci separate da un virgola. 
 
 .. figure:: /images/datamodel/googleSheets/7.png
-
-QUERY GRAPHQL
---------------
-Contenuto della query GraphQL che si andrà a lanciare, esempio:
-
-    search: {
-        year: $year
-        month: $month
-        user: { 
-            userName: { 
-                operator: EQUAL, 
-                value: $agent 
-            } 
-        }
-        context:ACTIVE
-    }
-
-AGENTS
-------
-Lista degli agenti su cui verrà eseguita la query. Il valore di ogni riga di questa colonna corrisponde all'username di un agente. Nel file di report ad ogni agente corrisponderà un foglio di Google Sheets.
-EMAIL ADDRESS TO NOTIFY
------------------------
-Indirizzo email che verrà notificato al completamento del report
 
 
 Schedulazione del report
@@ -90,4 +73,4 @@ Cliccare quindi il pulsante "Aggiungi attivatore" e configurare come segue:
 
 Questa configurazione ci permetterà di eseguire il report mensile in maniera automatica a mezzanotte di ogni primo giorno del mese
 
-Se necessario, al salvataggio consentire l'accesso con il proprio account Google
+Se necessario, al salvataggio, consentire l'accesso con il proprio account Google
