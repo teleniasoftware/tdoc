@@ -10,4 +10,4 @@ A questo punto sarà necessario generare l'Access token e l'Access token secret 
 
 .. figure:: /images/social/twitter/5.png
 
-Queste informazioni andranno salvate, per poi essere inserite sull'OCC in fase di aggiunta dell'applicazione
+Queste informazioni andranno salvate, per poi essere inserite su OCC in fase di configurazione dell'applicazione
