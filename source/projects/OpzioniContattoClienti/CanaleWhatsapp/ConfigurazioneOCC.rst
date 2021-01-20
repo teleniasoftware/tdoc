@@ -13,8 +13,8 @@
 Configurazione OCC
 ====================================
 
-L'accesso al canale WhatsApp può esseere reso disponibile su sito web attraverso la widget, dove viene presentato un QRcode che deve essere scansionato con uno smartphone per essere rediretti direttamente al contatto WhatsApp dell'azienda.
-In alternativa, può esseere pubblicato, sempre su widget, un link che ridirezioni direttamente alla versione web di WhatsApp stesso.
+L'accesso al canale WhatsApp può esseere reso disponibile su sito web attraverso la widget, dove viene presentato un QRcode che deve essere scansionato con uno smartphone per essere rediretti al contatto WhatsApp dell'azienda.
+In alternativa, può essere pubblicato, sempre su widget, un link che ridirezioni direttamente alla versione web di WhatsApp stesso.
 
     L'ingaggio del canale WhatsApp da parte del customer, avviene principalmente attraverso la widget 
     tramite l'utilizzo di un QRcode che l'utente può scannerizzare con lo smartphone, o un link che porta all'interfaccia di WhatsApp web se ingaggiato dal PC.
