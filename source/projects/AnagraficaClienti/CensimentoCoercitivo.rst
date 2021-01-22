@@ -6,4 +6,4 @@ Se il contatto chiamante non è presente nel sistema |tvox| puoi obbligare l'ope
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://youtu.be/tGRCdhb1xS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tGRCdhb1xS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
