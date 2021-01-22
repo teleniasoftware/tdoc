@@ -4,6 +4,14 @@ Anagrafica Clienti sempre aggiornata
 
 Sincronizza i contatti del tuo CRM e sfrutta gli strumenti di censimento dei contatti e di monitoraggio delle anagrafiche messi a disposizione da TVox Contact Center  **per mantenere costantemente aggiornati i dati dei tuoi clienti.** 
 
+Gestisci il censimento dei contatti non presenti nella tua anagrafica
+
+.. toctree::
+   :maxdepth: 2
+
+   CensimentoCoercitivo
+
+
 Gli applicativi con cui il sistema si integra direttamente sono:
 
 .. toctree::
