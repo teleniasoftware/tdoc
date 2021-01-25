@@ -4,7 +4,7 @@
 Configurazione Form Widget
 ==========================
 
-Nel seguente video viene illustrato come configurare i form da utilizzare tramite widget.
+Nel seguente video viene illustrato come configurare i form da utilizzare tramite widget. |br|
 
 .. raw:: html
 
