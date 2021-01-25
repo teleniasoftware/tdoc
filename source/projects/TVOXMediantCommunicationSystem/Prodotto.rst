@@ -1,6 +1,6 @@
-=====
+=========
 Prodotto
-=====
+=========
 
 TVox **Mediant Communication System (MCS)** è la piattaforma che consente l'esposizione su internet dei servizi di comunicazione erogati da TVox Omnichannel Contact Center.
 
