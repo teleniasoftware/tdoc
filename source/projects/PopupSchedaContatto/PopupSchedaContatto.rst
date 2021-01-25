@@ -34,7 +34,7 @@ Nel secondo caso, la funzionalità viene erogata dallo script *winpopup.bat* dir
 
 Come si può notare nell'immagine seguente, per abilitare la funzionalità sui servizi si agisce tramite la tab *servizi associati* dove, per ogni servizio, è possibile effettuare la scelta sui singoli canali:
 
-.. image:: /images/popup/tabServiziAssociati.png
+.. image:: /images/popup/tabServiziAssociati.PNG
 
 
 .. toctree::  
