@@ -2,7 +2,7 @@
 Censimento Coercitivo
 =====================
 
-Se il contatto chiamante non è presente nel sistema |tvox| puoi obbligare l'operatore a censirlo abilitando il *Censimento Coercitivo*
+Se il contatto chiamante non è presente nel sistema |tvox| puoi obbligare l'operatore a censirlo abilitando il *Censimento Coercitivo*. |br|
 
 .. raw:: html
 

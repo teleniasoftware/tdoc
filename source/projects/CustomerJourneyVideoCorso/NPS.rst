@@ -2,7 +2,7 @@
 NPS
 =======================================
 
-L'intestazione del Customer Journey: NPS, numero di interazioni e Ticket
+L'intestazione del Customer Journey: NPS, numero di interazioni e Ticket. |br|
 
 .. raw:: html
 

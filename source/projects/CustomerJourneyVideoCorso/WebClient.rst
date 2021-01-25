@@ -2,7 +2,7 @@
 Webclient
 =======================================
 
-In questo video viene mostrato come si presenta il Customer Journey su |client|.
+In questo video viene mostrato come si presenta il Customer Journey su |client|. |br|
 
 .. raw:: html
 
