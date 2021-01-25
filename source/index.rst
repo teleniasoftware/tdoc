@@ -52,7 +52,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
 .. toctree::  
    :hidden:  
-   :caption: |tvox|
+   :caption: TVox OmniChannel Contact Center
    :maxdepth: 3
 
    /projects/IVRPersonalizzati/RealizzaIVRPersonalizzati
