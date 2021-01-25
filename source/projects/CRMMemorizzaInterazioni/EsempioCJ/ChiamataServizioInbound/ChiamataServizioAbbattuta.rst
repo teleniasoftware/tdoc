@@ -30,7 +30,7 @@ Chiamata di servizio, abbattuta
 Esempio richiesta
 =================
 
-.. code-block::
+.. code-block:: sh
 
     http://democrm.teleniasoftware.com/service/hangup?dateTime=2020-11-20T10%3A24%3A46.959Z&callId=1605867847.783%40d92061befe&callerNumber=0987654321
 

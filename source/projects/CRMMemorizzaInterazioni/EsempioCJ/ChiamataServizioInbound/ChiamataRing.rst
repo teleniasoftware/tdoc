@@ -28,6 +28,6 @@ Chiamata in ring
 Esempio richiesta
 =================
 
-.. code-block::
+.. code-block:: sh
 
     http://democrm.teleniasoftware.com/service/new?dateTime=2020-11-20T10%3A24%3A08.674Z&callId=1605867847.783%40d92061befe&agent=op1&service=customercare&callerNumber=0987654321
