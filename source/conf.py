@@ -22,8 +22,7 @@ project = 'TDoc'
 copyright = '2020, Telenia Software'
 author = 'Telenia Software'
 
-# The full version, including alpha/beta/rc tags
-release = '10.22.0'
+
 
 
 # -- General configuration ---------------------------------------------------
