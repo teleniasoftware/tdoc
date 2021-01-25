@@ -2,6 +2,8 @@
 File XML o CSV
 =====================================
 
+.. warning:: Attenzione, per l'attivazione di questa sorgente dati è necessario contattare il Customer Care di Telenia Software
+
 Per configurare una sorgente dati che recupera i contatti da un file CSV o XML è necessario compilare i seguenti campi e seguire la procedura seguente:
 
 
