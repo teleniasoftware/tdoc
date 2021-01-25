@@ -2,8 +2,7 @@
 Mail
 ====
 
-Il canale Mail permette al cliente di generare un ticket sul TVox. Come per gli altri canali la generazione del ticket
-avviene tramite una form configurabile.
+Il canale Mail permette al cliente di generare un ticket su |tvox| tramite la compilazione di un apposito form. Anche in questo caso, il form è configurabile tramite l'apposita sezione OCC, come spiegato in: :ref:`ConfigurazioneForm`
 
 .. figure:: /images/widget/Mail.PNG
   :scale: 70

@@ -2,14 +2,13 @@
 Chat
 ====
 
-Il canale Chat avvia una sessione di chat con un opertaore. All'avvio della sessione il cliente viene messo in una
-coda in attesa che un operatore sia disponibile per chattare.
+Il canale Chat consente di scambiare messaggi istantanei con un operatore. All'avvio della sessione, compilato un apposito form configurabile tramite l'apposita sezione di OCC come spiegato in :ref:`ConfigurazioneForm`, il cliente dovrà attendere il primo operatore disponibile.
 
 .. figure:: /images/widget/ChatQueue.PNG
   :scale: 70
   :align: center
 
-Quando l'operatore risponde alla chat, la sessione si attiva. 
+Quando la richiesta viene presa in carico da un operatore, la sessione si attiva. Oltre a scambiare brevi messaggi di testo, è possibile inviare e ricevere file nei più comuni formati.
 
 .. figure:: /images/widget/ChatSession.PNG
   :scale: 70

@@ -2,9 +2,8 @@
 Attiva la Widget
 ================
 
-Il pannello di impostazioni TVox contiene una sezione dedicata alla configurazione e attivazione della widget.
-Dopo la configurazione e attivazione viene generato uno script javascript da importare nel proprio sito web.
-Il seguente video mostra come attivare la widget.
+Il pannello di impostazioni di |tvox| contiene una sezione dedicata alla configurazione e attivazione della widget.
+Al termine della configurazione viene generato uno script in linguaggio javascript, che dev'essere inserito nel proprio sito web.
 
 .. raw:: html
 
