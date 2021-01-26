@@ -131,7 +131,7 @@ Per attenersi a queste norme è indispensabile seguire i suggerimenti che seguon
 
 ---------
 
-.. important:: Dopo aver completato la configurazione dei parametri di liste e campagne e aver caricato i riferimenti ai contatti nella tabella di scambio, per poter dare inizio alla campagna stessa, è necessario effettuare un reset dei contatori agendo sul parametro **“Abilita/Disabilita”** della campagna di riferimento: tale operazione va ripetuta ogniqualvolta si modificano i dati contenuti nella tabella di scambio per fare si che gli indicatori di progressione siano riferiti ad una effettiva fotografia della tabella stessa.
+.. important:: Dopo aver completato la configurazione dei parametri di liste e campagne e aver caricato i riferimenti ai contatti nella tabella di scambio, per poter dare inizio alla campagna stessa, è necessario effettuare un reset dei contatori agendo sul parametro **“Reset Statistiche”** della campagna di riferimento: tale operazione va ripetuta ogniqualvolta si modificano i dati contenuti nella tabella di scambio per fare si che gli indicatori di progressione siano riferiti ad una effettiva fotografia della tabella stessa. Il parametro **"Reset Statistiche"** si trova all'interno della campagna selezionando il menu a 3 puntini in alto a destra 
 
 
 ---------
