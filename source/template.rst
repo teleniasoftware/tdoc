@@ -82,7 +82,7 @@ Immagini:
 
 Le immagini vanno messe in una cartella, nel nostro caso la cartella /images e posso metterla della dimensione e nella posizione che preferisco
 
-.. image:: images/LOGOTVOX.png
+.. image:: /images/LOGOTVOX.png
 
 IFrame
 -------
