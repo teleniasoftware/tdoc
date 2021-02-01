@@ -74,7 +74,7 @@ Acquistare e attivare SBC certificato Microsoft, Telenia consiglia un dispositiv
 
 Il collegamento tra SBC e |tvox_pbx| avviene tramite trunk SIP. Il dispositivo SBC dovrà essere raggiungibile dalla piattaforma Teams tramite dominio pubblico.
 
-.. important:: Microsoft indica come prerequisito possedere per il dominio dell'SBC un certificato SSL valido da caricare sull'SBC stesso. ( `documentazione Microsoft <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_  )
+.. important:: Microsoft indica come prerequisito possedere per il dominio dell'SBC un certificato SSL valido da caricare sull'SBC stesso. |br| ( `documentazione Microsoft <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_  )
 
 Su |tvox_pbx|:
 
@@ -88,12 +88,12 @@ Questa numerazione sarà attivata come numerazione remota su |tvox_pbx| permette
 Configurazione
 --------------
 
-Il dispositivo SBC deve eesere configurato in maniera da redirigere tutte le chiamate provenienti da |msteams| verso |tvox_pbx| e viceversa redirigere tutte le chiamate provenienti da |tvox_pbx| verso |msteams|.
+Il dispositivo SBC deve essere configurato per redirigere tutte le chiamate provenienti da |msteams| verso |tvox_pbx| e viceversa ( da |tvox_pbx| verso |msteams|). 
 
 Su |msteams| accedendo alla interfaccia amministrativa : 
 
 - attivare il `Direct Routing <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_ configurando l'SBC al link https://admin.teams.microsoft.com/direct-routing/v2
-- attivare la numerazione definita sull'utente Teams previa attivazione delle licenze necessarie. L'attivazione della numerazione si fa via Power Shell di Windows dando i seguenti comandi 
+- attivare la numerazione definita sull'utente Teams previa attivazione delle licenze necessarie. L'attivazione della numerazione va effettuata via Power Shell di Windows dando i seguenti comandi 
 
 creazione del direct routing entry *TeamsVoice* dopo aver creato il trunk con dominio *audiocodes.teleniasoftware.com*
 
@@ -124,9 +124,9 @@ Su |tvox_pbx|
 #. configurare tutte le abilitazioni del sistema perchè usino questa numerazione remota. 
 
 
-Nel caso in cui si voglia abilitare ad un utente del |tvox_pbx| il dispositivo |msteams| andare nella sezioni *Dispositivi* del dettaglio 
-dell'utente e attivare il dispositivo inserendo il numero scelto per l'utente su |msteams| anteponendo il *+*. 
-Nel nostro esempio per l'utente *test* inseriamo il numero *+8000*.
+Se si vuole abilitare ad un utente di |tvox_pbx| il dispositivo |msteams|, lo si può fare dall'OCC nella sezione *Dispositivi* del dettaglio utente. 
+Per renderlo attivo, inserire il numero scelto su |msteams| antemponendo il *+*. 
+Nel nostro esempio, per l'utente *test*, inseriamo il numero *+8000*.
 
 .. image:: ../../images/microsoft/teams/teams_conf_dispositivo.png
 
