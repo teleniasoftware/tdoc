@@ -31,7 +31,7 @@ A importazione conclusa troveremo gli utenti importati su OCC
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_RESULT.png
 
-Se in fase di configurazione LDAP non si configura uno dei ruoli TVox come Default per l'import, l'utente viene importato con il solo ruolo Tam user e sarà visiabile solo da interfaccia Users di TAM manager.
+Se in fase di configurazione LDAP non si configura uno dei ruoli TVox come Default per l'import, l'utente viene importato con il solo ruolo TAM user e sarà visiabile solo da interfaccia Users di TAM manager.
 Potrà poi eventualmente essere completato dando gli opportuni ruoli da TAM Manager.
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_IMPORT_STEP3.png
