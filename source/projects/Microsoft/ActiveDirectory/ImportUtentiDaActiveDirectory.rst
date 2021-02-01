@@ -18,12 +18,12 @@ Salvare con il tasto *Save*.
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_CONFIGURE_STEP2.png
 
-Tornare quindi all'interfaccia di import e selezionare il tasto "Retrive" per vedere i possibili utenti da importare da LDAP.
-Selezionare successivamente gli utenti che intendiamo importare e confermare con il tasto "Import".
+Tornare all'interfaccia di import e selezionare il tasto "Retrive" per vedere i possibili utenti da importare via LDAP.
+Selezionare gli utenti che intendiamo importare e confermiamo con il tasto "Import".
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_IMPORT_STEP1.png
 
-Viene presentata quindi la schermata che indica lo stato di avanzamento dell'importazione.
+Sucessivamente viene presentata la schermata che indica lo stato di avanzamento dell'importazione.
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_IMPORT_STEP2.png
 
@@ -31,8 +31,8 @@ A importazione conclusa troveremo gli utenti importati su OCC
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_RESULT.png
 
-Se in fase di configurazione LDAP non si configura uno dei ruoli TVox come Default per l'import, l'utente viene importato con il solo ruolo TAM user e sarà visiabile solo da interfaccia Users di TAM manager.
-Potrà poi eventualmente essere completato dando gli opportuni ruoli da TAM Manager.
+Se in fase di configurazione LDAP non si configura uno dei ruoli TVox come Default per l'import, l'utente viene importato con il solo ruolo TAM user e sarà visibile solo da interfaccia *Users* di TAM manager.
+Tramite TAM Manager si potrà, successivamente, completare la configurazione dei ruoli.
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_IMPORT_STEP3.png
 
