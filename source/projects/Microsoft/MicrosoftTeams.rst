@@ -127,7 +127,7 @@ Su |tvox_pbx|
 #. configurare tutte le abilitazioni del sistema perchè usino questa numerazione remota. 
 
 
-Se si vuole abilitare ad un utente di |tvox_pbx| il dispositivo |msteams|, lo si può fare dall'OCC nella sezione *Dispositivi* del dettaglio utente. 
+Se si vuole abilitare ad un utente di |tvox_pbx| il dispositivo |msteams| lo si può fare dall'OCC nella sezione *Dispositivi* del dettaglio utente. 
 Per renderlo attivo, inserire il numero scelto su |msteams| antemponendo il *+*. 
 Nel nostro esempio, per l'utente *test*, inseriamo il numero *+8000*.
 
