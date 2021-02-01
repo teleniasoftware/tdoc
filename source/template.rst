@@ -33,6 +33,8 @@ Lista numerata:
 
 .. note:: Questo è un testo nota
 
+.. warning:: Questo è un warning
+
 Lista a campi:
 --------------
 
