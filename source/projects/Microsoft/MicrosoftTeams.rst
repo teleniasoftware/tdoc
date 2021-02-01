@@ -24,15 +24,14 @@ Queste risorse possono essere:
 - linee PSTN geografiche
 - IPPBX esistenti 
 
-Interconnettendo |msteams| alla rete pubblica si permette di erogare servizi avanzati di contact center come l'accodamento evoluto fornito dal |tvox_pbx|.
+Interconnettendo |msteams| alla rete pubblica si permette di erogare servizi avanzati di contact center come l'accodamento evoluto fornito da |tvox_pbx|.
 
 Attendant Console
 -----------------
 
 .. image:: ../../images/microsoft/teams/teams_arch_02.png
 
-Assieme alla funzione di gateway il |tvox_pbx| può attivare il suo modulo di Attendant Console.
-L'utente posto operatore attestato con il proprio client e dispositivo sul |tvox_pbx| può gestire chiamate provenienti dalla rete pubblica e smistarle verso |msteams|.
+Assieme alla funzione di gateway, |tvox_pbx|, può attivare il suo modulo di Attendant Console (Posto Operatore) che con il proprio client può gestire chiamate provenienti dalla rete pubblica e smistarle verso |msteams|.
 
 Contact Center 
 --------------
@@ -48,9 +47,11 @@ Twin TVox & Microsoft Teams®
 
 .. image:: ../../images/microsoft/teams/teams_arch_04.png
 
-Per un utente che necessita di utilizzare |msteams| ma anche |tvox_pbx| l'integrazione permette di .
+L'integrazione tra |msteams| e |tvox_pbx| permette di gestire chiamate dalla PSTN facendo squillare contemporaneamente sia il client |msteams| che il  dispositivo attestato su |tvox_pbx|
+
+Per un utente che necessita di utilizzare |msteams| e |tvox_pbx| l'integrazione permette di .
 gestire chiamate dalla PSTN sull'utente facendo squillare contemporaneamente sia il client |msteams| che il  dispositivo attestato su |tvox_pbx|.
-Per fare un esempio l'utente così configurato può usare il client |msteams| e poter continuare ad utlizzare 
+Per esempio: configurando l'utente in questa modalità, può usare il client |msteams| e poter continuare ad utlizzare 
 il proprio dispositivo cordless in aree dell'azienda dove |msteams| non è utilizzabile.
 
 
@@ -69,16 +70,19 @@ Su |msteams| :
 
 Acquistare e attivare SBC certificato Microsoft, Telenia consiglia un dispositivo Audiocodes.
 
-Tra SBC e |tvox_pbx| si creerà un trunk SIP e quindi deve essere predisposta la raggiungibilità tra le 2 piattaforme per poter erogare il servizio. 
-A sua volta il dispositivo SBC dovrà essere raggiungibile dalla piattaforma Teams tramite dominio pubblico.
-Inoltre Microsoft indica come prerequisito possedere per il dominio dell'SBC un certificato SSL valido da caricare sull'SBC stesso. ( `documentazione Microsoft <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_  )
+.. important:: Deve essere garantita la raggiungibilità tra la piattaforma |tvox_pbx| e l'SBC.
 
+Il collegamento tra SBC e |tvox_pbx| avviene tramite trunk SIP. Il dispositivo SBC dovrà essere raggiungibile dalla piattaforma Teams tramite dominio pubblico.
+
+.. important:: Microsoft indica come prerequisito possedere per il dominio dell'SBC un certificato SSL valido da caricare sull'SBC stesso. ( `documentazione Microsoft <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_  )
 
 Su |tvox_pbx|:
 
 - scegliere un piano di numerazione per gli utenti attestati su |msteams| che si vuole raggiungibili da |tvox_pbx|. 
-Questa numerazione sarà attivata come numerazione remota su |tvox_pbx| permettendo a |tvox_platform| di vedere il sistema Teams come settore interno e non esterno. 
-NOTA: Si consiglia sempre una numerazione di almeno 4 cifre e che non collidi con la numerazione eventualmente già presente su |tvox_pbx|.
+
+Questa numerazione sarà attivata come numerazione remota su |tvox_pbx| permettendo alla |tvox_platform| di vedere il sistema Teams come settore interno e non esterno. 
+
+.. note:: Si consiglia sempre una numerazione di almeno 4 cifre e che non collidi con la numerazione eventualmente già presente su |tvox_pbx|.
 
 
 Configurazione
