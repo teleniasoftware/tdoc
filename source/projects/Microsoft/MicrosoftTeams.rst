@@ -70,16 +70,19 @@ Su |msteams| :
 
 Acquistare e attivare SBC certificato Microsoft, Telenia consiglia un dispositivo Audiocodes.
 
-Tra SBC e |tvox_pbx| si creerà un trunk SIP e quindi deve essere predisposta la raggiungibilità tra le 2 piattaforme per poter erogare il servizio. 
-A sua volta il dispositivo SBC dovrà essere raggiungibile dalla piattaforma Teams tramite dominio pubblico.
-Inoltre Microsoft indica come prerequisito possedere per il dominio dell'SBC un certificato SSL valido da caricare sull'SBC stesso. ( `documentazione Microsoft <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_  )
+.. important:: Deve essere garantita la raggiungibilità tra la piattaforma |tvox_pbx| e l'SBC.
 
+Il collegamento tra SBC e |tvox_pbx| avviene tramite trunk SIP. Il dispositivo SBC dovrà essere raggiungibile dalla piattaforma Teams tramite dominio pubblico.
+
+.. important:: Microsoft indica come prerequisito possedere per il dominio dell'SBC un certificato SSL valido da caricare sull'SBC stesso. ( `documentazione Microsoft <https://docs.microsoft.com/en-us/microsoftteams/direct-routing-landing-page>`_  )
 
 Su |tvox_pbx|:
 
 - scegliere un piano di numerazione per gli utenti attestati su |msteams| che si vuole raggiungibili da |tvox_pbx|. 
-Questa numerazione sarà attivata come numerazione remota su |tvox_pbx| permettendo a |tvox_platform| di vedere il sistema Teams come settore interno e non esterno. 
-NOTA: Si consiglia sempre una numerazione di almeno 4 cifre e che non collidi con la numerazione eventualmente già presente su |tvox_pbx|.
+
+Questa numerazione sarà attivata come numerazione remota su |tvox_pbx| permettendo alla |tvox_platform| di vedere il sistema Teams come settore interno e non esterno. 
+
+.. note:: Si consiglia sempre una numerazione di almeno 4 cifre e che non collidi con la numerazione eventualmente già presente su |tvox_pbx|.
 
 
 Configurazione
