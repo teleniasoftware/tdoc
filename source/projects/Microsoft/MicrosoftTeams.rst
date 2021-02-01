@@ -119,7 +119,10 @@ associazione del numero *8000* all'utente *test@teleniasoftware.com*
 
 Su |tvox_pbx| 
 
-#. configurare il trunk verso l'SBC in maniera che accetti chiamate a numerazioni interne ed esterne e che mantenga il prefisso internazionale
+#. configurare il trunk verso l'SBC facendo attenzione a settare le 'Destinazione consentite' su 'Regole di ingresso e chiamate uscenti' e che sia attivo il mantenimento del prefisso internazionale
+
+.. image:: ../../images/microsoft/teams/teams_conf_trunk.png
+
 #. configurare regola di uscita perchè componga la numerazione remota scelta e la stessa numerazione anteponendo il *+* 
 #. configurare tutte le abilitazioni del sistema perchè usino questa numerazione remota. 
 
