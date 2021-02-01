@@ -10,6 +10,7 @@ Di seguito il video di Telenia Software Academy dove viene spiegato nel dettagli
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZgW6Wms4uII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+|br|
 
 Nel caso si utilizzi LDAPS via SSL è necessario procedere al caricamento di un certificato valido tramite l'apposita interfaccia da OCC loggandosi con un utenza amministrativa.
 

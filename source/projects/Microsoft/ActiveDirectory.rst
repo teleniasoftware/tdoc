@@ -10,5 +10,5 @@ Active Directory
    
    ActiveDirectory/LoginSuActiveDirectory
    ActiveDirectory/ImportUtentiDaActiveDirectory
-   Rubrica su Active Directory </projects/AnagraficaClienti/Applicativi/ldap> 
+   ActiveDirectory/AnagraficaClientiSuActiveDirectory
    
