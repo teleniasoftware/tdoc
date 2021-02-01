@@ -6,10 +6,12 @@ E' possibile importare su |tvox| utenti da Microsoft Active Directory configuran
 
 Accedere all'interfaccia TAM con utenza amministrativa e selezionare "Users" - "LDAP Import" - "Configure"
 
-Selezionare la connessione LDAP (precedentemente configurata) da cui si vuole importare i dati (nell'esempio viene selezionata la connessione contoso).
-Selezionare la corrispondenza tra i campi utente in |tvox| (TAM Data) e i campi utente in LDAP (LDAP Data).
-Salvare con il tasto *Save*.
-Selezionare "Configure LDAP Connection" per configurare i ruoli di default da attribuire agli utenti in fase di import.
+Procedere con i passaggi: 
+
+#. Selezionare la connessione LDAP (precedentemente configurata) da cui si vuole importare i dati (nell'esempio viene selezionata la connessione contoso).
+#. Selezionare la corrispondenza tra i campi utente in |tvox| (TAM Data) e i campi utente in LDAP (LDAP Data).
+#. Salvare con il tasto *Save*.
+#. Selezionare "Configure LDAP Connection" per configurare i ruoli di default da attribuire agli utenti in fase di import.
 
 .. image:: /images/ActiveDirectory/LDAP_IMPORT_CONFIGURE_STEP1.png
 
