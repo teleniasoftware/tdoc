@@ -19,6 +19,8 @@ Accedere all'interfaccia web del telefono Yealink, inserire username e password 
 **Username:** *admin*
 **Password:** *admin*
 
+Andare nella sezione Settings -> AutoProvision
+
 Impostare l'url di provisioning nel campo *Server Url*
 
 .. important:: Il server url  da impostare sul telefono corrisponde all'IP *171.18.128.1*
