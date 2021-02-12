@@ -60,6 +60,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/AutomatizzaRichiesteFrequenti
    /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb
+   /projects/TelefoniYealinkVpn
 
 .. toctree::  
    :hidden: 
