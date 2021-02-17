@@ -6,3 +6,8 @@ Attraverso l’utilizzo dell’intelligenza artificiale è possibile automatizza
 
 Realizza BOT Vocali
 ====================
+
+ .. toctree::
+   :maxdepth: 1
+
+   ABot/Configurazione/Intro
