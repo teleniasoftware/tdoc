@@ -3,6 +3,8 @@
 .. |roleSelect| image:: ../../../images/ABot/google_cloud_platform_account_role_select.jpg
 .. |accountSelect| image:: ../../../images/ABot/google_cloud_platform_account_select.jpg
 .. |presentButton| image:: ../../../images/ABot/google_cloud_platform_present_button.jpg
+.. |library| image:: ../../../images/ABot/google_cloud_platform_library.jpg
+.. |fatturazione| image:: ../../../images/ABot/google_cloud_platform_fatturazione.jpg
 
 .. _creazione account di google: https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.it%2F&hl=it&dsh=S251938807%3A1613575646693186&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
 .. _Google Cloud Platform: https://console.cloud.google.com/projectselector2/home/dashboard?supportedpurview=project
@@ -25,8 +27,16 @@ Una volta creato il proprio account, è possibile configurare il proprio account
      |accountSelect|
     - Premere su **AGGIUNGI CHIAVE**, **Crea nuova chiave**, selezionare **JSON** e premere **CREA**.
     - Salva il file sul proprio pc in modo tale da poterlo utilizzare in un secondo momento.
+    - Una volta salvato il file sul computer, selezionare la voce **Libreria** a sinistra della pagina
+     |library|
+    - Inserire nella barra di ricerca il testo "text-to-speech"
+    - A questo punto saranno visualizzati dei risultati, tra cui **Cloud Speech-to-Text API** e **Cloud Text-to-Speech API**, aprire entrambi uno alla volta e abilitarli premendo il pulsante **ABILITA** nella rispettiva pagina.
 
 A questo punto la configurazione è conclusa e la chiave appena scaricata sarà utilizzata dal TVox per sfruttare i servizi Google.
+
+
+Per avere informazioni riguardanti la fatturazione del proprio progetto, si può selezionare la voce **Fatturazione** dal menù di Google Cloud Platform.
+|fatturazione|
 
 | Per aggiungere credito all'account è necessario attivare la prova gratuita, premendo sul pulsante **ATTIVA** sulla notifica di attivazione in testa alla pagina.
 | La prova gratuita garantisce 300 $ di credito gratuito ma per iniziare bisogna inserire una carta di credito.
