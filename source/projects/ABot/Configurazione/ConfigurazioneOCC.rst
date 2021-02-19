@@ -1,7 +1,7 @@
 .. |TVox_Servizio_IVR_con_ABot| image:: ../../../images/ABot/TVox_Servizio_IVR_con_ABot.jpg
 
 =====================
-Configurazione TVox
+Configurazione OCC
 =====================
 
 | É possibile configurare un servizio IVR con Attendant Bot sotto la sezione **CANALI** → **Telefono** → **IVR** del TVox Omnichannel Contact Center.
