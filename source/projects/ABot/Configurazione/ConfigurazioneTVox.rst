@@ -13,5 +13,9 @@ Configurazione TVox
 
 Configurazioni aggiuntive
 ==========================================
+ 
+TVox Attendant Bot richiede le seguenti configurazioni aggiuntive:
 
+- Specificare quali utenti e servizi possono essere interpretati e pronunciati dal TVox Attendant Bot
+  
 .. warning:: Questa fase della configurazione è ancora in fase di sviluppo. Al momento è necessaria assistenza tecnica.

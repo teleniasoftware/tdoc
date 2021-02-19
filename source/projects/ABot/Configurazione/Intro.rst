@@ -12,6 +12,8 @@ Configurazione TVox Attendant Bot
 | L'utilizzo del TVox Attendant Bot richiede la configurazione di un account Google abilitato ai servizi di
 | riconoscimento vocale presenti su **Google Cloud Service** ( Google speech service ) la configurazione di un servizio IVR sul TVox.
 
+.. warning:: La configurazione di un IVR con TVox Attendant Bot **RICHIEDE** la presenza di un servizio google abilitato al Text-to-Speech e Speech-to-Text
+
 | Il **Google Speech Service** si divide in due servizi di riconoscimento e sintetizzazione vocale, ed entrambi richiedono diversi piani di fatturazione:
 
 **TTS** ( Text-To-Speech ):
