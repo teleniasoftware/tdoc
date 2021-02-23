@@ -2,7 +2,7 @@
 Benvenuto in TDoc
 =================
 
-**TDoc è il portale che ti illustra come integrare  |tvox| con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
+**TDoc è il portale che ti illustra come integrare TVox OmniChannel Contact Center con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
 
 .. image:: /images/TDoc_home.png
    :scale: 60%
