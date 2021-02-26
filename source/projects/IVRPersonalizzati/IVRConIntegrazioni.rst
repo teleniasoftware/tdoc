@@ -7,6 +7,8 @@ IVR con integrazioni a sistemi esterni
 Se dovete realizzare un IVR che si integra con sistemi esterni come Webservice o Database, potete farlo tramite uno script
 php.
 
+Completato questo corso, poete visionare lo sviluppo di le funzionalità avanzate come integrazione con rubriche, TTS/ASR e registrazine chiamata che trovate in :ref:`RealizzaIVRBotVocali`
+
 .. toctree::
    :maxdepth: 2
 
