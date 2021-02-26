@@ -6,7 +6,7 @@ Ora andiamo a registrare la chiamata chiedendo delle informazioni al cliente e s
 
 Il file audio salvato è una registrazione che si può consultare sul *Call Navigator* tramite OCC.
 
-Il file salvato essendo una registrazone può essere spostato secono le logiche di *Smartrec Archiver* configurabili su OCC sezione *Avanzate -> Scheduler*
+Il file salvato essendo una registrazone può essere spostato secondo le logiche di *Smartrec Archiver* configurabili su OCC sezione *Avanzate -> Scheduler*
 
 .. raw:: html
 

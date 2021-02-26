@@ -1,4 +1,4 @@
-.. |TVox_Servizio_IVR_con_ABot| image:: ../../../images/ABot/TVox_Servizio_IVR_con_ABot.jpg
+.. |TVox_Servizio_IVR_con_ABot| image:: ../../../../images/ABot/TVox_Servizio_IVR_con_ABot.jpg
 
 =====================
 Configurazione OCC

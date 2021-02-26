@@ -4,7 +4,7 @@
 Realizza Bot Vocali tramite IVR
 ================================
 
-Se dovete realizzare un IVR che si integra con dei sistemi TTS/ASR potete falro tramite uno script php.
+Se dovete realizzare un IVR che si integra con dei sistemi TTS/ASR potete farlo tramite uno script php.
 
 .. toctree::
    :maxdepth: 2
