@@ -1,6 +1,6 @@
-======================================================
-Competiamo l'esempio svolto con le ultime informazioni
-======================================================
+=======================================================
+Completiamo l'esempio svolto con le ultime informazioni
+=======================================================
 
 Andiamo ora a completare lo script con le ultime informazioni mancanti per completare il nostro esempio.
 

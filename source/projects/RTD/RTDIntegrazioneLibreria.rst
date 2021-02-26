@@ -1,6 +1,6 @@
-##################################################
-Creare la propria interfaccia Web Omnichannel RTD
-##################################################
+############################################
+Crea la tua interfaccia Web Omnichannel RTD
+############################################
 
 |tvox| mette a disposizione una libreria javascript che è possibile trovare |library_link| e permette di sviluppare la propria interfaccia web.
 
