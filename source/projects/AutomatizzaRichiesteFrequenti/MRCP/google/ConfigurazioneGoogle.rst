@@ -1,10 +1,10 @@
-.. |dashboard| image:: ../../../images/ABot/google_cloud_platform_dashboard.jpg
-.. |ApiEServizi| image:: ../../../images/ABot/google_cloud_platform_ApiEServizi.jpg
-.. |roleSelect| image:: ../../../images/ABot/google_cloud_platform_account_role_select.jpg
-.. |accountSelect| image:: ../../../images/ABot/google_cloud_platform_account_select.jpg
-.. |presentButton| image:: ../../../images/ABot/google_cloud_platform_present_button.jpg
-.. |library| image:: ../../../images/ABot/google_cloud_platform_library.jpg
-.. |fatturazione| image:: ../../../images/ABot/google_cloud_platform_fatturazione.jpg
+.. |dashboard| image:: ../../../../images/ABot/google_cloud_platform_dashboard.jpg
+.. |ApiEServizi| image:: ../../../../images/ABot/google_cloud_platform_ApiEServizi.jpg
+.. |roleSelect| image:: ../../../../images/ABot/google_cloud_platform_account_role_select.jpg
+.. |accountSelect| image:: ../../../../images/ABot/google_cloud_platform_account_select.jpg
+.. |presentButton| image:: ../../../../images/ABot/google_cloud_platform_present_button.jpg
+.. |library| image:: ../../../../images/ABot/google_cloud_platform_library.jpg
+.. |fatturazione| image:: ../../../../images/ABot/google_cloud_platform_fatturazione.jpg
 
 .. _WaveNet: https://cloud.google.com/text-to-speech/docs/wavenet
 .. _Google cloud tts: https://cloud.google.com/text-to-speech/pricing

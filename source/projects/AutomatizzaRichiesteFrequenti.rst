@@ -10,5 +10,6 @@ Realizza BOT Vocali
  .. toctree::
     :maxdepth: 1
 
-    ABot/Configurazione/Intro
-    mrcp/mrcp
+    AutomatizzaRichiesteFrequenti/ABot/Configurazione/Intro
+    AutomatizzaRichiesteFrequenti/MRCP/mrcp
+    AutomatizzaRichiesteFrequenti/RealizzaIVRBotVocali
