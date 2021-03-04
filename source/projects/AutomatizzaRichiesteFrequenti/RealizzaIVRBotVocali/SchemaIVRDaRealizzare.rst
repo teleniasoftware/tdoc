@@ -2,7 +2,7 @@
 Schema IVR dell'esempio proposto
 ================================
 
-Potete scaricare un :download:`esempio <esercizio_videocorso_tts_asr.zip>` di IVR con realtivi files audio.
+Potete scaricare un :download:`esempio <esercizio_videocorso_tts_asr.zip>` di IVR con relativi files audio.
 
 Nel video viene presentato lo schema IVR dell'esempio che andremo ad implementare negli step successivi
 
