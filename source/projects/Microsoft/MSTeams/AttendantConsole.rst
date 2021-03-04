@@ -97,6 +97,32 @@ Creazione App Microsoft Teams
 19. I valori di ``App ID`` e ``App Secret`` ora possono essere utilizzati in OCC per creare le credenziali che saranno utilizzati dal TVox per leggere lo stato di presence dei contatti Microsoft Teams
 
 
+=============================
+Configurazione TConsole 5
+=============================
+
+TConsole 5 può utilizzare il BLF di MSTeams per vedere gli stati di presence degli utenti.
+
+Per riuscire ad utilizzare il BLF MSTeams su TConsole 5 è necessario installare un TConsole con versione a partire dalla 5.7.27 e un TConsoleServerStd con versione a partire dalla 3.1.4 ed effettuare le seguenti configurazioni:
+
+Nella sezione [SIPBLFSERVER]:
+
+* SIPBLFSERVER_IP=<IP_TVOX>
+* SIPBLFSERVER_PORT=6598
+
+Nella sezione [BLF]:
+
+* Type=MSTEAMS
+* SkipFileDevices=YES
+
+SkipFileDevices va valorizzato a YES, e in questo modo si esclude l'utilizzo del file devices. 
+Il mapping tra DN e username verrà fatto direttamente sulle rubriche. 
+Sulle rubriche dovrà quindi essere riservata una colonna in cui viene salvato lo username di cui richiedere la presence e nella sezione di configurazione della rubrica in RunInt.ini/RubEst.ini come colonna della presence da monitorare dovrà essere posta la colonna in cui risiede lo username.
+Ad esempio se lo username da monitorare viene posto in LIBERO_1, nella sezione [MASTER] di RubInt.ini/RubEst.ini il field 0 dovrà essere configurato come segue:
+
+* 0=LIBERO_1,19
+
+
 
 
 .. _Microsoft Graph API: https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0
