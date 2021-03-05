@@ -2,6 +2,7 @@
 Microsoft Teams
 ================
 
+
 La |tvox_platform| può essere interconnessa a |msteams| per estenderne le funzionalità telefoniche.
 
 
@@ -135,3 +136,11 @@ Nel nostro esempio, per l'utente *mrossi*, inseriamo il numero *+8000*.
 .. |msteams| raw:: html 
 
     <a href="https://teams.microsoft.com/"target="_blank"> Microsoft Teams®</a>
+
+
+
+ 
+.. toctree::  
+    :maxdepth: 2
+
+    MSTeams/AttendantConsole

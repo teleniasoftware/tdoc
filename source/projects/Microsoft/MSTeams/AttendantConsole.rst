@@ -10,9 +10,9 @@ Per garantire l'accesso alle suddette API l'amministratore di Microsoft Teams de
 * Tramite OCC eseguire il login con un utente adeguato per delegare ai servizi TVox l'accesso alla presence degli utenti.
 
 
-=============================
+
 Creazione App Microsoft Teams
-=============================
+==========================
 
 #. L'amministratore effettua il login sul portale Azure: https://portal.azure.com
 #. Selezionare lo strumento ``Registrazioni per l'App`` o andare all'indirizzo `App Registration`_
@@ -97,9 +97,9 @@ Creazione App Microsoft Teams
 19. I valori di ``App ID`` e ``App Secret`` ora possono essere utilizzati in OCC per creare le credenziali che saranno utilizzati dal TVox per leggere lo stato di presence dei contatti Microsoft Teams
 
 
-=============================
+
 Configurazione TConsole 5
-=============================
+==========================
 
 TConsole 5 può utilizzare il BLF di MSTeams per vedere gli stati di presence degli utenti.
 
