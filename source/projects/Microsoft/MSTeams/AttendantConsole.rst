@@ -107,20 +107,26 @@ Per riuscire ad utilizzare il BLF |msteams| su TConsole 5 è necessario installa
 
 Nella sezione [SIPBLFSERVER]:
 
-* SIPBLFSERVER_IP=<IP_TVOX>
-* SIPBLFSERVER_PORT=6598
+.. code-block:: sh
+
+    SIPBLFSERVER_IP=<IP_TVOX>
+    SIPBLFSERVER_PORT=6598
 
 Nella sezione [BLF]:
 
-* Type=MSTEAMS
-* SkipFileDevices=YES
+.. code-block:: sh
+
+    Type=MSTEAMS
+    SkipFileDevices=YES
 
 SkipFileDevices va valorizzato a YES, e in questo modo si esclude l'utilizzo del file devices. 
 Il mapping tra DN e username verrà fatto direttamente sulle rubriche. 
 Sulle rubriche dovrà quindi essere riservata una colonna in cui viene salvato lo username di cui richiedere la presence e nella sezione di configurazione della rubrica in RunInt.ini/RubEst.ini come colonna della presence da monitorare dovrà essere posta la colonna in cui risiede lo username.
 Ad esempio se lo username da monitorare viene posto in LIBERO_1, nella sezione [MASTER] di RubInt.ini/RubEst.ini il field 0 dovrà essere configurato come segue:
 
-* 0=LIBERO_1,19
+.. code-block:: sh
+
+    0=LIBERO_1,19
 
 
 
