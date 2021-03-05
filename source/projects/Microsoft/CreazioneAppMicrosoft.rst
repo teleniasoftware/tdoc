@@ -82,8 +82,7 @@ Creazione App Microsoft
 |14-app-authorization-list-ok|
 
 
-19. I valori di ``App ID`` e ``App Secret`` ora possono essere utilizzati in OCC per creare le credenziali che saranno utilizzati dal TVox per leggere lo stato di presence dei contatti Microsoft Teams
-
+19. I valori di ``App ID`` e ``App Secret`` ora possono essere utilizzati in OCC per creare le credenziali
 
 
 
