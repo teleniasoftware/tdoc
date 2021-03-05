@@ -2,8 +2,8 @@
 Creazione App Google
 ====================
 
-#. L'amministratore effettua il login sul portale Google Cloud Console: https://console.cloud.google.com/
-#. Accettare i termini e le condizioni per l'utilizzo del servizio
+1. L'amministratore effettua il login sul portale Google Cloud Console: https://console.cloud.google.com/
+2. Accettare i termini e le condizioni per l'utilizzo del servizio
 
 |accept-terms|
 

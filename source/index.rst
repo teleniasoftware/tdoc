@@ -62,6 +62,8 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/ConversioneClienti/ConversioneClientiDaWeb
    /projects/RTD/RTD
    /projects/TelefoniYealinkVpn
+   /projects/Google/IntegrazioneGoogle
+   /projects/Microsoft/IntegrazioneMicrosoft
 
 .. toctree::  
    :hidden: 
