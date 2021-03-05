@@ -101,9 +101,9 @@ Creazione App Microsoft Teams
 Configurazione TConsole 5
 ==========================
 
-TConsole 5 può utilizzare il BLF di MSTeams per vedere gli stati di presence degli utenti.
+TConsole 5 può utilizzare il BLF di |msteams| per vedere gli stati di presence degli utenti.
 
-Per riuscire ad utilizzare il BLF MSTeams su TConsole 5 è necessario installare un TConsole con versione a partire dalla 5.7.27 e un TConsoleServerStd con versione a partire dalla 3.1.4 ed effettuare le seguenti configurazioni:
+Per riuscire ad utilizzare il BLF |msteams| su TConsole 5 è necessario installare un TConsole con versione a partire dalla 5.7.27 e un TConsoleServerStd con versione a partire dalla 3.1.4 ed effettuare le seguenti configurazioni:
 
 Nella sezione [SIPBLFSERVER]:
 
@@ -147,6 +147,11 @@ Ad esempio se lo username da monitorare viene posto in LIBERO_1, nella sezione [
 .. |12-app-authorization-offline_access| image:: /images/MicrosoftTeams/AppPermissions/12-app-authorization-offline_access.png
 .. |13-app-authorization-list| image:: /images/MicrosoftTeams/AppPermissions/13-app-authorization-list.png
 .. |14-app-authorization-list-ok| image:: /images/MicrosoftTeams/AppPermissions/14-app-authorization-list-ok.png
+
+.. |msteams| raw:: html 
+
+    <a href="https://teams.microsoft.com/"target="_blank"> Microsoft Teams®</a>
+
 
 
 
