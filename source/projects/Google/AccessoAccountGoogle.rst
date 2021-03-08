@@ -1,5 +1,5 @@
 =======================
-Accesso Account Google
+Accesso account Google
 =======================
 
 L'accesso con un account esterno all'interno del sistema TVox può essere svolto attraveso l'OCC dalla sezione ``Account esterni``.

@@ -1,5 +1,5 @@
 ====================
-Creazione App Google
+Creazione app Google
 ====================
 
 1. L'amministratore effettua il login sul portale Google Cloud Console: https://console.cloud.google.com/

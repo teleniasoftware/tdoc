@@ -1,5 +1,5 @@
 =======================
-Creazione App Microsoft
+Creazione app Microsoft
 =======================
 
 #. L'amministratore effettua il login sul portale Azure: https://portal.azure.com
