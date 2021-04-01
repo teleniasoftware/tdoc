@@ -26,12 +26,27 @@ Queste risorse possono essere:
 
 Interconnettendo |msteams| alla rete pubblica si permette di erogare servizi avanzati di contact center come l'accodamento evoluto fornito da |tvox_pbx|.
 
+Feature telefoniche permesse su Teams:
+
+- Effettuare e ricevere chiamate utilizzando |msteams| tramite client mobili e desktop
+- Chiamare utenti del team e numeri PSTN utilizzando il tastierino di |msteams|
+- Ricevere chiamate da PSTN
+- Composizioni rapide, i contatti e la cronologia chiamate di |msteams|
+- Trasferimento di chiamate di PSTN verso utenze Teams. Al trasferimento della chiamata avviene l'aggiornamento del numero e il nome dell'altro interlocutore.
+- Trasferimento di chiamata PSTN verso altro numero PSTN. 
+
 Attendant Console
 -----------------
 
 .. image:: ../../images/microsoft/teams/teams_arch_02.png
 
 Assieme alla funzione di gateway, |tvox_pbx|, può attivare il suo modulo di Attendant Console (Posto Operatore) che con il proprio client può gestire chiamate provenienti dalla rete pubblica e smistarle verso |msteams|.
+
+Feature telefoniche permesse su Teams:
+
+- si eriditano tutte le feature del punto precendete
+- le chiamate trasferite da Attendant Console verso un utente Teams presentano il numero e il nome dell'altro interlocutore.
+  
 
 Contact Center 
 --------------
@@ -41,6 +56,9 @@ Contact Center
 Attivando il modulo di Contact Center Multicanale si può realizzare un'isola di agenti su |tvox|.
 Questi possono gestire sessioni telefoniche e multicanale e interagire telefonicamente con gli utenti attestati su |msteams|.
 
+Feature telefoniche permesse su Teams:
+
+- si eriditano tutte le feature del punto precendete
 
 Twin TVox & Microsoft Teams®
 -----------------------------
