@@ -19,7 +19,7 @@
 
 html_favicon = "images/favicon.png"
 project = 'TDoc'
-copyright = '2020, Telenia Software'
+copyright = '2021, Telenia Software'
 author = 'Telenia Software'
 
 

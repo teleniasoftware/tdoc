@@ -2,6 +2,8 @@
 Chiamata trasferita
 ============================
 
+.. note:: La trasferta di chiamata è gestita solo per le chiamate di servizio inbound.
+
 Per quanto riguarda la gestione degli eventi di chiamata trasferita, è importante distinguere 2 tipologie di trasferta che possono essere effettuate con il TVox:
 
 - **Trasferta diretta** (*blind*), l'operatore in chiamata, la trasferisce *direttamente* ad un altro operatore senza prima consultarlo

@@ -2,7 +2,7 @@
 Benvenuto in TDoc
 =================
 
-**TDoc è il portale che ti illustra come integrare  |tvox| con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
+**TDoc è il portale che ti illustra come integrare TVox OmniChannel Contact Center con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
 
 .. image:: /images/TDoc_home.png
    :scale: 60%
@@ -60,14 +60,26 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/AutomatizzaRichiesteFrequenti
    /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
    /projects/ConversioneClienti/ConversioneClientiDaWeb
+   /projects/RTD/RTD
+   /projects/TelefoniYealinkVpn
 
 .. toctree::  
    :hidden: 
    :caption: Microsoft
    :maxdepth: 2   
 
+   /projects/Microsoft/CreazioneAppMicrosoft
+   /projects/Microsoft/AccessoAccountMicrosoft
    /projects/Microsoft/ActiveDirectory
    /projects/Microsoft/MicrosoftTeams
+
+.. toctree::
+   :hidden: 
+   :caption: Google
+   :maxdepth: 2  
+
+   /projects/Google/CreazioneAppGoogle
+   /projects/Google/AccessoAccountGoogle
 
 .. toctree::  
    :hidden: 

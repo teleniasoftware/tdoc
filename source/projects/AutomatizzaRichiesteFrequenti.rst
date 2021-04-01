@@ -6,3 +6,10 @@ Attraverso l’utilizzo dell’intelligenza artificiale è possibile automatizza
 
 Realizza BOT Vocali
 ====================
+
+ .. toctree::
+    :maxdepth: 1
+
+    AutomatizzaRichiesteFrequenti/ABot/Configurazione/Intro
+    AutomatizzaRichiesteFrequenti/MRCP/mrcp
+    AutomatizzaRichiesteFrequenti/RealizzaIVRBotVocali

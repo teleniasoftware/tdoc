@@ -141,3 +141,22 @@ Il recupero dei dati relativo all'esito delle chiamate avviene direttamente via 
 
 Le tabelle interessate sono **ast_pd_history_<yyyymm>**, che hanno struttura analoga alla tabella ast_pd_interface, e le tabelle **ast_calls_outbound_<yyyymm>**.
 
+
+---------
+
+Integrazione
+==================
+
+L'integrazione tra il CRM e il TVox OmniChannel Contact Center può essere automatizzata tramite le **TVox WebAPI**, un insieme di REST APIs che permettono la completa gestione di campagne di Telemarketing:
+
+* Configurazione generale del modulo Power Dialer
+* Gestione campagne (crezione, modifica, eliminazione, avvio, stop, reset statistiche)
+* Gestione liste (creazione, modifica, eliminazione)
+* Gestione tabella di scambio (popolamento, reset)
+
+Per il dettaglio sull'utilizzo delle API di Power Dialer, consultare la |documentation_link|.
+
+
+.. |documentation_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#tvox-webapi-rest-apis-power-dialer"target="_blank"> Documentazione tecnica</a>
