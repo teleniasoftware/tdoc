@@ -6,14 +6,23 @@ Pop - up scheda ticket
 
 All’arrivo di un’interazione apri automaticamente la scheda ticket nel tuo CRM in modo da tracciare tutte le richieste  ottimizzando la produttività del tuo Customer Care. Se l’interazione viene trasferita da un operatore all’altro anche il ticket nel crm viene automaticamente trasferito tra gli agenti di contact center eliminando i tempi di ricerca.
 
-Come visto nelle sezioni precedenti, è possibile creare un IVR che si integra con sistemi esterni come webservice, database o simili attraverso l'implementazione di uno script php.
+Analogamente al :ref:`PopupSchedaContatto`, anche in questo caso è possibile erogare la funzionalità nelle due modalità:
 
-In questo caso parliamo di un caso d'uso interessante, che consiste non solo nell'interrogare un sistema esterno ma anche nell'interagire direttamente con le sue funzionalità operative.
+- :ref:`Servizi di notifica (Notification Service) <popup-scheda-contatto-notification-service>`
+- Popup Manager
+   - :ref:`Generazione URL su server <popup-scheda-contatto-url-server>`
+   - :ref:`Legacy (Windows BAT) <popup-scheda-contatto-legacy>`
+
+--------------
+
+Parliamo ora di un caso d'uso interessante, che consiste nell'interrogare un sistema esterno, interagendo direttamente con le sue funzionalità operative.
 
 Nei sistemi CTI complessi, infatti, diventa sempre più frequente l'integrazione tra sistemi che implementano canali di comunicazione diversi quali, ad esempio, canale telefonico e canale ticket: tipicamente, alla ricezione di una chiamata di contact center, si desidera che sul pc dell'operatore che risponde alla chiamata venga aperta, tramite azione di screen popup, anche la pagina relativa al ticket che il CTI ha creato sul sistema di ticketing di terze parti in relazione alla chiamata stessa.
 
 Questo si concretizza, di fatto, nell'implementare uno script php che deve essere caricato su un servizio IVR posizionato a monte dei servizi di
 contact center: tale script, prima di inoltrare la chiamata al servizio corretto, ha il compito di inviare al sistema di ticketing esterno una richiesta di creazione ticket sulla base del clid della chiamata, in modo tale che sul sistema di ticketing venga creato un ticket relativo al contatto associato al clid stesso.
+
+.. note:: Come descritto nella sezione ":ref:`RealizzaIVRPersonalizzati`", è possibile creare un IVR che si integra con sistemi esterni come webservice, database o simili attraverso l'implementazione di uno script php.
 
 A creazione ticket avvenuta, il sistema di ticketing può rispondere a TVox inviando l'id del ticket creato: tale id è salvato da TVox in una variabile per poterlo rendere disponibile, se necessario, in una fase successiva della chiamata.
 

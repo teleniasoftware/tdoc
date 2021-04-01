@@ -1,3 +1,4 @@
+.. _popup-scheda-contatto-legacy:
 =============================
 Modalità Legacy (Windows BAT)
 =============================

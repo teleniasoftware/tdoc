@@ -43,8 +43,9 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :maxdepth: 2
 
    /projects/AnagraficaClienti/AnagraficaClienti
-   /projects/CRMMemorizzaInterazioni/CRMMemorizzaInterazioni
+   /projects/PopupSchedaContatto/PopupSchedaContatto
    /projects/PopupSchedaTicket
+   /projects/CRMMemorizzaInterazioni/CRMMemorizzaInterazioni
    /projects/CRMGestioneTelefonica/CRMGestioneTelefonica
    /projects/Telemarketing
    /projects/CustomerJourney
