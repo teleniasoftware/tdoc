@@ -34,7 +34,7 @@ Oltre alla funzione di gateway telefonico appena descritta, |tvox_pbx| può atti
 
 Funzionalità telefoniche erogate su |msteams|:
 
-- si eriditano tutte le feature del punto precedente
+- si ereditano tutte le feature del punto precedente
 - le chiamate trasferite da Attendant Console verso un utente Teams presentano il numero e il nome dell'altro interlocutore.
   
 
@@ -48,7 +48,7 @@ Questi possono gestire sessioni telefoniche e multicanale e interagire telefonic
 
 Funzionalità telefoniche erogate su |msteams|:
 
-- si eriditano tutte le feature del punto precedente
+- si ereditano tutte le feature del punto precedente
 
 Twin TVox & Microsoft Teams®
 -----------------------------
