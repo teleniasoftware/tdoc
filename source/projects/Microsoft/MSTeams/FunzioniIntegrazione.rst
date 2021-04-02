@@ -60,7 +60,7 @@ L'integrazione tra |msteams| e |tvox_pbx| permette di gestire chiamate dalla PST
 Per un utente che necessita di utilizzare sia |msteams| che un dispositivo attestato su |tvox_pbx|, l'integrazione permette di 
 gestire le chiamate dirette a lui facendo squillare contemporaneamente sia il client |msteams| sia il  dispositivo utilizzato su |tvox_pbx|. |br| 
 Ad esempio, configurandolo in questa modalità, l'utente può usare il client |msteams| finchè si trova alla propria scrivania, e il proprio dispositivo cordless in aree dell'azienda dove |msteams| non è utilizzabile.
-In questa modalità una chiamata risposta da dispositivo attestato su |tvox_pbx| determina su |msteams| una chiamata persa; una chiamata risposta da |msteams| non determina una chiamata persa su |tvox_pbx|.
+In questa modalità una chiamata risposta da dispositivo attestato su |tvox_pbx| determina su |msteams| una chiamata persa; una chiamata risposta da |msteams| non determina una chiamata persa su |tvox_pbx|. 
 
 
 
