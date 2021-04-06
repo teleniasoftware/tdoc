@@ -15,3 +15,10 @@ e i nostri tecnici consigliano l'uso di dispositivi Audiocodes.
     MSTeams/FunzioniIntegrazione
     MSTeams/Attivazione
     MSTeams/AttendantConsole
+
+.. |msteams| raw:: html 
+
+    <a href="https://teams.microsoft.com/"target="_blank"> Microsoft Teams®</a>
+
+
+    
