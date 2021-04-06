@@ -34,9 +34,9 @@ Al seguente link trovate la |documentation_link| delle funzionalità della widge
 
 .. |documentation_link| raw:: html
 
-    <a href="http://documentation.teleniasoftware.com/widget/version_2.0.html"target="_blank"> documentazione tecnica</a>
+    <a href="http://documentation.teleniasoftware.com/widget/index.html"target="_blank"> documentazione tecnica</a>
 
 
 .. |demo_link| raw:: html
 
-    <a href="http://documentation.teleniasoftware.com/widget/version_2.0.html"target="_blank"> demo</a>
+    <a href="http://documentation.teleniasoftware.com/widget/index.html#use-and-demo"target="_blank"> demo</a>
