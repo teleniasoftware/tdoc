@@ -58,6 +58,7 @@ Associazione del numero *8000* all'utente *mrossi@teleniasoftware.com*
     Grant-CsOnlineVoiceRoutingPolicy -Identity mrossi@teleniasoftware.com -PolicyName "VP-TeamsUser" 
     Set-CsUser -Identity mrossi@teleniasoftware.com -EnterpriseVoiceEnabled $true -OnPremLineURI tel:8000 -HostedVoiceMail $true    
 
+.. important:: se si vuole usare correttamente la modalità Twin è necessario che su |msteams| l'utente abbia la segreteria disabilitata.
 
 Su |tvox_pbx| 
 
