@@ -121,17 +121,25 @@ Da TVox Web Client / TVox Team a MCS:
 Da TVox Web Client / TVox Win Web Client / TVox Team a TVox in LAN:
 -----------------------------------------
 
-+------------+-------------+--------------------------+--------------------+
-| Protocollo |    Porte    |         Servizio         | Note e Limitazioni |
-+------------+-------------+--------------------------+--------------------+
-|     TCP    |     443     |   HTTPS TVox Web Client  |                    |
-+------------+-------------+--------------------------+--------------------+
-|     TCP    |      80     | HTTP TVox Win Web Client |                    |
-+------------+-------------+--------------------------+--------------------+
-|     UDP    | 10000-20000 |       RTP SRTP DTLS      |                    |
-+------------+-------------+--------------------------+--------------------+
-|     UDP    |  5060-5063  |            SIP           |                    |
-+------------+-------------+--------------------------+--------------------+
++------------+-------------+-----------------------+--------------------+
+| Protocollo |    Porte    |        Servizio       | Note e Limitazioni |
++------------+-------------+-----------------------+--------------------+
+|     TCP    |     443     | HTTPS TVox Web Client |                    |
++------------+-------------+-----------------------+--------------------+
+|     UDP    | 10000-20000 |     RTP SRTP DTLS     |                    |
++------------+-------------+-----------------------+--------------------+
+
+Da TVox Win Web Client a TVox in LAN:
+-----------------------------------------
+
++------------+-----------+--------------------------+--------------------+
+| Protocollo |   Porte   |         Servizio         | Note e Limitazioni |
++------------+-----------+--------------------------+--------------------+
+|     TCP    |     80    | HTTP TVox Win Web Client |                    |
++------------+-----------+--------------------------+--------------------+
+|     UDP    | 5060-5063 |            SIP           |                    |
++------------+-----------+--------------------------+--------------------+
+
 
 Da TVox a TVox Web Client / TVox Win Web Client / TVox Team in LAN:
 -----------------------------------------
@@ -143,9 +151,7 @@ Da TVox a TVox Web Client / TVox Win Web Client / TVox Team in LAN:
 +------------+-------------+----------------------+--------------------+
 
 
-.. note:: I client possono raggiungere TVox con l'ip nattato, va però esclusa la possibilità che tra gli apparati attraversati per raggiungere TVox ve ne siano alcuni che eseguono la manipolazione del pacchetto SIP. Nessun Application Layer Gateway deve manipolare il pacchetto SIP.
-
-.. note:: I requisiti applicativi del winweb client invece sono i seguenti: **1.** Sistema operativo >= windows 8 e necessariamente a 64bit; **2.** L'HW del sistema deve garantire il pieno supporto alla libreria qtwebengine che si occupa del render OPENGL del client. Abbiamo riscontrato parecchie issue bug su driver intel parecchio datate come ad esempio Intel HD 530. In questo caso la libreria, a causa di una mala gestione dei drivers intel, è incompatibile producendo crash applicativi.
+.. note:: I **requisiti applicativi** del TVox Win Web Client invece sono i seguenti: **1.** Sistema operativo >= windows 8 e necessariamente a 64bit; **2.** L'HW del sistema deve garantire il pieno supporto alla libreria qtwebengine che si occupa del render OPENGL del client. Abbiamo riscontrato parecchie issue bug su driver intel parecchio datate come ad esempio Intel HD 530. In questo caso la libreria, a causa di una mala gestione dei drivers intel, è incompatibile producendo crash applicativi.
 
 .. note:: I dispositivi **IOS** devono poter raggiungere i servizi di notifca PUSH di Apple. |br| Vedere https://support.apple.com/en-us/HT203609
 
