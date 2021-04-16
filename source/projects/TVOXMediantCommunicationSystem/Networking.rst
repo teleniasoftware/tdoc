@@ -150,7 +150,7 @@ Da TVox a TVox Web Client / TVox Team in LAN:
 +------------+-------------+----------------------+--------------------+
 
 
-.. note:: I **requisiti applicativi** per il TVox Win Web Client sono i seguenti: |br| **1.** Sistema operativo >= windows 8 e necessariamente a 64bit. |br| **2.** L'HW del sistema deve garantire il pieno supporto alla libreria qtwebengine che si occupa del render OPENGL del client. Abbiamo riscontrato parecchie issue bug su driver intel parecchio datate come ad esempio Intel HD 530. In questo caso la libreria, a causa di una mala gestione dei drivers intel, è incompatibile producendo crash applicativi.
+.. note:: I **requisiti applicativi** per il TVox Win Web Client sono i seguenti: |br| **1.** Sistema operativo >= windows 8 e necessariamente a 64bit. |br| **2.** L'HW del sistema deve garantire il pieno supporto alla libreria QtWebEngine che si occupa del render OPENGL del client. Abbiamo riscontrato parecchie issue bug su driver intel parecchio datate come ad esempio Intel HD 530. In questo caso la libreria, a causa di una mala gestione dei drivers intel, è incompatibile producendo crash applicativi.
 
 .. note:: I dispositivi **IOS** devono poter raggiungere i servizi di notifca PUSH di Apple. |br| Vedere https://support.apple.com/en-us/HT203609
 
