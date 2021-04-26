@@ -103,9 +103,9 @@ Per ogni record verranno riportati:
 
 Il popolamento dei contatti all'interno della tabella di scambio avviene tramite le **TVox WebAPI** (vedi la sezione |integration_internal_link|), con le quali è possibile:
 
-- inserire uno più contatti all'interno di liste associate a campagne
+- inserire uno più contatti all'interno di liste associate a campagne (vedi |documentation_add_contacts_link|)
 
-- rimuovere tutti i contatti non ancora gestiti da tutte le liste (reset)
+- rimuovere tutti i contatti non ancora gestiti da tutte le liste (vedi |documentation_reset_contacts_link|)
 
 .. Per poter inserire, modificare e cancellare i record della tabella di scambio *ast_pd_interface* è possibile accedere al database **ast_callcenter** con l'utenza dedicata (*user=tvox_pd password=tvox_pd*).
 
@@ -140,12 +140,16 @@ Per attenersi a queste norme è indispensabile seguire alcuni suggerimenti:
 
 
 ---------
+
 Report ed esiti
 ===============
 
-Il recupero dei dati relativo all'esito delle chiamate avviene direttamente via database, utilizzando la stessa utenza indicata per la configurazione della tabella di scambio.
+Il recupero dei dati relativo all'esito delle chiamate avviene direttamente via database (**ast_callcenter**), utilizzando l'utenza in sola lettura dedicata: 
 
-Le tabelle interessate sono **ast_pd_history_<yyyymm>**, che hanno struttura analoga alla tabella ast_pd_interface, e le tabelle **ast_calls_outbound_<yyyymm>**.
+- user = *tvox_pd*
+- password = *tvox_pd*
+
+Le tabelle interessate sono **ast_pd_history_<yyyymm>** (vedi |documentation_pd_history_link|) e **ast_calls_outbound_<yyyymm>** (vedi |documentation_calls_outoubnd_link|).
 
 
 ---------
@@ -170,3 +174,19 @@ Per il dettaglio sull'utilizzo delle API di Power Dialer, consultare la |documen
 .. |integration_internal_link| raw:: html
 
     <a href="#integrazione">Integrazione</a>
+
+.. |documentation_pd_history_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/datamodel/index.html#outbound-campaign-calls" target="_blank">documentazione</a>
+
+.. |documentation_calls_outoubnd_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/datamodel/index.html#outbound-service-interactions" target="_blank">documentazione</a>
+
+.. |documentation_add_contacts_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#add-list-items-contacts" target="_blank">documentazione API</a>
+
+.. |documentation_reset_contacts_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#reset-all-list-items-contacts" target="_blank">documentazione API</a>
