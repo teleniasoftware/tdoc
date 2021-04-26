@@ -16,7 +16,7 @@ La gestione del Power Dialer prevede la definizione di:
 
 - **una o più campagne**
 
-- **una tabella di frontiera**
+- **una tabella di scambio**
 
 
 ---------
@@ -80,7 +80,7 @@ Operando su questo parametro, si può ottenere un tuning sulle prestazioni del m
 Tabella di Scambio
 ==================
 
-La tabella di frontiera (denominata *ast_pd_interface*) diventa necessaria quando si vuole integrare il modulo Power Dialer con applicazioni esterne quali CRM o di Telemarketing.
+La tabella di scambio diventa necessaria quando si vuole integrare il modulo Power Dialer con applicazioni esterne quali CRM o di Telemarketing.
 
 Tale tabella dovrà contenere tanti record quanti sono i nominativi da contattare.
 
@@ -88,20 +88,26 @@ Per ogni record verranno riportati:
 
 - l'identificativo numerico associato al chiaamnte (**id**)
 
-- il numero da chiamare (**phone_number**)
+- il numero da chiamare (**phoneNumber**)
 
-- identificativo numerico della campagna (**campagna**)
+- identificativo numerico della campagna (**campaignId**)
 
-- identificativo numerico della lista (**lista**)
+- identificativo numerico della lista (**listId**)
 
 - contenuto da riportare nell'invocazione di un eventuale popup a fronte della risposta della chiamata da parte dell' operatore (**data**)
 
 
-.. image:: ../images/PowerDialer/PD_Tabella.JPG
-   :scale: 60%
-   :align: center 
+.. .. image:: ../images/PowerDialer/PD_Tabella.JPG
+..    :scale: 60%
+..    :align: center 
 
-Per poter inserire, modificare e cancellare i record della tabella di scambio *ast_pd_interface* è possibile accedere al database **ast_callcenter** con l'utenza dedicata (*user=tvox_pd password=tvox_pd*).
+Il popolamento dei contatti all'interno della tabella di scambio avviene tramite le **TVox WebAPI** (vedi la sezione |integration_internal_link|), con le quali è possibile:
+
+- inserire uno più contatti all'interno di liste associate a campagne
+
+- rimuovere tutti i contatti non ancora gestiti da tutte le liste (reset)
+
+.. Per poter inserire, modificare e cancellare i record della tabella di scambio *ast_pd_interface* è possibile accedere al database **ast_callcenter** con l'utenza dedicata (*user=tvox_pd password=tvox_pd*).
 
 
 ---------
@@ -152,11 +158,15 @@ L'integrazione tra il CRM e il TVox OmniChannel Contact Center può essere autom
 * Configurazione generale del modulo Power Dialer
 * Gestione campagne (crezione, modifica, eliminazione, avvio, stop, reset statistiche)
 * Gestione liste (creazione, modifica, eliminazione)
-* Gestione tabella di scambio (popolamento, reset)
+* Gestione tabella di scambio (inserimento, reset)
 
 Per il dettaglio sull'utilizzo delle API di Power Dialer, consultare la |documentation_link|.
 
 
 .. |documentation_link| raw:: html
 
-    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#tvox-webapi-rest-apis-power-dialer"target="_blank"> Documentazione tecnica</a>
+    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#tvox-webapi-power-dialer" target="_blank"> Documentazione tecnica</a>
+
+.. |integration_internal_link| raw:: html
+
+    <a href="#integrazione">Integrazione</a>
