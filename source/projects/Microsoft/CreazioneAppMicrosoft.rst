@@ -81,8 +81,18 @@ Creazione app Microsoft
 
 |14-app-authorization-list-ok|
 
+19. Dal menu a sinistra, navigare verso la sezione ``Autenticazione``
 
-19. I valori di ``App ID`` e ``App Secret`` ora possono essere utilizzati in OCC per creare le credenziali
+|19-autenticazione|
+
+20. Cliccare quindi il pulsante ``Aggiungi una piattaforma``
+21. Dal menu proposto selezionare quindi la tipologia ``Web``
+22. Copiare l’indirizzo di reindirizzamento fornito da OCC in fase di creazione di una nuova applicazione Microsoft e incollarlo sotto la voce ``URI di reindirizzamento dell'applicazione`` e cliccare infine sul tasto ``Configura``.
+
+|22-callback-url|
+
+
+23. I valori di ``App ID`` e ``App Secret`` ora possono essere utilizzati in OCC per creare le credenziali
 
 
 
@@ -108,6 +118,8 @@ Creazione app Microsoft
 .. |12-app-authorization-offline_access| image:: /images/MicrosoftTeams/AppPermissions/12-app-authorization-offline_access.png
 .. |13-app-authorization-list| image:: /images/MicrosoftTeams/AppPermissions/13-app-authorization-list.png
 .. |14-app-authorization-list-ok| image:: /images/MicrosoftTeams/AppPermissions/14-app-authorization-list-ok.png
+.. |19-autenticazione| image:: /images/MicrosoftTeams/AppPermissions/19-autenticazione.png
+.. |22-callback-url| image:: /images/MicrosoftTeams/AppPermissions/22-callback-url.gif
 
 
 

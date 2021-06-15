@@ -6,6 +6,8 @@ L'accesso con un account esterno all'interno del sistema TVox può essere svolto
 
 .. note:: Prima di effettuare l'accesso con un account Microsoft è necessario disporre della configurazione di una applicazione con cui fare l'accesso
 
+.. attention:: Il primo accesso dovrà essere effettuato da un account amministratore dell'applicazione Microsoft
+
 1. Premere il pulsante ``Nuovo``
 
 .. image:: /images/AccountEsterni/1.png
