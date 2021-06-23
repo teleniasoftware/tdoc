@@ -47,7 +47,14 @@ La funzionalità può essere erogata in due modalità:
 Nel primo caso, l'URL viene generato dal server e fornito al client che può eseguirlo in IFRAME all'interno del client stesso, oppure su una nuova scheda o finestra del browser predefinito della postazione.  
 Maggiori dettagli sulla configurazione li trovi :ref:`qui <popup-scheda-contatto-url-server>`.
 
-Nel secondo caso, la funzionalità viene erogata dallo script *winpopup.bat* direttamente dalla postazione utente che gestisce l'interazione:
+.. note:: Nel caso sia attiva la prestazione di AUTOANSWER o una chiamata venga risposta direttamente da Tvox Team, l'apertura del popup su browser è possibile solamente se nelle impostazioni di Google Chrome 
+
+.. image:: /images/popup/abilitazPopup.png
+
+.. image:: /images/popup/abilitazPopup2.png
+
+
+Nel caso Legacy (Windows BAT), la funzionalità viene erogata dallo script *winpopup.bat* direttamente dalla postazione utente che gestisce l'interazione:
 
 - questa modalità consente al sistema di essere compatibile con installazioni passate che implementavano questo unico metodo;
 - è l'unica modalità che consente di invocare eseguibili esterni WIN32 per interagire con applicativi che non supportano i comandi via URL.
