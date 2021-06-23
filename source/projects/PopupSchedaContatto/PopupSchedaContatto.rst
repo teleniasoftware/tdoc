@@ -47,7 +47,7 @@ La funzionalità può essere erogata in due modalità:
 Nel primo caso, l'URL viene generato dal server e fornito al client che può eseguirlo in IFRAME all'interno del client stesso, oppure su una nuova scheda o finestra del browser predefinito della postazione.  
 Maggiori dettagli sulla configurazione li trovi :ref:`qui <popup-scheda-contatto-url-server>`.
 
-.. note:: Nel caso sia attiva la prestazione di AUTOANSWER o una chiamata venga risposta direttamente da Tvox Team, l'apertura del popup su browser è possibile solamente se nelle impostazioni di Google Chrome 
+.. note:: Nel caso sia attiva la prestazione di AUTOANSWER o una chiamata venga risposta direttamente da Tvox Team, l'apertura del popup su browser è possibile solamente se nelle impostazioni di Google Chrome viene consentita l'apertura di popup (vedere immagini seguenti).
 
 .. image:: /images/popup/abilitazPopup.png
 
