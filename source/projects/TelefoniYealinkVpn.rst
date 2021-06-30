@@ -30,13 +30,9 @@ Accedere all'interfaccia web del telefono Yealink, inserire username e password 
 
 Andare nella sezione Settings -> AutoProvision ed impostare l'URL di provisioning nel campo *Server URL*
 
-.. important:: Il *Server URL* da impostare sul telefono deve corrispondere all'indirizzo *https://171.18.128.1*
+.. important:: Il *Server URL* da impostare sul telefono deve corrispondere all'indirizzo *https://198.18.128.1*
 
 .. image:: /images/TelefoniYealinkVPN/Autoprovisioning.png
-
-Impostare il parametro RPort selezionando il valore *Enable Direct Process*
-
-.. image:: /images/TelefoniYealinkVPN/Account_Advanced.png
 
 Andare nella sezione Network -> Advanced ed abilitare la VPN del telefono, selezionare poi il valore *Openvpn* alla voce *Mode*.
 
