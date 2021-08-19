@@ -17,8 +17,7 @@ Configurazione del server MRCP
 
 |abot_occ_abilitazione_server|
 
-| La chiave json è ottenibile durante la configurazione di Google Speech Service sulla Google Cloud Platform, mentre i plugin MRCP 
-| sono forniti da Telenia Software, dopo aver generato una richiesta di attivazione.
+| La chiave json è ottenibile durante la configurazione di Google Speech Service sulla Google Cloud Platform, mentre i plugin MRCP sono forniti da Telenia Software, dopo aver generato una richiesta di attivazione.
 | Questa richiesta è effettuabile tramite il pulsante "Genera Richiesta" nella sezione **Plugin per MRCP**. 
 | Subito dopo aver richiesto l'attivazione, verrà scaricato un file contenente le seguenti informazioni di sistema:
 
@@ -26,8 +25,7 @@ Configurazione del server MRCP
 - Indirizzo MAC 
 - Hostname
 
-| Queste informazioni sono essenziali in quanto identificano la macchina su cui le licenze sono attivate, di conseguenza bisogna assicurarsi che 
-| la macchina sia configurata correttamente prima di generare la richiesta.
+| Queste informazioni sono essenziali in quanto identificano la macchina su cui le licenze sono attivate, di conseguenza bisogna assicurarsi che la macchina sia configurata correttamente prima di generare la richiesta.
 | Una volta ottenuto il file, è necessario inviarlo a Telenia Software, la quale fornirà dei file ZIP contenenti i rispettivi plugin MRCP.
 | A questo punto ogni zip deve essere caricato nella rispettiva sezione GSR o GSS per abilitare la funzionalità.
 
