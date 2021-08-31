@@ -2,6 +2,8 @@
 Creazione app Google
 ====================
 
+.. attention:: Prima di effettuare la configurazione sul portale Google Cloud Console, predisporre l'OCC su un'altra scheda del browser alla sezione ``Account esterni > Credenziali applicazione``
+
 1. L'amministratore effettua il login sul portale Google Cloud Console: https://console.cloud.google.com/
 2. Accettare i termini e le condizioni per l'utilizzo del servizio
 
@@ -58,12 +60,12 @@ Creazione app Google
 12. Selezionare "Applicazione web" sotto la voce ``Tipo di applicazione``.
 
 
-13. Copiare l'indirizzo di reindirizzamento fornito da OCC in fase di creazione di una nuova applicazione Google e incollarlo sotto la voce ``URI di reindirizzamento autorizzati``.
+.. important:: 13. Copiare l'indirizzo di reindirizzamento fornito da OCC in fase di creazione di una nuova applicazione Google e incollarlo sotto la voce ``URI di reindirizzamento autorizzati``.
 
 |credentials-page-informations|
 
 
-14. Dalla schermata di successo copiare i valori di ``Client ID`` e ``CLient secret`` e salvarli in un luogo sicuro.
+.. important:: 14. Dalla schermata di successo copiare i valori di ``Client ID`` e ``CLient secret`` e salvarli in un luogo sicuro.
 
 |credentials-page-success|
 
