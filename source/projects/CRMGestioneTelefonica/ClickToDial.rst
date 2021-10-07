@@ -16,23 +16,25 @@ La richiesta va effettuata verso l'indirizzo **http://<tvox_url>/tvox/webapi**
 Parametri richiesti
 ###################
 
-+--------------+---------+-----------------------------------------+--------------+
-| Parametro    | Tipo    | Descrizione                             | Obbligatorio |
-+==============+=========+=========================================+==============+
-| number       | String  | Numero da chiamare                      | Si           |
-+--------------+---------+-----------------------------------------+--------------+
-| accessCode   | String  | Codice d'accesso                        | Si           |
-+--------------+---------+-----------------------------------------+--------------+
-| jobLabel     | String  | Nome della chiamata                     | Si           |
-+--------------+---------+-----------------------------------------+--------------+
-| recordCall   | boolean | Registra chiamata                       | No           |
-+--------------+---------+-----------------------------------------+--------------+
-| recFileName  | String  | Nome del file di registrazione          | No           |
-+--------------+---------+-----------------------------------------+--------------+
-| returnCallId | boolean | Ritorna l'id di chiamata nella risposta | No           |
-+--------------+---------+-----------------------------------------+--------------+
-| serviceCode  | String  | Codice di servizio ( Call Tagging )     | No           |
-+--------------+---------+-----------------------------------------+--------------+
++--------------+---------+-----------------------------------------------+--------------+
+| Parametro    | Tipo    | Descrizione                                   | Obbligatorio |
++==============+=========+===============================================+==============+
+| username     | String  | Username dell'utente che effettua la chiamata | Si           |
++--------------+---------+-----------------------------------------------+--------------+
+| number       | String  | Numero da chiamare                            | Si           |
++--------------+---------+-----------------------------------------------+--------------+
+| accessCode   | String  | Codice d'accesso                              | Si           |
++--------------+---------+-----------------------------------------------+--------------+
+| jobLabel     | String  | Label della chiamata                          | Si           |
++--------------+---------+-----------------------------------------------+--------------+
+| recordCall   | boolean | Registra chiamata                             | No           |
++--------------+---------+-----------------------------------------------+--------------+
+| recFileName  | String  | Nome del file di registrazione                | No           |
++--------------+---------+-----------------------------------------------+--------------+
+| returnCallId | boolean | Ritorna l'id di chiamata nella risposta       | No           |
++--------------+---------+-----------------------------------------------+--------------+
+| serviceCode  | String  | Codice di servizio ( Call Tagging )           | No           |
++--------------+---------+-----------------------------------------------+--------------+
 
 ----
 
@@ -45,6 +47,7 @@ Richiesta di esempio
       "jsonrpc":"2.0",
       "method":"dialNumber",
       "params":[
+         "mrossi",
          "600",
          "",
          "",
