@@ -6,7 +6,7 @@ Per effettuare chiamate tramite la funzione "Click to Dial" va utilizzato il met
 
 .. warning:: Per utilizzare la funzionalità è necessario che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
 
-La richiesta va effettuata verso l'indirizzo **http://<tvox_url>/tvox/webapi** 
+La richiesta va effettuata verso l'indirizzo **https://<tvox_url>/tvox/webapi** 
 ( dove <tvox_url> corrisponde al dominio o all'indirizzo IP di |tvox| )
 
 ----
