@@ -45,7 +45,8 @@ Richiesta di esempio
 ----
 
 recOff
-=====
+======
+
 Blocca la registrazione della chiamata attiva. Per il corretto funzionamento del metodo è necessario che sia presente una chiamata attiva con una registrazione in corso.
 
 Il metodo non richiede parametri.

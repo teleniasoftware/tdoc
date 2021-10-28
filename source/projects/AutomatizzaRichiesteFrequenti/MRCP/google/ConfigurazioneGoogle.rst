@@ -25,7 +25,7 @@ Configurazione Google Speech Service
 +------------------------------+--------------------------------+-----------------------------------------------+
 |  Voci standard (Non WaveNet) |  Da 0 a 4 milioni di caratteri |  $ 4,00 per milione di caratteri              |
 +------------------------------+--------------------------------+-----------------------------------------------+
-|  Voci WaveNet_                |  Da 0 a 1 milione di caratteri |  $ 16,00 per milione di caratteri             |
+|  Voci WaveNet_               |  Da 0 a 1 milione di caratteri |  $ 16,00 per milione di caratteri             |
 +------------------------------+--------------------------------+-----------------------------------------------+
 
 **STT** ( Speech-To-Text ):
