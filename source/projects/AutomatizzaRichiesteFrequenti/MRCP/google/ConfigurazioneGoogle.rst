@@ -44,23 +44,37 @@ Risorse: `Google cloud tts`_ e `Google cloud stt`_
 
 Per iniziare è necessario possedere un normale account google, il quale è possibile crearlo nell'apposita pagina di `creazione account di google`_.
 Una volta creato il proprio account, è possibile configurare il proprio account accedendo alla pagina di `Google Cloud Platform`_, eseguendo i seguenti step:
-    - Accedere con il proprio account google se non si è ancora fatto l'accesso.
-     |dashboard|
-    - Selezionare **CREA PROGETTO** sulla pagina di dashboard.
-    - Inserire un nome di progetto e premere **CREA**.
-    - Una volta finita la creazione, selezionare **API e servizi** e poi **Credenziali** dal menu laterale.
-     |ApiEServizi|
-    - Premere **CREA CREDENZIALI**, selezionare **Account di servizio** ed immettere un nome a scelta e successivamente premere **CREA**.
-    - Nella voce **Seleziona ruolo**, scorrere fino alla voce **Progetto**, a fianco selezionare **Proprietario**, premere **CONTINUA** e poi **FINE**.
-     |roleSelect|
-    - Una volta visualizzata la lista delle credenziali, selezionare l'account appena creato dalla sezione **Account di servizio** della pagina credenziali.
-     |accountSelect|
-    - Premere su **AGGIUNGI CHIAVE**, **Crea nuova chiave**, selezionare **JSON** e premere **CREA**.
-    - Salva il file sul proprio pc in modo tale da poterlo utilizzare in un secondo momento.
-    - Una volta salvato il file sul computer, selezionare la voce **Libreria** a sinistra della pagina
-     |library|
-    - Inserire nella barra di ricerca il testo "text-to-speech"
-    - A questo punto saranno visualizzati dei risultati, tra cui **Cloud Speech-to-Text API** e **Cloud Text-to-Speech API**, aprire entrambi uno alla volta e abilitarli premendo il pulsante **ABILITA** nella rispettiva pagina.
+
+- Accedere con il proprio account google se non si è ancora fatto l'accesso.
+  
+|dashboard|
+
+- Selezionare **CREA PROGETTO** sulla pagina di dashboard.
+  
+- Inserire un nome di progetto e premere **CREA**.
+  
+- Una volta finita la creazione, selezionare **API e servizi** e poi **Credenziali** dal menu laterale.
+  
+|ApiEServizi|
+
+- Premere **CREA CREDENZIALI**, selezionare **Account di servizio** ed immettere un nome a scelta e successivamente premere **CREA**.
+  
+- Nella voce **Seleziona ruolo**, scorrere fino alla voce **Progetto**, a fianco selezionare **Proprietario**, premere **CONTINUA** e poi **FINE**.
+  
+|roleSelect|
+
+- Una volta visualizzata la lista delle credenziali, selezionare l'account appena creato dalla sezione **Account di servizio** della pagina credenziali.
+  
+|accountSelect|
+
+- Premere su **AGGIUNGI CHIAVE**, **Crea nuova chiave**, selezionare **JSON** e premere **CREA**.
+- Salva il file sul proprio pc in modo tale da poterlo utilizzare in un secondo momento.
+- Una volta salvato il file sul computer, selezionare la voce **Libreria** a sinistra della pagina
+  
+|library|
+
+- Inserire nella barra di ricerca il testo "text-to-speech"
+- A questo punto saranno visualizzati dei risultati, tra cui **Cloud Speech-to-Text API** e **Cloud Text-to-Speech API**, aprire entrambi uno alla volta e abilitarli premendo il pulsante **ABILITA** nella rispettiva pagina.
 
 A questo punto la configurazione è conclusa e la chiave appena scaricata sarà utilizzata dal TVox per sfruttare i servizi Google.
 
