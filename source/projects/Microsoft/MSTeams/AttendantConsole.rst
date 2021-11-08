@@ -42,7 +42,7 @@ Creazione App Microsoft Teams
 
 |05-app-secret|
 
-8. Dare un nome qualsiasi al segreto e come ``Scadenza`` selezionare una scadenza, ad esempio ``24 Mesi``. Premere ``Aggiungi``.
+8. Dare aaa un nome qualsiasi al segreto e come ``Scadenza`` selezionare una scadenza, ad esempio ``24 Mesi``. Premere ``Aggiungi``.
 
 |06-app-secret-create|
 
