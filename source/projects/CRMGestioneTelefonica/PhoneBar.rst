@@ -2,15 +2,13 @@
 Phone Bar
 ==========
 
-Se volete integrare la nostra barra telefonica nel vostro CRM, potete utilizzare il nostro SDK Javascript.
+Se volete integrare la barra telefonica nel vostro portale web, potete farlo tramite l'SDK Javascript.
 
-Questa libreria Javascript vi permette di creare la vostra barra telefonica web e di controllare i telefoni registrati nel sistema TVox ed accedere alle varie funzionalità esposte dal sistema TVox.
+Questo SDK javascript vi permette di creare la vostra barra telefonica web, in particolare permette di controllare i telefoni registrati nel sistema TVox ed accedere alle varie funzionalità esposte dal sistema TVox.
 
-La documentazione tecnica della libreria si trova in: |documentation_link|
+La documentazione tecnica si trova in: |documentation_link|
 
-La libreria si può scaricare |documentation_library|
-
-L'esempio si può scaricare |documentation_example|
+La libreria e l'esempio si possono scaricare |documentation_example|
 
 .. |documentation_example| raw:: html
 
