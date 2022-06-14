@@ -8,7 +8,10 @@ Integra nel tuo CRM le funzionalità telefoniche, dal semplice click to dial all
    :maxdepth: 2
 
    ClickToDial
+   ClickToDialByEmail
    ClickToDialAndRecord
+   ChiamateServizioUtente
+   RicercaRegistrazioniChiamata
    HangupCall
    ClickToSms
    EstensioneClickToCall

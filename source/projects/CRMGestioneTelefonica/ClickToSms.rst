@@ -39,3 +39,10 @@ Richiesta di esempio
    ], 
    "id": 2
    }
+
+.. note:: Una documentazione più dettagliata del metodo può essere trovata a questo |documentation_link|.
+
+
+.. |documentation_link| raw:: html
+
+    <a href="https://documenter.getpostman.com/view/805183/tvox-webapi-demo/RVfvFXDA#9cc67f12-e4b0-4768-9689-d6ee8aa6e50f" target="_blank">link</a>
