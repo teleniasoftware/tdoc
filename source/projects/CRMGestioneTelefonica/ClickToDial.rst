@@ -2,6 +2,10 @@
 Click to Dial
 =============
 
+.. important:: Per questa funzionalità è disponibile l'API REST documentata al seguente |documentation_link|. |br|
+   Verificarne la disponibilità nella propria versione consultando la sezione "*Info*" dell'OCC. |br|
+   Di seguito è dettagliata la versione "*Legacy*" che utilizza il protocollo JSON-RPC, ma si consiglia l'utlizzo della modalità REST.
+
 Per effettuare chiamate tramite la funzione "Click to Dial" va utilizzato il metodo **dialNumber** messo a disposizione dalle TVox WebApi.
 
 .. warning:: Per utilizzare la funzionalità è necessario che sia stata effettuata l':doc:`autenticazione verso le TVox WebAPI<AutenticazioneTVoxWebAPI>`
@@ -58,3 +62,18 @@ Richiesta di esempio
       ],
       "id":2
    }
+
+.. note:: Una documentazione più dettagliata del metodo può essere trovata a questo |documentation_legacy_link|.
+
+.. |documentation_link| raw:: html
+
+    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#dial-number" target="_blank">link</a>
+
+
+.. |documentation_legacy_link| raw:: html
+
+    <a href="https://documenter.getpostman.com/view/805183/tvox-webapi-demo/RVfvFXDA#f02dc2cd-464c-4a2a-9ecd-50e56eadb893" target="_blank">link</a>
+
+.. |br| raw:: html
+
+   <br />

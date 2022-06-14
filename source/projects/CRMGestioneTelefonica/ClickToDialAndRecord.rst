@@ -41,6 +41,13 @@ Richiesta di esempio
         "id":3
     }
 
+.. note:: Una documentazione più dettagliata del metodo può essere trovata a questo |documentation_link_1|.
+
+
+.. |documentation_link_1| raw:: html
+
+    <a href="https://documenter.getpostman.com/view/805183/tvox-webapi-demo/RVfvFXDA#d9bb6d61-1bee-2fbf-9868-939d980e3806" target="_blank">link</a>
+
 
 ----
 
@@ -62,3 +69,10 @@ Richiesta di esempio
         "params":[],
         "id":4
     }
+
+.. note:: Una documentazione più dettagliata del metodo può essere trovata a questo |documentation_link_2|.
+
+
+.. |documentation_link_2| raw:: html
+
+    <a href="https://documenter.getpostman.com/view/805183/tvox-webapi-demo/RVfvFXDA#f702d5ac-cf26-88fd-b641-750d7898e4b3" target="_blank">link</a>
