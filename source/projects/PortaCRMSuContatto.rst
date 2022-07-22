@@ -4,7 +4,7 @@
 Porta il CRM sul contatto TVOX
 =======================
 
-A partire dalla release TVox 22.0.17, entrando sulla scheda anagrafica di un contatto, azienda o utente, è possibile avere a disposizione una tab che al suo interno contiene un iframe verso il tuo CRM mostrando la pagina con le informazioni del tuo contatto.
+A partire dalla release TVox 22.0.18, entrando sulla scheda anagrafica di un contatto, azienda o utente, è possibile avere a disposizione una tab che al suo interno contiene un iframe verso il tuo CRM mostrando la pagina con le informazioni del tuo contatto.
 In alternativa, qualora l'applicativo non permetta di essere aperto all'interno di un'iframe, è possibile avere a dispozione un pulsante, sul dettaglio del contatto, che aprirà una nuova scheda sul browser
 
 E' possibile abilitare e configurare gli URL da aprire e la modalità accedendo all'OCC del TVOX, nella sezione Impostazioni --> Avanzate --> TVox Client --> Integrazione con CRM.
