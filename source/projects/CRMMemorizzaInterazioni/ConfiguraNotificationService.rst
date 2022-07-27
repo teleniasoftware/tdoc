@@ -25,9 +25,10 @@ Vediamo nel dettaglio quali sono i parametri di configurazione del Web Service i
 
     #. `GET`, le variabili configurate sugli eventi vengono notificate attraverso parametri in `query string <https://it.wikipedia.org/wiki/Query_string>`_
     #. `POST`, le variabili configurate sugli eventi vengono notificate all'interno del body della richiesta (``Context-Type: application/x-www-form-urlencoded``)
+    #. `SALESFORCE`, le richieste verso Salesforce vengono autenticate tramite flusso OAuth 2.0 JWT Bearer, come documentato `qui <https://help.salesforce.com/s/articleViewid=sf.remoteaccess_oauth_jwt_flow.htm&type=5>`_, è necessario completare la configurazione dei parametri di autenticazione Salesforce (sezione OCC "Configurazione generali di sistema > Autenticazione e sicurezza > Salesforce"). Le variabili configurate vengono notificate all'interno del body della richiesta (``Context-Type: application/x-www-form-urlencoded``), come per il tipo POST.
 #. **URI**: URI del Web Service su cui verranno eseguite le richieste
-#. **Username** (*Opzionale*): username di autenticazione tramite |basic_authentication_link|
-#. **Password** (*Opzionale*): password di autenticazione tramite |basic_authentication_link|
+#. **Username** (*Opzionale*): username di autenticazione tramite |basic_authentication_link|. Non previsto per il tipo `SALESFORCE`
+#. **Password** (*Opzionale*): password di autenticazione tramite |basic_authentication_link|. Non previsto per il tipo `SALESFORCE`
 #. **Timeout connessione**: tempo massimo (in secondi) entro cui la richiesta tenterà una connessione verso l'URI configurato
 #. **Timeout risposta**: tempo massimo (in secondi) che la richiesta aspetterà per avere una risposta dall'URI configurato
 
