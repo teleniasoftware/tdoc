@@ -1,5 +1,5 @@
 ==============================
-Accesso su Facebook Developers
+Iscrizione a Facebook Developers
 ==============================
 
 Accedere con le proprie credenziali sulla piattaforma `Facebook Developers <https://developers.facebook.com/apps/>`_
