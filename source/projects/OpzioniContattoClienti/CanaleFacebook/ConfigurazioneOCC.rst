@@ -7,3 +7,4 @@ Configurazione su OCC
 
    ConfigurazioneOCC/ConfigurazioneApplicazione
    ConfigurazioneOCC/ConfigurazionePagine
+   ConfigurazioneOCC/CreazioneTrigger
