@@ -23,7 +23,7 @@ Una volta creato l'account ed effettuato il login, verrà visualizzata la Dashbo
  
 La numerazione telefonica di WhatsApp Business deve essere richiesta seguendo gli step indicati nella documentazione_ Twilio. 
 
-.. important:: La richiesta a Twilio per l'acquisto di un **numero italiano** deve essere effettuata compilando questo form_ e seguendo le indicazioni contenute in questa guida_
+.. important:: La richiesta a Twilio per l'acquisto di un **numero italiano** deve essere effettuata compilando questo form_ seguendo le indicazioni contenute in questa guida_
 
 Una volta ottenuto il numero di WhatsApp, aprire il menù laterale della Dashboard, e selezionare la voce Programmable SMS → Senders → WhatsApp Senders. 
 
