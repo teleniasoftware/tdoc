@@ -26,6 +26,8 @@ Dalla dashboard dell'applicazione Facebook, scorrere verso il basso e cliccare *
 
 A questo punto verrà fornito un numero di telefono di test da parte di Facebook che potrà essere utilizzato per l'invio dei messaggi ad un massimo di 5 numeri di telefono selezionati
 
+Sarà inoltre disponibile un access token utilizzabile per effettuare le chiamate API. Questo token ha una validità di 24 ore, per ottenere un token permanente sarà necessario creare un nuovo utente di sistema con permessi amministrativi nella piattaforma Facebook Business
+
 
 Aggiunta numero di telefono
 ***************************
