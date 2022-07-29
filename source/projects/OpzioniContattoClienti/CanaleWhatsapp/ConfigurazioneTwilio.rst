@@ -22,7 +22,7 @@ Una volta creato l'account ed effettuato il login, verrà visualizzata la Dashbo
 
 |TwilioDashboard| 
  
-La asdsada numerazione telefonica di WhatsApp Business deve essere richiesta seguendo gli step indicati nella documentazione_ Twilio. 
+La numerazione telefonica di WhatsApp Business deve essere richiesta seguendo gli step indicati nella documentazione_ Twilio. 
 
 .. important:: La richiesta a Twilio per l'acquisto di un **numero italiano** deve essere effettuata compilando questo form_ e seguendo le indicazioni contenute in questa guida_
 
