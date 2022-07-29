@@ -22,19 +22,17 @@ Una volta creato l'account ed effettuato il login, verrà visualizzata la Dashbo
 
 |TwilioDashboard| 
  
-| La numerazione telefonica di WhatsApp Business deve essere richiesta seguendo gli step indicati nella documentazione_ Twilio. 
+La numerazione telefonica di WhatsApp Business deve essere richiesta seguendo gli step indicati nella documentazione_ Twilio. 
 
-.. important:: La richiesta a Twilio per l'acquisto di un numero italiano deve essere effettuata compilando questo form_ e seguendo le indicazioni contenute in questa guida_
+.. important:: La richiesta a Twilio per l'acquisto di un **numero italiano** deve essere effettuata compilando questo form_ e seguendo le indicazioni contenute in questa guida_
 
-
-
-| Una volta ottenuto il numero di WhatsApp, aprire il menù laterale della Dashboard, e selezionare la voce Programmable SMS → Senders → WhatsApp Senders. 
+Una volta ottenuto il numero di WhatsApp, aprire il menù laterale della Dashboard, e selezionare la voce Programmable SMS → Senders → WhatsApp Senders. 
 
 Se è già stata richiesta la numerazione telefonica, essa apparirà in questa lista.
 
 |TwilioWhatsAppNumbersList|
 
-| Per effettuare le configurazioni necessarie alla comunicazione tra TVox e Twilio ( e quindi WhatsApp ), basta selezionare il numero da configurare e modificare gli endpoint URL in questo modo:
+Per effettuare le configurazioni necessarie alla comunicazione tra TVox e Twilio ( e quindi WhatsApp ), basta selezionare il numero da configurare e modificare gli endpoint URL in questo modo:
 
 | **Webhook URL for incoming messages**:  http://<tvox_url>/customerproxy/whatsapp/twilio
 | **Webhook method for incoming messages URL**: HTTP Post
