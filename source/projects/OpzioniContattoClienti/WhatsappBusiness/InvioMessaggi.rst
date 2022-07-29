@@ -25,8 +25,10 @@ Creazione di un template
 
 - Salvare il template e attendere la verifica da parte di Facebook
 
-Invio di un template
-=====================
+Esempi di invio messaggi
+========================
+
+
 
 .. code-block:: json
 

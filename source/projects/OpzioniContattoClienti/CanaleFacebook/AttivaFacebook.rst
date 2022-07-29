@@ -9,6 +9,7 @@ L'integrazione con Facebook consente la gestione dei post e dei commenti di una 
 .. toctree::
    :maxdepth: 2
 
+   IscrizioneFacebookDevelopers
    CreazioneNuovaApplicazione
    ConfigurazioniBaseApplicazione
    ConfigurazioneLoginApplicazione
