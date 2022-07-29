@@ -7,7 +7,7 @@ Abilitando questo canale si avrà la possibilità di ricevere messaggi dalla pia
 .. toctree::
    :maxdepth: 2
 
-   ../CanaleFacebook/IscrizioneFacebookDevelopers
+   IscrizioneFacebookDevelopers
    CreazioneAccountBusiness
    CreazioneAppFacebook
    InvioMessaggi
