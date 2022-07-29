@@ -14,4 +14,4 @@ Nella configurazione del webhook cliccare il tasto **Modifica**, inserire l'url 
 
 Configurare i permessi del webhook cliccando il tasto **Gestisci** e sottoscriversi al campo `messages`
 
-.. figure:: /images/Whatsapp/Business/ricezione-2.png
+.. figure:: /images/Whatsapp/Business/ricezione-3.png
