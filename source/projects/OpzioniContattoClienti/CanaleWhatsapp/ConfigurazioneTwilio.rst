@@ -5,6 +5,8 @@
 
 .. _twilio: https://www.twilio.com/
 .. _documentazione: https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
+.. _form: https://docs.google.com/forms/d/e/1FAIpQLSeVY4XfAFpR4ZdGMflESFnjSu3fRepTnNqKp2jeG0Ivw7yPew/viewform
+.. _guida: https://www.twilio.com/docs/phone-numbers/regulatory/getting-started/how-find-bu-sid-or-ad-sid
 
 ====================================
 Configurazione Account Twilio
