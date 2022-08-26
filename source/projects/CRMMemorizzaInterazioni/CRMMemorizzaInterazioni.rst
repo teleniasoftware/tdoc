@@ -1,5 +1,5 @@
 =====================================
-Memorizza le interazioni sul tuo CRM 
+Memorizza le interazioni sul tuo CRM
 =====================================
 
 All'arrivo di un'interazione telefonica arricchisci il tuo CRM e fornisci all'operatore di contact center tutti gli strumenti per gestire al meglio la richiesta ed incrementare la produttività del Customer Care.
