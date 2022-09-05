@@ -39,7 +39,13 @@ Ora approfondiamo la configurazione degli eventi:
 #. **Tipo**: tipologia della chiamata da notificare
 #. **Evento**: evento da notificare in base al tipo di chiamata selezionato
 #. **Filtro** (*Opzionale*): se l'evento riguarda una chiamata di servizio, è possibile filtrare l'evento su un singolo servizio 
-#. **Variabili**: mappa chiave/chiave delle informazioni dell'evento da notificare al Web Service
+#. **Variabili**: 
+
+    #. *Variabili*, mappa chiave TVox / chiave Web Service delle informazioni dell'evento da notificare al Web Service
+    #. *Variabili popup*, mappa chiave TVox / chiave Web Service delle informazioni di popup dell'evento da notificare al Web Service; queste variabili possono essere definite nei flussi IVR/BPM per le seguenti tipologie di chiamata:
+
+        - Chiamata servizio (sia Servizio Contact Center che Servizio di Risposta)
+        - Outbound (nel caso di IVR/BPM convolti da campagne telefoniche di Power Dialer) 
 
 La descrizione dettagliata degli eventi e delle variabili configurabili può essere trovata nella documentazione tecnica.
 
