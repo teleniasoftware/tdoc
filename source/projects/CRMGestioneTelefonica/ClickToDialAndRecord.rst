@@ -20,11 +20,13 @@ Avvia la registrazione della chiamata attiva
 Parametri richiesti
 -------------------
 
-+--------------+---------+-----------------------------------------+--------------+
-| Parametro    | Tipo    | Descrizione                             | Obbligatorio |
-+==============+=========+=========================================+==============+
-| recFileName  | String  | Nome del file di registrazione          | No           |
-+--------------+---------+-----------------------------------------+--------------+
++-------------+------------+-----------------------------------------------+--------------+
+| Parametro   | Tipo       | Descrizione                                   | Obbligatorio |
++=============+============+===============================================+==============+
+| username    | String     | Username dell'utente che effettua la chiamata | Si           |
++-------------+------------+-----------------------------------------------+--------------+
+| recFileName | String     | Nome del file di registrazione                | No           |
++-------------+------------+-----------------------------------------------+--------------+
 
 
 Richiesta di esempio
@@ -36,6 +38,7 @@ Richiesta di esempio
         "jsonrpc":"2.0",
         "method":"recOn",
         "params":[
+            "mrossi",
             "recordedCall"
         ],
         "id":3
@@ -56,7 +59,16 @@ recOff
 
 Blocca la registrazione della chiamata attiva. Per il corretto funzionamento del metodo è necessario che sia presente una chiamata attiva con una registrazione in corso.
 
-Il metodo non richiede parametri.
+Parametri richiesti
+-------------------
+
++-------------+------------+-----------------------------------------------+--------------+
+| Parametro   | Tipo       | Descrizione                                   | Obbligatorio |
++=============+============+===============================================+==============+
+| username    | String     | Username dell'utente che effettua la chiamata | Si           |
++-------------+------------+-----------------------------------------------+--------------+
+| callId      | String     | Id della chiamata                             | Si           |
++-------------+------------+-----------------------------------------------+--------------+
 
 Richiesta di esempio
 --------------------
@@ -66,7 +78,10 @@ Richiesta di esempio
     {
         "jsonrpc":"2.0",
         "method":"recOff",
-        "params":[],
+        "params":[
+            "mrossi",
+            "1234@5678"
+        ],
         "id":4
     }
 
