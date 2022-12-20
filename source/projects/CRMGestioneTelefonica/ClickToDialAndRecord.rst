@@ -20,13 +20,15 @@ Avvia la registrazione della chiamata attiva
 Parametri richiesti
 -------------------
 
-+-------------+------------+-----------------------------------------------+--------------+
-| Parametro   | Tipo       | Descrizione                                   | Obbligatorio |
-+=============+============+===============================================+==============+
-| username    | String     | Username dell'utente che effettua la chiamata | Si           |
-+-------------+------------+-----------------------------------------------+--------------+
-| recFileName | String     | Nome del file di registrazione                | No           |
-+-------------+------------+-----------------------------------------------+--------------+
++-------------+--------+-----------------------------------------------+--------------+
+| Parametro   | Tipo   | Descrizione                                   | Obbligatorio |
++=============+========+===============================================+==============+
+| username    | String | Username dell'utente che effettua la chiamata | Si           |
++-------------+--------+-----------------------------------------------+--------------+
+| callId      | String | Id della chiamata                             | Si           |
++-------------+--------+-----------------------------------------------+--------------+
+| recFileName | String | Nome del file di registrazione                | No           |
++-------------+--------+-----------------------------------------------+--------------+
 
 
 Richiesta di esempio
@@ -39,6 +41,7 @@ Richiesta di esempio
         "method":"recOn",
         "params":[
             "mrossi",
+            "1234@5678",
             "recordedCall"
         ],
         "id":3
