@@ -24,7 +24,7 @@ Su |tvox_pbx|:
 
 Questa numerazione sarà attivata come numerazione remota su |tvox_pbx|, permettendo a TVox stesso di vedere il sistema Teams come settore interno e non esterno. 
 
-.. note:: Si consiglia sempre di utilizzare una numerazione di almeno 4 cifre che non collidi con la numerazione eventualmente già presente su |tvox_pbx|.
+.. note:: Si consiglia sempre di utilizzare una numerazione di almeno 4 cifre che non collida con la numerazione eventualmente già presente su |tvox_pbx|.
 
 
 Configurazione
