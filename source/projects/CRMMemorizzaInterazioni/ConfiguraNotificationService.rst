@@ -11,7 +11,7 @@ Come mostrato in figura, da questa interfaccia è possibile cercare (1) e gestir
 Crea un nuovo servizio di notifica
 ==================================
 
-In questa sezione puoi configurare gli eventi di chiamata che verranno notificati su un singolo Web Service.
+In questa sezione puoi configurare gli eventi di chiamata/chat che verranno notificati su un singolo Web Service.
 
 .. warning:: Sul server dove risiede il Web Service, le richieste provenienti da TVox devono essere consentite e non bloccate da alcun controllo di accesso o firewall. In genere, le richieste **HTTP** viaggiano sulla porta *8080*/*80*, mentre le richieste **HTTPS** sulla porta *443*.
 
@@ -37,15 +37,16 @@ Ora approfondiamo la configurazione degli eventi:
 .. image:: ../../images/notificationService/ConfigurazioneOCC_CreaServizio_Eventi.png
 
 #. **Abilitato**: abilita/disabilita le notifiche del singolo evento al Web Service corrente
-#. **Tipo**: tipologia della chiamata da notificare
-#. **Evento**: evento da notificare in base al tipo di chiamata selezionato
-#. **Filtro** (*Opzionale*): se l'evento riguarda una chiamata di servizio, è possibile filtrare l'evento su un singolo servizio 
+#. **Canale**: canale (``Telefonico``, ``Chat - WEB``, ``Chat - WhatsApp``)
+#. **Tipo**: tipologia della chiamata/chat da notificare
+#. **Evento**: evento da notificare in base al tipo di chiamata/chat selezionato
+#. **Filtro** (*Opzionale*): se l'evento riguarda una chiamata/chat di servizio, è possibile filtrare l'evento su un singolo servizio 
 #. **Variabili**: 
 
     #. *Variabili*, mappa chiave TVox / chiave Web Service delle informazioni dell'evento da notificare al Web Service
-    #. *Variabili popup*, mappa chiave TVox / chiave Web Service delle informazioni di popup dell'evento da notificare al Web Service; queste variabili possono essere definite nei flussi IVR/BPM per le seguenti tipologie di chiamata:
+    #. *Variabili popup*, mappa chiave TVox / chiave Web Service delle informazioni di popup dell'evento da notificare al Web Service; queste variabili possono essere definite nei flussi IVR/BPM per le seguenti tipologie di chiamata/chat:
 
-        - Chiamata servizio (sia Servizio Contact Center che Servizio di Risposta)
+        - Chiamata/Chat servizio (sia Servizio Contact Center che Servizio di Risposta)
         - Outbound (nel caso di IVR/BPM convolti da campagne telefoniche di Power Dialer) 
 
 La descrizione dettagliata degli eventi e delle variabili configurabili può essere trovata nella documentazione tecnica.

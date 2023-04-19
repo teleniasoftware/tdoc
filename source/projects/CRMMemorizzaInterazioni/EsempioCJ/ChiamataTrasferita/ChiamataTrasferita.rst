@@ -6,6 +6,8 @@ Chiamata trasferita
 
 :Nome:
     Chiamata trasferita - Trasferita
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/transfer/transfer.php

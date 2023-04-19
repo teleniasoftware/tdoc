@@ -6,6 +6,8 @@ Chiamata di servizio, risposta
 
 :Nome:
     Chiamata di servizio inbound - Risposta
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/service/answer.php

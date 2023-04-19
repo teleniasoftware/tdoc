@@ -6,6 +6,8 @@ Chiamata abbattuta
 
 :Nome:
     Chiamata trasferita - Abbattuta
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/transfer/hangup.php

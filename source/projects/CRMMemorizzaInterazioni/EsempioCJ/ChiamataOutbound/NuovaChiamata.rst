@@ -6,6 +6,8 @@ Nuova chiamata
 
 :Nome:
     Chiamata outbound - Nuova
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/outbound/new.php
