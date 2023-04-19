@@ -6,6 +6,8 @@ Chiamata in ring
 
 :Nome:
     Chiamata di servizio inbound - Ring
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/service/ring.php

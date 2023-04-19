@@ -6,6 +6,8 @@ Chiamata risposta
 
 :Nome:
     Chiamata trasferita - Risposta
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/transfer/answer.php

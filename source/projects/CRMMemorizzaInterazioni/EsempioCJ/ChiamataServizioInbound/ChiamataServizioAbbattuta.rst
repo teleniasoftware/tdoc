@@ -6,6 +6,8 @@ Chiamata di servizio, abbattuta
 
 :Nome:
     Chiamata di servizio inbound - Abbattuta
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/service/hangup.php

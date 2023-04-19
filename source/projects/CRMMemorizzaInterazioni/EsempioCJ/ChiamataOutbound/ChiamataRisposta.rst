@@ -6,6 +6,8 @@ Chiamata risposta
 
 :Nome:
     Chiamata outbound - Risposta
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/outbound/answer.php

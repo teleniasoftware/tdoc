@@ -6,6 +6,8 @@ Chiamata abbattuta
 
 :Nome:
     Chiamata outbound - Abbattuta
+:Canale:
+    ``Telefonico``
 :Tipo:
     ``GET``
 :URI: http://democrm.teleniasoftware.com/outbound/hangup.php
