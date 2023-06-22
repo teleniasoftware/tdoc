@@ -9,4 +9,4 @@ Sfruttando l'id di sessione della Chat (variabile: ``uniqueid``) su eventi di se
 
 .. |documentation_link| raw:: html
 
-    <a href="http://documentation.teleniasoftware.com/numeroblu/tvox_webapi/index.html#list-chat-session-messages"target="_blank"> qui</a>
+    <a href="http://documentation.teleniasoftware.com/tvox_webapi/index.html#list-chat-session-messages"target="_blank"> qui</a>
